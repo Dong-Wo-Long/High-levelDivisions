@@ -1,0 +1,87 @@
+type: StorageBlock
+
+name: "Продвинутый модуль улучшения «Элиты»"
+description: "Более лучший модуль, необходимый также для большинства улучшений юнитов в принтерах. Может хранить чуть больше предметов, чем базовые модули."
+squareSprite: false
+category: effect
+
+itemCapacity: 120
+health: 240
+armor: 3
+size: 2
+
+destroySound: module-explosion
+
+requirements: [
+    copper/320
+    lead/240
+    titanium/80
+    silicon/120
+]
+
+destroyBullet: {
+    instantDisappear: true
+
+    fragRandomSpread: 360
+    fragLifeMax: 2.5
+    fragLifeMin: 1.5
+    fragBullets: 6
+    fragSpread: 45
+
+    splashDamageRadius: 40
+    statusDuration: 300
+    splashDamage: 240
+    status: burning
+    damage: 0
+    speed: 0
+
+despawnEffect: {
+    type: ExplosionEffect
+
+    lifetime: 90
+
+    waveColor: ea8878
+    waveStroke: 0
+    waveRad: 32.5
+
+    smokeColor: ea8878
+    smokeSizeBase: 0
+    smokeSize: 12
+    smokes: 7
+
+    sparkColor: ea8878
+    sparkStroke: 0
+    sparkRad: 15
+    sparkLen: 8
+    sparks: 12
+}
+
+fragBullet: {
+    type: BasicBulletType
+    pierce: true
+    height: 12
+    width: 8
+
+    splashDamageRadius: 26
+    statusDuration: 192
+    splashDamage: 96
+    status: burning
+    pierceCap: 2
+    lifetime: 9
+    damage: 64
+    speed: 3
+
+    trailColor: bc5452
+    trailLength: 12.5
+    trailWidth: 1.25
+
+    lightColor: feb380
+    lightOpacity: 0.7
+    lightRadius: 17.5
+
+    frontColor: feb380
+    backColor: bc5452
+
+    despawnEffect: flakExplosion
+}
+    }

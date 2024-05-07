@@ -1,0 +1,35 @@
+type: UnitAssembler
+
+name: "Простой принтер «Элиты»"
+description: "Улучшает некоторые простые единицы в элитные. После выполнения операции принтером изменение юнита не обратимо."
+squareSprite: false
+category: units
+areaSize: 7
+size: 3
+
+health: 1050
+armor: 4
+
+consumes: {
+  power: 2.4
+}
+
+requirements: [
+    copper/240
+    lead/180
+    metaglass/90
+    silicon/120
+]
+
+plans: [
+    {
+    type: AssemblerUnitPlan
+    unit: hld-15u-01-dagger-elite
+    time: 1080
+
+requirements: [
+    hld-14e-01-basic-enhancement-module-elite/3
+    dagger/1
+    ]
+}
+    ]

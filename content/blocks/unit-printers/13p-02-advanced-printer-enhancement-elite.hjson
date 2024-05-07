@@ -1,0 +1,50 @@
+type: UnitAssembler
+
+name: "Продвинутый принтер «Элиты»"
+description: "Модифицирует некоторых единиц в элитные. После выполнения операции принтером изменение юнита не обратимо."
+squareSprite: false
+category: units
+areaSize: 9
+size: 4
+
+health: 2180
+armor: 9
+
+consumes: {
+  power: 4.2
+}
+
+requirements: [
+    copper/320
+    metaglass/120
+    graphite/210
+    silicon/150
+]
+
+plans: [
+    {
+    type: AssemblerUnitPlan
+    unit: hld-15u-02-mace-elite
+    time: 1920
+
+requirements: [
+    hld-14e-01-basic-enhancement-module-elite/3
+    hld-14e-02-advanced-enhancement-module-elite/2
+    mace/1
+    ]
+}
+
+    {
+    type: AssemblerUnitPlan
+    unit: hld-15u-03-fortress-elite
+    time: 2880
+
+requirements: [
+    hld-14e-01-basic-enhancement-module-elite/2
+    hld-14e-02-advanced-enhancement-module-elite/3
+    hld-14e-03-improved-enhancement-module-elite/2
+    fortress/1
+    hld-15u-01-dagger-elite/1
+    ]
+}
+    ]

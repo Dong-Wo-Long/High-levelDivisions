@@ -1,0 +1,115 @@
+type: mech
+description: "[#feb380]Штурм.[] Предназначены для быстрого подавления противника под плотным огнем."
+name: "Булава «Штурмовик»"
+outlineColor: 2d2f39
+hitSize: 10.5
+flying: false
+
+stepShake: 0.95
+fogRadius: 17.5
+
+itemCapacity: 45
+health: 720
+speed: 0.65
+armor: 12
+
+lightColor: feb380
+lightOpacity: 0.7
+lightRadius: 64.5
+
+abilities: [
+{
+    type: ShieldRegenFieldAbility 
+    reload: 180
+    amount: 75
+    range: 0
+    max: 250
+
+activeEffect: {
+    type: ExplosionEffect
+
+    lifetime: 60
+
+    waveColor: 515151
+    waveStroke: 2.75
+    waveRad: 21.5
+
+    smokeColor: 515151
+    smokeSizeBase: 0
+    smokeSize: 0
+    smokes: 0
+
+    sparkColor: 515151
+    sparkStroke: 0
+    sparkRad: 0
+    sparkLen: 0
+    sparks: 0
+}
+    }
+
+{
+    type: MoveEffectAbility
+    minVelocity: 0.25
+    x: 0
+    y: -1
+    effect: artilleryTrail
+    effectParam: 1.5
+    teamColor: true
+    interval: 0.05
+    }
+]
+
+weapons: [
+{
+name: 15u-02-shotgun
+
+    shootCone: 30
+    top: false
+    recoil: 2
+    shootY: 2
+    shake: 2
+
+    reload: 18
+
+    ejectEffect: casing1
+
+    shootSound: automatic-shotgun
+
+shoot: {
+    type: ShootSpread
+    spread: 9
+    shots: 3
+}
+
+bullet: {
+    type: BasicBulletType
+    collideTerrain: true
+    pierceBuilding: true
+    collidesAir: false
+    despawnShake: 2
+    hitShake: 2
+    height: 11
+    width: 7
+
+    statusDuration: 180
+    status: burning
+    knockback: 2.5
+    pierceCap: 3
+    lifetime: 45
+    damage: 54.5
+    recoil: 0.1
+    speed: 3
+
+    frontColor: feb380
+    backColor: ea8878
+
+    lightColor: feb380
+    lightOpacity: 0.7
+    lightRadius: 21.5
+
+    trailColor: ea8878
+    trailLength: 12.5
+    trailWidth: 0.5
+}
+    }
+]

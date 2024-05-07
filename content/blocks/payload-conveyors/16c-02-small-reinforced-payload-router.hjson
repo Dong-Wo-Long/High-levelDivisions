@@ -1,0 +1,16 @@
+type: PayloadRouter
+name: "Небольшой укрепленный разгрузочный маршрутизатор"
+description: "Более быстрее и компактнее распределяет груз на три возможных свободных маршрута."
+canOverdrive: false
+category: units
+size: 2
+
+payloadLimit: 2
+moveTime: 24
+health: 750
+armor: 2
+
+requirements: [
+  silicon/8
+  tungsten/10
+]

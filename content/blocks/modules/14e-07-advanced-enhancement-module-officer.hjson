@@ -1,0 +1,87 @@
+type: StorageBlock
+
+name: "Продвинутый модуль улучшения «Офицеров»"
+description: "Более лучший модуль, необходимый также для большинства улучшений юнитов в принтерах. Может хранить чуть больше предметов, чем базовые модули."
+squareSprite: false
+category: effect
+
+itemCapacity: 120
+health: 240
+armor: 3
+size: 2
+
+destroySound: module-explosion
+
+requirements: [
+    copper/320
+    lead/210
+    titanium/120
+    silicon/90
+]
+
+destroyBullet: {
+    instantDisappear: true
+
+    fragRandomSpread: 360
+    fragLifeMax: 2.5
+    fragLifeMin: 1.5
+    fragBullets: 6
+    fragSpread: 45
+
+    splashDamageRadius: 40
+    statusDuration: 300
+    splashDamage: 240
+    status: freezing
+    damage: 0
+    speed: 0
+
+despawnEffect: {
+    type: ExplosionEffect
+
+    lifetime: 90
+
+    waveColor: 8ca9e8
+    waveStroke: 0
+    waveRad: 32.5
+
+    smokeColor: 8ca9e8
+    smokeSizeBase: 0
+    smokeSize: 12
+    smokes: 7
+
+    sparkColor: 8ca9e8
+    sparkStroke: 0
+    sparkRad: 15
+    sparkLen: 8
+    sparks: 12
+}
+
+fragBullet: {
+    type: BasicBulletType
+    pierce: true
+    height: 12
+    width: 8
+
+    splashDamageRadius: 26
+    statusDuration: 192
+    splashDamage: 96
+    status: freezing
+    pierceCap: 2
+    lifetime: 9
+    damage: 64
+    speed: 3
+
+    trailColor: 6569c9
+    trailLength: 12.5
+    trailWidth: 1.25
+
+    lightColor: d1efff
+    lightOpacity: 0.7
+    lightRadius: 17.5
+
+    frontColor: d1efff
+    backColor: 6569c9
+
+    despawnEffect: flakExplosion
+}
+    }

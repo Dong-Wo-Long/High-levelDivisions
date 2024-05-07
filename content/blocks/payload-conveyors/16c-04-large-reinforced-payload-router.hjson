@@ -1,0 +1,16 @@
+type: PayloadRouter
+name: "Большой укрепленный разгрузочный маршрутизатор"
+description: "Распределяет более тяжелый груз на три возможных свободных маршрута."
+canOverdrive: false
+category: units
+size: 4
+
+payloadLimit: 4
+moveTime: 48
+health: 1250
+armor: 3
+
+requirements: [
+  silicon/24
+  tungsten/32
+]

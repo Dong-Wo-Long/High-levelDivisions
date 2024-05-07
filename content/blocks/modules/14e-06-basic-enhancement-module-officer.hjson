@@ -1,0 +1,87 @@
+type: StorageBlock
+
+name: "Базовый модуль улучшения «Офицеров»"
+description: "Самый базовый модуль, необходимый для большинства улучшений юнитов в принтерах. Может хранить немного предметов."
+squareSprite: false
+category: effect
+
+itemCapacity: 40
+health: 180
+armor: 2
+size: 1
+
+destroySound: module-explosion
+
+requirements: [
+    copper/120
+    lead/90
+    titanium/32
+    silicon/60
+]
+
+destroyBullet: {
+    instantDisappear: true
+
+    fragRandomSpread: 360
+    fragLifeMax: 2.5
+    fragLifeMin: 1.5
+    fragBullets: 4
+    fragSpread: 45
+
+    splashDamageRadius: 26
+    statusDuration: 192
+    splashDamage: 180
+    status: freezing
+    damage: 0
+    speed: 0
+
+despawnEffect: {
+    type: ExplosionEffect
+
+    lifetime: 60
+
+    waveColor: 8ca9e8
+    waveStroke: 0
+    waveRad: 24.5
+
+    smokeColor: 8ca9e8
+    smokeSizeBase: 0
+    smokeSize: 9
+    smokes: 5
+
+    sparkColor: 8ca9e8
+    sparkStroke: 0
+    sparkRad: 12
+    sparkLen: 6
+    sparks: 9
+}
+
+fragBullet: {
+    type: BasicBulletType
+    pierce: true
+    height: 7
+    width: 5
+
+    splashDamageRadius: 20
+    statusDuration: 150
+    splashDamage: 64
+    status: burning
+    pierceCap: 2
+    lifetime: 6
+    damage: 32
+    speed: 3
+
+    trailColor: 6569c9
+    trailLength: 12.5
+    trailWidth: 1.25
+
+    lightColor: d1efff
+    lightOpacity: 0.7
+    lightRadius: 14.5
+
+    frontColor: d1efff
+    backColor: 6569c9
+
+    despawnEffect: flakExplosion
+}
+    }
