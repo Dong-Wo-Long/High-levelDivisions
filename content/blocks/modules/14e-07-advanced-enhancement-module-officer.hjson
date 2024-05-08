@@ -1,7 +1,7 @@
 type: StorageBlock
 
-name: "Продвинутый модуль улучшения «Офицеров»"
-description: "Более лучший модуль, необходимый также для большинства улучшений юнитов в принтерах. Может хранить чуть больше предметов, чем базовые модули."
+name: Advanced improvement module «Officer»
+description: A more advanced module, also needed for most unit upgrades in printers. Can store slightly more items than basic modules.
 squareSprite: false
 category: effect
 
