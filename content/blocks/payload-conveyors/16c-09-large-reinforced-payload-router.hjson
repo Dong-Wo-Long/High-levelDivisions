@@ -1,5 +1,5 @@
 type: PayloadRouter
-name: "Большой укрепленный разгрузочный маршрутизатор"
+name: Large reinforced payload router
 description: "Распределяет более тяжелый груз на три возможных свободных маршрута."
 canOverdrive: false
 category: units
