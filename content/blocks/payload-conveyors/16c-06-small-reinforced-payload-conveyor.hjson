@@ -1,5 +1,5 @@
 type: PayloadConveyor
-name: "Небольшой укрепленный разгрузочный конвейер"
+name: Small reinforced payload conveyor
 description: "Предназначен для более быстрой и компактной транспортировки юнитов и объектов."
 canOverdrive: false
 category: units
