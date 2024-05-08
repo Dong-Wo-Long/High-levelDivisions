@@ -1,0 +1,189 @@
+type: tank
+description: "[#feb380]Штурм и поддержка.[] Предназначен для осад вражеских баз с далеких расстояний с применением ракетно-залповой установки."
+name: "Очаг «Каратель»"
+forceMultiTarget: true
+outlineColor: 2d2f39
+omniMovement: false
+targetAir: false
+flying: false
+
+treadPullOffset: 5
+fogRadius: 67.5
+hitSize: 18.25
+
+crushDamage: 2.25
+rotateSpeed: 1.45
+itemCapacity: 0
+health: 2100
+speed: 0.395
+armor: 24
+
+lightColor: feb380
+lightOpacity: 0.7
+lightRadius: 72.5
+
+immunities: [ burning ]
+
+treadRects: [
+{
+    x: -31
+    y: -38
+    width: 19
+    height: 76
+    }
+]
+
+abilities: [
+{
+    type: ShieldRegenFieldAbility 
+    reload: 450
+    amount: 300
+    range: 0
+    max: 2500
+
+    activeEffect: none
+    }
+
+{
+    type: MoveEffectAbility
+    effect: artilleryTrail
+    minVelocity: 0.01
+    effectParam: 1.5
+    teamColor: true
+    interval: 0.05
+    x: 7
+    y: -1.25
+    }
+{
+    type: MoveEffectAbility
+    effect: artilleryTrail
+    minVelocity: 0.01
+    effectParam: 1.5
+    teamColor: true
+    interval: 0.05
+    x: -7
+    y: -1.25
+    }
+]
+
+weapons: [
+{
+
+    rotationLimit: 90
+    baseRotation: -45
+    rotateSpeed: 0.5
+    alternate: false
+    shootCone: 15
+    rotate: true
+    shootY: 0
+    shake: 1
+    x: 4.5
+    y: 3
+
+    inaccuracy: 3
+    reload: 3.2
+
+    ejectEffect: casing1
+
+    shootSound: bang2
+
+bullet: {
+    type: BasicBulletType
+    collideTerrain: true
+    height: 18
+    width: 6
+
+    buildingDamageMultiplier: 0.75
+
+    lifetime: 120
+    damage: 21.5
+    speed: 3.2
+
+    frontColor: feb380
+    backColor: ea8878
+
+    lightColor: feb380
+    lightOpacity: 0.7
+    lightRadius: 21.5
+
+    trailColor: ea8878
+    trailLength: 41.5
+    trailWidth: 0.5
+}
+    }
+
+{
+    name: 15u-71-missile-launcher
+
+    controllable: false
+    layerOffset: 0.0001
+    rotateSpeed: 1.25
+    autoTarget: true
+    shootCone: 32
+    mirror: false
+    rotate: true
+    shootY: 3.5
+    recoil: 1
+    shake: 5
+    x: 0
+    y: -1.5
+
+    cooldownTime: 320
+    reload: 300
+
+    heatColor: feb380
+
+    shootSound: missile-launch
+    shootStatusDuration: 360
+    shootStatus: unmoving
+shoot: { 
+    type: ShootAlternate
+    shotDelay: 15
+    barrels: 3
+    spread: 2
+    shots: 12
+}
+
+bullet: {
+    type: MissileBulletType
+    collidesAir: false
+    despawnShake: 4.5
+    hitShake: 4.5
+    shrinkX: 0.05
+    shrinkY: 0.75
+    hitSize: 4
+    height: 14
+    width: 7
+
+    buildingDamageMultiplier: 1.25
+
+    splashDamageRadius: 26
+    statusDuration: 300
+    homingPower: 0.05
+    splashDamage: 48
+    status: burning
+    lifetime: 246
+    damage: 64
+    speed: 2.1
+
+    lightColor: feb380
+    lightOpacity: 0.7
+    lightRadius: 41.5
+
+    trailColor: feb380
+    trailWidth: 1.5
+    trailLength: 18
+
+    hitSound: missile-boom
+
+    frontColor: ffffff
+    backColor: feb380
+    hitColor: feb380
+
+    despawnEffect: hitBulletColor
+    hitEffect: blastExplosion
+    smokeEffect: shootSmallSmoke
+    shootEffect: shootSmallColor
+}
+    }
+]
