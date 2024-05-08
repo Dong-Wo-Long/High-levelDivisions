@@ -28,8 +28,8 @@ plans: [
     time: 1080
 
 requirements: [
-    hld-14e-01-basic-enhancement-module-elite/3
     dagger/1
+    hld-14e-01-basic-enhancement-module-elite/3
     ]
 }
     ]
