@@ -1,7 +1,7 @@
 type: UnitAssembler
 
-name: "Простой принтер «Элиты»"
-description: "Улучшает некоторые простые единицы в элитные. После выполнения операции принтером изменение юнита не обратимо."
+name: Simple printer «Elites»
+description: Upgrades some simple units into elite units. Once the printer performs an operation, the unit change is not reversible.
 squareSprite: false
 category: units
 areaSize: 7
