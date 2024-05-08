@@ -1,0 +1,240 @@
+type: tank
+description: "[#d1efff]Штурм и поддержка.[] Штурмовой танк, оснащенный разрядниковым устройством, используют для быстрого перехвата вражеских баз и фортов."
+name: "Основа «Тесла»"
+outlineColor: 2d2f39
+omniMovement: false
+targetAir: false
+flying: false
+
+treadPullOffset: 3
+fogRadius: 27.5
+hitSize: 12.25
+
+crushDamage: 1.25
+rotateSpeed: 3.45
+itemCapacity: 0
+health: 810
+speed: 0.6
+armor: 12
+
+lightColor: d1efff
+lightOpacity: 0.7
+lightRadius: 62.5
+
+immunities: [ burning, shocked ]
+
+treadRects: [
+{
+    x: -20
+    y: -25
+    width: 14
+    height: 51
+    }
+]
+
+abilities: [
+{
+    type: ShieldRegenFieldAbility 
+    reload: 300
+    amount: 60
+    range: 0
+    max: 320
+
+    activeEffect: none
+    }
+
+{
+    type: StatusFieldAbility
+    effect: hld-20s-13-status-tier-1-motor-acceleration
+    duration: 320
+    reload: 300
+    range: 60
+
+activeEffect: {
+    type: ExplosionEffect
+
+    lifetime: 300
+
+    waveColor: d1efff
+    waveStroke: 3.25
+    waveRad: 52.5
+
+    smokeColor: d1efff
+    smokeSizeBase: 0
+    smokeSize: 0
+    smokes: 0
+
+    sparkColor: d1efff
+    sparkStroke: 0
+    sparkRad: 0
+    sparkLen: 0
+    sparks: 0
+}
+    }
+
+{
+    type: MoveEffectAbility
+    minVelocity: 0.1
+    x: 4.75
+    y: 3
+    effect: artilleryTrail
+    effectParam: 1
+    teamColor: true
+    interval: 0.05
+    layerOffset: 1
+    }
+{
+    type: MoveEffectAbility
+    minVelocity: 0.1
+    x: -4.75
+    y: 3
+    effect: artilleryTrail
+    effectParam: 1
+    teamColor: true
+    interval: 0.05
+    layerOffset: 1
+    }
+{
+    type: MoveEffectAbility
+    minVelocity: 0.1
+    x: 4.75
+    y: -3.75
+    effect: artilleryTrail
+    effectParam: 1
+    teamColor: true
+    interval: 0.05
+    layerOffset: 1
+    }
+{
+    type: MoveEffectAbility
+    minVelocity: 0.1
+    x: -4.75
+    y: -3.75
+    effect: artilleryTrail
+    effectParam: 1
+    teamColor: true
+    interval: 0.05
+    layerOffset: 1
+    }
+
+{
+type: MoveEffectAbility
+rotateEffect: true
+minVelocity: 1.1
+interval: 1.5
+x: 0
+y: -2.5
+
+effect: {
+    type: ParticleEffect
+    particles: 8
+    line: true
+    cone: 45
+
+    baseRotation: 180
+    baseLength: 4
+    length: 3.2
+
+    colorFrom: d1efff
+    strokeFrom: 1.6
+    colorTo: 8ca9e8
+    strokeTo: 1
+}
+    }
+]
+
+weapons: [
+{
+name: 15u-76-electric-rifle
+
+    rotateSpeed: 2.25
+    mirror: false
+    rotate: true
+    shootY: 2.5
+    shake: 2.5
+    recoil: 1
+    x: 0
+    y: -0.75
+
+    reload: 180
+
+    heatColor: d1efff
+
+    chargeSound: charging-electro-gun
+    shootSound: electro-bang
+
+shoot: {
+    firstShotDelay: 60
+    shotDelay: 9
+    shots: 12
+    }
+
+bullet: {
+    type: LightningBulletType
+    collidesAir: false
+
+    lightningLengthRand: 24.5
+    lightningLength: 21.5
+    damage: 32
+
+    shootEffect: shootSmallColor
+    smokeEffect: shootBigSmoke
+
+    lightningColor: d1efff
+    hitColor: d1efff
+
+lightningType: {
+    collidesAir: false
+    hittable: false
+
+    statusDuration: 32
+    status: shocked
+    lifetime: 1
+
+    hitEffect: hitLancer
+    despawnEffect: none
+
+    lightColor: d1efff
+    lightOpacity: 0.7
+    lightRadius: 75
+    }
+}
+    }
+
+{
+    display: false
+    rotate: false
+    mirror: false
+    x: 0
+    y: 0
+
+    shootCone: 32
+    reload: 210
+
+    chargeSound: hyperjump-charge
+    shootSound: hyperjump
+shoot: {
+    firstShotDelay: 60
+    shotDelay: 12
+    shots: 3
+}
+
+bullet: {
+    pierceBuilding: true
+    collides: false
+    pierce: true
+    impact: true
+    height: 0
+    width: 0
+
+    maxRange: 180
+    lifetime: 10
+    recoil: -18
+    damage: 0
+    speed: 8
+
+    despawnEffect: none
+    hitEffect: none
+}
+    }
+]
