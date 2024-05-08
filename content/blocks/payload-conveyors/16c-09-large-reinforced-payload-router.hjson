@@ -1,6 +1,6 @@
 type: PayloadRouter
 name: Large reinforced payload router
-description: "Распределяет более тяжелый груз на три возможных свободных маршрута."
+description: Allocates a heavier load to three possible free routes.
 canOverdrive: false
 category: units
 size: 4
