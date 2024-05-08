@@ -1,5 +1,5 @@
 type: PayloadConveyor
-name: "Большой укрепленный разгрузочный конвейер"
+name: Large reinforced payload conveyor
 description: "Предназначен для более тяжелой транспортировки юнитов и больших объектов."
 canOverdrive: false
 category: units
