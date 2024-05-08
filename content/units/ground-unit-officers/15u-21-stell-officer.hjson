@@ -36,7 +36,7 @@ abilities: [
 
 {
     type: StatusFieldAbility
-    effect: hld-20s-13-status-high-speed
+    effect: hld-20s-13-status-tier-1-motor-acceleration
     duration: 320
     reload: 300
     range: 60
