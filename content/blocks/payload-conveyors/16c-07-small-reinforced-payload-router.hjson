@@ -1,5 +1,5 @@
 type: PayloadRouter
-name: "Небольшой укрепленный разгрузочный маршрутизатор"
+name: Small reinforced payload router
 description: "Более быстрее и компактнее распределяет груз на три возможных свободных маршрута."
 canOverdrive: false
 category: units
