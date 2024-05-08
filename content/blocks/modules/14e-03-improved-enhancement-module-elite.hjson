@@ -1,6 +1,6 @@
 type: StorageBlock
 
-name: "Усовершенствованный модуль улучшения «Элиты»"
+name: Enhanced improvement module «Elite»
 description: "Усовершенствованный модуль, необходимый для более продвинутых улучшений юнитов в принтерах. Может хранить чуть больше предметов, чем продвинутые модули."
 squareSprite: false
 category: effect
