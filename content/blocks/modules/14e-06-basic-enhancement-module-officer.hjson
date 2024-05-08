@@ -1,7 +1,7 @@
 type: StorageBlock
 
-name: "Базовый модуль улучшения «Офицеров»"
-description: "Самый базовый модуль, необходимый для большинства улучшений юнитов в принтерах. Может хранить немного предметов."
+name: Basic Enhancement Module «Officer»
+description: The most basic module needed for most unit upgrades in printers. Can store few items.
 squareSprite: false
 category: effect
 
