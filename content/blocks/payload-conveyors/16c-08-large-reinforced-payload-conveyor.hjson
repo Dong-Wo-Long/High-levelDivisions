@@ -1,6 +1,6 @@
 type: PayloadConveyor
 name: Large reinforced payload conveyor
-description: "Предназначен для более тяжелой транспортировки юнитов и больших объектов."
+description: Designed for heavier transportation of units and large objects.
 canOverdrive: false
 category: units
 size: 4
