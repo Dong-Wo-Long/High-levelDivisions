@@ -1,6 +1,6 @@
 type: PayloadConveyor
 name: Small reinforced payload conveyor
-description: "Предназначен для более быстрой и компактной транспортировки юнитов и объектов."
+description: Designed for faster and more compact transportation of units and objects.
 canOverdrive: false
 category: units
 size: 2
