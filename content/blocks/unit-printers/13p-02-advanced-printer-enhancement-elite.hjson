@@ -1,7 +1,7 @@
 type: UnitAssembler
 
-name: "Продвинутый принтер «Элиты»"
-description: "Модифицирует некоторых единиц в элитные. После выполнения операции принтером изменение юнита не обратимо."
+name: Advanced printer «Elites»
+description: Modifies some units to elite units. Once the printer performs the operation, the unit modification is not reversible.
 squareSprite: false
 category: units
 areaSize: 9
