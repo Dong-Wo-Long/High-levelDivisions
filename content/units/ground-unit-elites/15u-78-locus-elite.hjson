@@ -1,5 +1,5 @@
 type: tank
-description: "[#feb380]Assault and Support[] Fast and mobile heavy transport designed for sudden assault of heavily-armed fortifications or its bypass, as well as for siege from a long distance, taking into account the use of a rocket-launcher."
+description: "[#feb380]Assault and Support[] A fast and mobile heavy transport designed for the surprise assault of heavily-armed fortifications (or its bypass), as well as for sieges from a long range, taking into account the use of a rocket-launcher."
 name: Locus «Vepr»
 forceMultiTarget: true
 outlineColor: 2d2f39
@@ -11,6 +11,7 @@ treadPullOffset: 5
 fogRadius: 67.5
 hitSize: 18.25
 
+payloadCapacity: 4
 crushDamage: 2.25
 rotateSpeed: 1.45
 itemCapacity: 0
