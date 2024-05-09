@@ -217,11 +217,11 @@ name: 15u-03-ray-gun
     shootCone: 15
     mirror: false
     rotate: true
-    recoil: 0.5
+    recoil: 0
     x: 6
     y: -4
 
-    reload: 0
+    reload: 1.5
 
     shootSound: ray
 
