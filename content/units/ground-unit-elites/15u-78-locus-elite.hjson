@@ -9,13 +9,12 @@ flying: false
 
 treadPullOffset: 5
 fogRadius: 67.5
-hitSize: 18.25
+hitSize: 19
 
-payloadCapacity: 4
-crushDamage: 2.25
-rotateSpeed: 1.45
+crushDamage: 4.75
+rotateSpeed: 1.5
 itemCapacity: 0
-health: 1710
+health: 1750
 speed: 1.25
 armor: 18
 
@@ -118,7 +117,7 @@ bullet: {
 
     controllable: false
     layerOffset: 0.0001
-    rotateSpeed: 1.25
+    rotateSpeed: 1.8
     autoTarget: true
     shootCone: 32
     mirror: false
