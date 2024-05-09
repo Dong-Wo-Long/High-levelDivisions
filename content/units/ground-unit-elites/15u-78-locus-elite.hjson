@@ -11,12 +11,11 @@ treadPullOffset: 5
 fogRadius: 67.5
 hitSize: 18.25
 
-crushDamage: 7.25
 rotateSpeed: 1.75
 itemCapacity: 0
 health: 1750
-speed: 2.5
-armor: 18
+speed: 1.75
+armor: 12
 
 lightColor: feb380
 lightOpacity: 0.7
@@ -39,7 +38,7 @@ abilities: [
     reload: 192
     amount: 150
     range: 0
-    max: 1250
+    max: 1800
 
     activeEffect: none
     }
@@ -159,7 +158,7 @@ bullet: {
 
     splashDamageRadius: 26
     statusDuration: 300
-    homingPower: 0.05
+    homingPower: 0.15
     splashDamage: 48
     status: burning
     lifetime: 246
@@ -168,7 +167,7 @@ bullet: {
 
     lightColor: feb380
     lightOpacity: 0.7
-    lightRadius: 41.5
+    lightRadius: 42.5
 
     trailColor: feb380
     trailWidth: 1.5
