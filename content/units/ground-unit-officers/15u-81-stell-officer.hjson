@@ -1,6 +1,6 @@
 type: tank
 description: "[#d1efff]Assault and Support[] The Assault Tank, equipped with a Discharger, is used to quickly intercept enemy bases and forts."
-name: "Основа «Тесла»"
+name: Stell «Tesla»
 outlineColor: 2d2f39
 omniMovement: false
 targetAir: false
