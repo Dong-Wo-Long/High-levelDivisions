@@ -1,5 +1,5 @@
 type: mech
-description: "[#d1efff]Assault and Support[] «[#d1efff]Cryostators[]» are rarely seen in action, but are usually used when capturing and besieging well-fortified outposts, and when eliminating a large group consisting mostly of assault units."
+description: "[#d1efff]Assault and Support.[] «[#d1efff]Cryostators[]» are rarely seen in action, but are usually used when capturing and besieging well-fortified outposts, and when eliminating a large group consisting mostly of assault units."
 name: Fortress «Cryostator»
 forceMultiTarget: true
 outlineColor: 2d2f39
