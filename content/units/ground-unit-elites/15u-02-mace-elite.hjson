@@ -1,6 +1,6 @@
 type: mech
-description: "[#feb380]Штурм.[] Предназначены для быстрого подавления противника под плотным огнем."
-name: "Булава «Штурмовик»"
+description: "[#feb380]Assault.[] Designed for rapid suppression of the enemy under heavy fire."
+name: "Mace «Stormtrooper»"
 outlineColor: 2d2f39
 hitSize: 10.5
 flying: false
