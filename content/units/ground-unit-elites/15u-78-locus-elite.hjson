@@ -11,10 +11,10 @@ treadPullOffset: 5
 fogRadius: 67.5
 hitSize: 18.25
 
-rotateSpeed: 1.75
+rotateSpeed: 1.5
 itemCapacity: 0
 health: 1750
-speed: 1.75
+speed: 1.25
 armor: 12
 
 lightColor: feb380
@@ -158,7 +158,7 @@ bullet: {
 
     splashDamageRadius: 26
     statusDuration: 300
-    homingPower: 0.15
+    homingPower: 0.05
     splashDamage: 48
     status: burning
     lifetime: 246
