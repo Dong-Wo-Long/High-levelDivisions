@@ -1,6 +1,6 @@
 type: mech
-description: "[#feb380]Штурм.[] Предназначены для преследования и уничтожения быстрых и маневренных целей, но могут быть использованы и при захвате вражеского форта."
-name: "Кинжал «Охотник»"
+description: "[#feb380]Assault.[] Designed to pursue and destroy fast and maneuverable targets, but can also be used when capturing an enemy fort."
+name: "Dagger «Hunter»"
 outlineColor: 2d2f39
 lowAltitude: true
 canBoost: true
