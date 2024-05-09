@@ -1,5 +1,5 @@
 type: mech
-description: "[#feb380]Assault and support.[] Этих тяжеловооруженных пилотируемых штурмовых мехов, оснащенных передовыми технологиями, зачастую применяют для истребления бронированной техники противника и ликвидации сильно укрепленных баз. Однако могут быть полезны и в качестве танков в виду своей прочной броне и щиту."
+description: "[#feb380]Assault and support.[] These heavily armed, manned assault mechs, equipped with advanced technology, are often used to destroy enemy armored vehicles and eliminate heavily fortified bases. However, they can also be useful as tanks due to their strong armor and shield."
 name: Fortress «Destroyer»
 forceMultiTarget: true
 outlineColor: 2d2f39
