@@ -133,9 +133,9 @@ bullet: {
 
     heatColor: feb380
 
+    shootStatus: hld-20s-12-status-tier-1-motor-deceleration
     shootSound: missile-launch
     shootStatusDuration: 360
-    shootStatus: unmoving
 shoot: { 
     type: ShootAlternate
     shotDelay: 15
