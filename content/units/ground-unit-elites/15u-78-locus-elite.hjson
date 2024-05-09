@@ -1,6 +1,6 @@
 type: tank
-description: "[#feb380]Штурм и поддержка.[] Предназначен для осад вражеских баз с далеких расстояний с применением ракетно-залповой установки."
-name: "Очаг «Каратель»"
+description: "[#feb380]Assault and Support[] Fast and mobile heavy transport designed for sudden assault of heavily-armed fortifications or its bypass, as well as for siege from a long distance, taking into account the use of a rocket-launcher."
+name: Locus «Vepr»
 forceMultiTarget: true
 outlineColor: 2d2f39
 omniMovement: false
@@ -14,9 +14,9 @@ hitSize: 18.25
 crushDamage: 2.25
 rotateSpeed: 1.45
 itemCapacity: 0
-health: 2100
+health: 1250
 speed: 1.25
-armor: 24
+armor: 18
 
 lightColor: feb380
 lightOpacity: 0.7
