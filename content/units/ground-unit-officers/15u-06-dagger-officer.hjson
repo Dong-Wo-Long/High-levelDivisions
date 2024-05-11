@@ -1,5 +1,5 @@
 type: mech
-description: "[#d1efff]Assault.[] Designed to pursue and destroy fast and maneuverable targets, but can also be used when capturing an enemy fort."
+description: "[#d1efff]Assault and support.[] Field commander of the «[#d1efff]Dagger[]» version. Designed to reinforce the squad and maintain the morale of assault units on the battlefield."
 name: Dagger «Commander»
 outlineColor: 2d2f39
 flying: false
