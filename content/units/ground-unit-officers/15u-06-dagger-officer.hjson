@@ -1,0 +1,284 @@
+type: mech
+description: "[#d1efff]Assault.[] Designed to pursue and destroy fast and maneuverable targets, but can also be used when capturing an enemy fort."
+name: Dagger «Commander»
+outlineColor: 2d2f39
+flying: false
+hitSize: 9.5
+
+rotateSpeed: 7.5
+fogRadius: 29.5
+stepShake: 0.3
+
+itemCapacity: 16
+health: 320
+speed: 0.64
+armor: 9
+
+lightColor: d1efff
+lightOpacity: 0.7
+lightRadius: 48
+
+immunities: [ freezing ]
+
+abilities: [
+{
+    type: ShieldRegenFieldAbility 
+    reload: 64
+    amount: 32
+    range: 0
+    max: 210
+
+    activeEffect: none
+    }
+
+{
+    type: StatusFieldAbility
+    effect: hld-20s-19-status-tier-1-damage-increase
+    duration: 600
+    reload: 580
+    range: 60
+
+activeEffect: {
+    type: ExplosionEffect
+
+    lifetime: 300
+
+    waveColor: d1efff
+    waveStroke: 3.25
+    waveRad: 52.5
+
+    smokeColor: d1efff
+    smokeSizeBase: 0
+    smokeSize: 0
+    smokes: 0
+
+    sparkColor: d1efff
+    sparkStroke: 0
+    sparkRad: 0
+    sparkLen: 0
+    sparks: 0
+}
+    }
+
+{
+    type: MoveEffectAbility
+    teamColor: true
+
+    effect: artilleryTrail
+    effectParam: 1.25
+    minVelocity: 0.1
+    interval: 0.05
+    x: 0
+    y: 1
+    }
+
+{
+type: MoveEffectAbility
+rotateEffect: true
+minVelocity: 1.1
+interval: 1.5
+x: 0
+y: -2.5
+
+effect: {
+    type: ParticleEffect
+    particles: 8
+    line: true
+    cone: 45
+
+    baseRotation: 180
+    baseLength: 4
+    length: 3.2
+
+    colorFrom: d1efff
+    strokeFrom: 1.6
+    colorTo: 8ca9e8
+    strokeTo: 1
+}
+    }
+]
+
+weapons: [
+    {
+    name: 15u-06-commander-rifle
+    alternate: false
+    top: false
+    shootY: 6
+    x: 5
+    y: 1.25
+
+    inaccuracy: 3
+    reload: 3.2
+
+    shootSound: silent-bang1
+    ejectEffect: casing1
+    heatColor: d1efff
+
+bullet: {
+    type: BasicBulletType
+    collideTerrain: true
+    keepVelocity: false
+    height: 16
+    width: 6
+
+    buildingDamageMultiplier: 0.5
+
+    statusDuration: 192
+    status: freezing
+    lifetime: 47.5
+    pierceCap: 2
+    damage: 17.5
+    speed: 4.5
+
+    shootEffect: shootSmallColor
+
+    frontColor: d1efff
+    backColor: 8ca9e8
+
+    lightColor: d1efff
+    lightOpacity: 0.7
+    lightRadius: 21.5
+
+    trailColor: 8ca9e8
+    trailLength: 14.5
+    trailWidth: 0.5
+}
+    }
+
+{
+    display: false
+    rotate: false
+    mirror: false
+    x: 0
+    y: 0
+
+    shootCone: 15
+    reload: 410
+
+    shootSound: hyperjump
+
+shoot: {
+    shotDelay: 20
+    shots: 3
+}
+
+bullet: {
+    pierceBuilding: true
+    collides: false
+    pierce: true
+    impact: true
+    height: 0
+    width: 0
+
+    lifetime: 10
+    recoil: 21
+    damage: 0
+    speed: 8
+
+    despawnEffect: none
+    hitEffect: none
+}
+    }
+
+{
+    display: false
+    rotate: false
+    mirror: false
+    x: 0
+    y: 0
+
+    shootCone: 15
+    reload: 410
+
+    shootSound: none
+
+bullet: {
+    pierceBuilding: true
+    keepVelocity: false
+    collides: false
+    pierce: true
+    impact: true
+    height: 0
+    width: 0
+
+    splashDamageRadius: 40
+    fragRandomSpread: 360
+    statusDuration: 450
+    status: freezing
+    splashDamage: 0
+    fragBullets: 5
+    fragSpread: 60
+    lifetime: 10
+    recoil: 0
+    damage: 0
+    speed: 0
+
+    hitEffect: none
+
+despawnEffect: {
+    type: ExplosionEffect
+
+    lifetime: 500
+
+    waveColor: d1efff
+    waveRadBase: 41.5
+    waveStroke: 1
+    waveRad: 0
+    waveRad: 0
+
+    smokeColor: d1efff
+    smokeSizeBase: 0
+    smokeSize: 21.5
+    smokes: 5
+
+    sparkColor: d1efff
+    sparkStroke: 0
+    sparkRad: 4.5
+    sparkLen: 0
+    sparks: 0
+    }
+
+fragBullet: {
+    type: BasicBulletType
+    pierceBuilding: true
+    collidesAir: false
+    height: 0
+    width: 0
+
+    splashDamageRadius: 26
+    statusDuration: 300
+    status: freezing
+    splashDamage: 0
+    pierceCap: 3
+    lifetime: 8
+    damage: 0
+    speed: 5
+
+    frontColor: d1efff
+    backColor: 8ca9e8
+
+despawnEffect: {
+    type: ExplosionEffect
+
+    lifetime: 450
+
+    waveColor: d1efff
+    waveRadBase: 27.5
+    waveStroke: 1
+    waveRad: 0
+
+    smokeColor: d1efff
+    smokeSizeBase: 0
+    smokeSize: 17.5
+    smokes: 3
+
+    sparkColor: d1efff
+    sparkStroke: 0
+    sparkRad: 0
+    sparkLen: 0
+    sparks: 0
+}
+    }
+}
+    }
+]
