@@ -15,9 +15,9 @@ fallSpeed: 0.8
 engineSize: 0
 
 itemCapacity: 32
-health: 240
+health: 210
 speed: 0.9
-armor: 9
+armor: 4
 
 lightColor: feb380
 lightOpacity: 0.7
@@ -127,7 +127,7 @@ bullet: {
     lightRadius: 21.5
 
     trailColor: ea8878
-    trailLength: 7.5
+    trailLength: 21.5
     trailWidth: 0.5
 }
     }
