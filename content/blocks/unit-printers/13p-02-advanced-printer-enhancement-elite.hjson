@@ -36,15 +36,16 @@ requirements: [
 
     {
     type: AssemblerUnitPlan
-    unit: hld-15u-03-fortress-elite
-    time: 2880
+    unit: hld-15u-78-locus-elite
+    time: 3840
 
 requirements: [
-    fortress/1
-    hld-14e-01-basic-enhancement-module-elite/2
-    hld-14e-02-advanced-enhancement-module-elite/3
-    hld-14e-03-improved-enhancement-module-elite/2
-    hld-15u-01-dagger-elite/1
+    locus/1
+    hld-14e-01-basic-enhancement-module-elite/4
+    hld-14e-02-advanced-enhancement-module-elite/2
+    hld-14e-03-improved-enhancement-module-elite/1
+    hld-15u-01-dagger-elite/3
+    hld-15u-02-mace-elite/1
     ]
 }
     ]
