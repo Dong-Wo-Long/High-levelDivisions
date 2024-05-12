@@ -252,7 +252,7 @@ bullet: {
     shootCone: 5
     reload: 500
 
-    shootSound: spark
+    shootSound: hyperjump
 
 bullet: {
     pierceBuilding: true
