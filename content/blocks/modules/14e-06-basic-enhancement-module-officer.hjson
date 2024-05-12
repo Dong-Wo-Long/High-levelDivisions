@@ -14,9 +14,8 @@ destroySound: module-explosion
 
 requirements: [
     copper/120
-    lead/90
     titanium/32
-    silicon/60
+    silicon/64
 ]
 
 destroyBullet: {
