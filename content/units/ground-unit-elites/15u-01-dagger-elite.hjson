@@ -142,7 +142,7 @@ bullet: {
     shootCone: 5
     reload: 320
 
-    shootSound: spark
+    shootSound: hyperjump
 
 shoot: {
     shotDelay: 9
