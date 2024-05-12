@@ -1,1 +1,6 @@
+armor: 3
 
+requirements: [
+  silicon/18
+  tungsten/24
+]
