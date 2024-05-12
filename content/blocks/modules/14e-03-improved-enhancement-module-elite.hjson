@@ -13,8 +13,8 @@ size: 3
 destroySound: module-explosion
 
 requirements: [
-    lead/500
-    titanium/120
+    lead/320
+    titanium/210
     silicon/180
 ]
 
