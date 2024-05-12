@@ -25,37 +25,18 @@ abilities: [
     range: 0
     max: 250
 
-activeEffect: {
-    type: ExplosionEffect
-
-    lifetime: 60
-
-    waveColor: 515151
-    waveStroke: 2.75
-    waveRad: 21.5
-
-    smokeColor: 515151
-    smokeSizeBase: 0
-    smokeSize: 0
-    smokes: 0
-
-    sparkColor: 515151
-    sparkStroke: 0
-    sparkRad: 0
-    sparkLen: 0
-    sparks: 0
-}
+activeEffect: none
     }
 
 {
     type: MoveEffectAbility
-    minVelocity: 0.01
-    x: 0
-    y: -1
     effect: artilleryTrail
+    minVelocity: 0.01
     effectParam: 1.5
     teamColor: true
     interval: 0.05
+    x: 0
+    y: -1
     }
 ]
 
@@ -108,7 +89,7 @@ bullet: {
     lightRadius: 21.5
 
     trailColor: ea8878
-    trailLength: 12.5
+    trailLength: 15
     trailWidth: 0.5
 }
     }
