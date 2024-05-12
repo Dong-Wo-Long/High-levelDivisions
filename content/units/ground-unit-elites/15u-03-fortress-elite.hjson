@@ -1,6 +1,6 @@
 type: mech
 description: "[#feb380]Assault and support.[] These heavily armed, manned assault mechs, equipped with advanced technology, are often used to destroy enemy armored vehicles and eliminate heavily fortified bases. However, they can also be useful as tanks due to their strong armor and shield."
-name: Fortress «Destroyer»
+name: Fortress «Bombardier»
 forceMultiTarget: true
 outlineColor: 2d2f39
 lowAltitude: true
@@ -61,14 +61,14 @@ activeEffect: {
     }
 
 {
-type: MoveEffectAbility
-effect: artilleryTrail
-minVelocity: 0.55
-teamColor: true
-effectParam: 4
-interval: 7.5
-x: 0
-y: -6.5
+    type: MoveEffectAbility
+    effect: artilleryTrail
+    minVelocity: 0.55
+    teamColor: true
+    effectParam: 4
+    interval: 7.5
+    x: 0
+    y: -6.5
     }
 
 {
@@ -101,8 +101,8 @@ effect: {
     effect: artilleryTrail
     minVelocity: 0.01
     effectParam: 0.75
-    interval: 0.01
     teamColor: true
+    interval: 0.01
     x: 2
     y: 4
     }
@@ -111,8 +111,8 @@ effect: {
     effect: artilleryTrail
     minVelocity: 0.01
     effectParam: 0.75
-    interval: 0.01
     teamColor: true
+    interval: 0.01
     x: -2
     y: 4
     }
@@ -120,9 +120,9 @@ effect: {
     type: MoveEffectAbility
     effect: artilleryTrail
     minVelocity: 0.01
+    teamColor: true
     effectParam: 1
     interval: 0.01
-    teamColor: true
     x: 4
     y: 0
     }
@@ -130,9 +130,9 @@ effect: {
     type: MoveEffectAbility
     effect: artilleryTrail
     minVelocity: 0.01
+    teamColor: true
     effectParam: 1
     interval: 0.01
-    teamColor: true
     x: -4
     y: 0
     }
