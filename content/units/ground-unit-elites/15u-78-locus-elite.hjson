@@ -92,7 +92,7 @@ bullet: {
     height: 18
     width: 6
 
-    buildingDamageMultiplier: 0.75
+    buildingDamageMultiplier: 0.25
 
     lifetime: 120
     damage: 21.5
