@@ -55,13 +55,13 @@ abilities: [
 
 {
     type: MoveEffectAbility
+    effect: artilleryTrail
     minVelocity: 0.1
+    teamColor: true
+    effectParam: 1
+    interval: 0.05
     x: 0
     y: 0
-    effect: artilleryTrail
-    effectParam: 1
-    teamColor: true
-    interval: 0.05
     }
 
 {
