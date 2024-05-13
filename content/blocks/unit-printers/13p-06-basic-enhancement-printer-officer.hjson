@@ -37,12 +37,11 @@ requirements: [
     {
     type: AssemblerUnitPlan
     unit: hld-15u-81-stell-officer
-    time: 1920
+    time: 1440
 
 requirements: [
-    dagger/1
-    hld-14e-01-basic-enhancement-module-officer/2
-    hld-14e-07-advanced-enhancement-module-officer/1
+    stell/1
+    hld-14e-01-basic-enhancement-module-officer/3
     ]
 }
     ]
