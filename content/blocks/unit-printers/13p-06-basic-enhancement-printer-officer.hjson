@@ -1,0 +1,36 @@
+type: UnitAssembler
+
+name: Simple printer «Officers»
+description: Upgrades some simple units into officer units. Once the printer performs an operation, the unit change is not reversible.
+squareSprite: false
+category: units
+areaSize: 7
+size: 3
+
+health: 1050
+armor: 4
+
+consumes: {
+  power: 3.2
+}
+
+requirements: [
+    lead/180
+    graphite/150
+    metaglass/90
+    silicon/120
+]
+
+plans: [
+    {
+    type: AssemblerUnitPlan
+    unit: hld-15u-06-dagger-officer
+    time: 1920
+
+requirements: [
+    dagger/1
+    hld-14e-01-basic-enhancement-module-officer/2
+    hld-14e-07-advanced-enhancement-module-officer/1
+    ]
+}
+    ]
