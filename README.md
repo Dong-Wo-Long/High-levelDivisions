@@ -24,7 +24,7 @@ The release version should contain the following:
 - Printers - blocks for modifying units (at least to T3)
 - Module - blocks for improving units (at least to T3)
 - Payload conveyor/router - Small/Standard/Large/Huge Conveyors with Routers (Serpulo/Erekir)
-5. New status (each has negative and positive effects and is divided into 3 levels)
+3. New status (each has negative and positive effects and is divided into 3 levels)
 - Ranks
 - Armored
 - Speed
