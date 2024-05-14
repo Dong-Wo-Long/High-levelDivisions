@@ -4,7 +4,7 @@
 Some elements are not yet completed, or do not work correctly, as well as not actually added to the technology tree - so far for the use of the content of the mod itself is possible only on custom maps.
 
 The release version should contain the following:
-1. New units
+1. New units (in total, there should be 13 new units on release)
 - Elites
   - Dagger
   - Mace
@@ -20,7 +20,6 @@ The release version should contain the following:
   - Nova
   - Stell
   - Locus
-(In total, there should be 13 new units on release)
 2. New blocks
 - Printers - blocks for modifying units (at least to T3)
 - Module - blocks for improving units (at least to T3)
