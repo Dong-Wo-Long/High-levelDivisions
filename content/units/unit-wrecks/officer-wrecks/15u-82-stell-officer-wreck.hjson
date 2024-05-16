@@ -1,5 +1,5 @@
 type: tank
-description: "The wreckage of an elite tank"
+description: "The wreckage of an officer tank"
 name: Stell «Tesla» wreck
 rotateMoveFirst: true
 outlineColor: 3c4448
