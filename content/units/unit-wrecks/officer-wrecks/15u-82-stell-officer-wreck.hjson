@@ -37,11 +37,6 @@ treadRects: [
 
 weapons: [
 {
-    type: SpawnDeathAbility
-    unit: 15u-82-electric-rifle-wreck
-    }
-
-{
 name: 15u-82-electric-rifle-wreck
 
     aiControllable: false
