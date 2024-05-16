@@ -1,5 +1,5 @@
 type: tank
-description: "-"
+description: "The wreckage of an elite tank"
 name: Stell «Dawn» wreck
 rotateMoveFirst: true
 outlineColor: 3c4448
