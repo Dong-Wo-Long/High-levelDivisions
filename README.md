@@ -6,19 +6,21 @@ Some elements are not yet completed, or do not work correctly, as well as not ac
 The release version should contain the following:
 1. New units (in total, there should be 12 new units on release)
 - Elites
-  - Dagger - done
-  - Mace - done
-  - Fortress - done
-  - Nova
-  - Crawler
-  - Stell
-  - Locus - done
+  - Dagger «Hunter» - done
+  - Mace «Stormtrooper» - done
+  - Fortress «Destroyer» - done
+  - Nova «Saboteur»
+  - Crawler «Detonator» - in the process
+  - Stell «Dawn» - done
+  - Locus «Vepr» - done
 - Offirecs
-  - Dagger - done
-  - Mace
-  - Fortress - done
-  - Nova
-  - Stell - done
+  - Dagger «Commander» - done
+  - Mace «Grenadier»
+  - Fortress «Cryostator» - done
+  - Nova «Stalker»
+  - Crawler «Defender» - in the process
+  - Stell «Tesla» - done
+  - Locus «Tortuga»
 2. New blocks
 - Printers - blocks for modifying units (at least to T3)
 - Module - blocks for improving units (at least to T3)
