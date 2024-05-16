@@ -1,0 +1,188 @@
+type: tank
+description: "[#feb380]Assault and Support[] The Assault Tank, equipped with a Discharger, is used to quickly intercept enemy bases and forts."
+name: Stell «Dawn»
+outlineColor: 2d2f39
+omniMovement: false
+targetAir: false
+flying: false
+
+treadPullOffset: 3
+fogRadius: 52.5
+hitSize: 12.25
+
+crushDamage: 1.75
+rotateSpeed: 2.8
+itemCapacity: 0
+speed: 0.425
+health: 710
+armor: 6
+
+lightColor: feb380
+lightOpacity: 0.7
+lightRadius: 62.5
+
+immunities: [ burning ]
+
+treadRects: [
+{
+    x: -20
+    y: -25
+    width: 14
+    height: 51
+    }
+]
+
+abilities: [
+{
+    type: ShieldRegenFieldAbility 
+    reload: 180
+    amount: 45
+    range: 0
+    max: 210
+
+    activeEffect: none
+    }
+
+{
+    type: MoveEffectAbility
+    minVelocity: 0.1
+    x: 4.75
+    y: 3
+    effect: artilleryTrail
+    effectParam: 1
+    teamColor: true
+    interval: 0.05
+    layerOffset: 1
+    }
+{
+    type: MoveEffectAbility
+    minVelocity: 0.1
+    x: -4.75
+    y: 3
+    effect: artilleryTrail
+    effectParam: 1
+    teamColor: true
+    interval: 0.05
+    layerOffset: 1
+    }
+{
+    type: MoveEffectAbility
+    minVelocity: 0.1
+    x: 4.75
+    y: -3.75
+    effect: artilleryTrail
+    effectParam: 1
+    teamColor: true
+    interval: 0.05
+    layerOffset: 1
+    }
+{
+    type: MoveEffectAbility
+    minVelocity: 0.1
+    x: -4.75
+    y: -3.75
+    effect: artilleryTrail
+    effectParam: 1
+    teamColor: true
+    interval: 0.05
+    layerOffset: 1
+    }
+]
+
+weapons: [
+{
+name: 15u-77-small-artillery-cannon
+
+    controllable: false
+    rotateSpeed: 0.7
+    autoTarget: true
+    layerOffset: 1
+    mirror: false
+    rotate: true
+    shootY: 7.5
+    shake: 7.5
+    recoil: 1
+    top: true
+    x: 0
+    y: -2.25
+
+    inaccuracy: 3
+    reload: 180
+
+    heatColor: feb380
+
+    shootSound: small-artillery-shot
+    shootStatusDuration: 210
+    shootStatus: unmoving
+    ejectEffect: casing2
+
+parts: [
+{
+    type: FlarePart
+    color2: ffffff
+    color1: feb380
+    radius: 5.5
+    stroke: 1
+    }
+
+{
+    type: RegionPart
+    suffix: -barrel
+    under: true
+    x: 0
+    y: 8
+moves: [
+    {
+    type: PartMove
+    progress: recoil
+    x: 0
+    y: -2
+}
+    ]
+}
+    ]
+
+bullet: {
+    type: ArtilleryBulletType
+    pierceBuilding: true
+    collidesTiles: true
+    collidesAir: false
+    pierceArmor: true
+    despawnShake: 6
+    shrinkX: 0.3
+    shrinkY: 0.5
+    height: 21
+    width: 9
+
+    buildingDamageMultiplier: 2.25
+
+    status: hld-20s-06-tier-1-strength-reduction
+    splashDamageRadius: 26
+    statusDuration: 300
+    splashDamage: 81
+    knockback: 7.5
+    lifetime: 158
+    pierceCap: 3
+    speed: 2.5
+
+    hitSound: small-artillery-hit
+
+    shootEffect: shootSmallColor
+    smokeEffect: shootBigSmoke
+    hitEffect: blastExplosion
+
+    trailColor: feb380
+    frontColor: ffffff
+    backColor: feb380
+
+    trailInterp: slope
+    trailEffect: none
+    trailLength: 48
+    trailWidth: 2.5
+
+    lightColor: feb380
+    lightOpacity: 0.7
+    lightRadius: 67.5
+}
+    }
+]
