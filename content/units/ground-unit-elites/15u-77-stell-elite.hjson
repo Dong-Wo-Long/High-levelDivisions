@@ -1,5 +1,5 @@
 type: tank
-description: "[#feb380]Assault and Support[] The Assault Tank, equipped with a Discharger, is used to quickly intercept enemy bases and forts."
+description: "[#feb380]Assault and Support.[] A siege tank armed with an artillery cannon is designed to assault small to medium sized outposts."
 name: Stell «Dawn»
 rotateMoveFirst: true
 outlineColor: 2d2f39
