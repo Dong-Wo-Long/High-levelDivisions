@@ -4,7 +4,7 @@
 Some elements are not yet completed, or do not work correctly, as well as not actually added to the technology tree - so far for the use of the content of the mod itself is possible only on custom maps.
 
 The release version should contain the following:
-1. New units (in total, there should be 12 new units on release)
+1. New units (in total, there should be 12+ new units on release)
 - Elites
   - Dagger «Hunter» - done
   - Mace «Stormtrooper» - done
