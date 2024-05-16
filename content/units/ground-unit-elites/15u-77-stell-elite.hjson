@@ -1,6 +1,7 @@
 type: tank
 description: "[#feb380]Assault and Support[] The Assault Tank, equipped with a Discharger, is used to quickly intercept enemy bases and forts."
 name: Stell «Dawn»
+rotateMoveFirst: true
 outlineColor: 2d2f39
 omniMovement: false
 targetAir: false
@@ -33,6 +34,11 @@ treadRects: [
 ]
 
 abilities: [
+{
+    type: SpawnDeathAbility
+    unit: 15u-77-stell-elite-wreck
+    }
+
 {
     type: ShieldRegenFieldAbility 
     reload: 180
