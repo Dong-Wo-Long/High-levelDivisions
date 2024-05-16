@@ -40,8 +40,8 @@ name: 15u-77-small-artillery-cannon-wreck
 
     aiControllable: false
     controllable: false
-    rotateSpeed: 0.7
     autoTarget: true
+    rotateSpeed: 0
     layerOffset: 1
     display: false
     mirror: false
