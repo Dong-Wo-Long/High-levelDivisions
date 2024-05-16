@@ -38,7 +38,7 @@ treadRects: [
 weapons: [
 {
     type: SpawnDeathAbility
-    unit: 15u-82-stell-officer-wreck
+    unit: 15u-82-electric-rifle-wreck
     }
 
 {
