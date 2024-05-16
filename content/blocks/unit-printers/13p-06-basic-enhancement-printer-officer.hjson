@@ -36,7 +36,7 @@ requirements: [
 
     {
     type: AssemblerUnitPlan
-    unit: hld-15u-81-stell-officer
+    unit: hld-15u-82-stell-officer
     time: 1440
 
 requirements: [
