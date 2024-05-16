@@ -8,6 +8,7 @@ targetable: false
 targetAir: false
 flying: false
 
+deathSound: tank-explosion1
 treadPullOffset: 3
 hitSize: 12.25
 fogRadius: 5
@@ -35,6 +36,11 @@ treadRects: [
 ]
 
 weapons: [
+{
+    type: SpawnDeathAbility
+    unit: 15u-82-stell-officer-wreck
+    }
+
 {
 name: 15u-82-electric-rifle-wreck
 
