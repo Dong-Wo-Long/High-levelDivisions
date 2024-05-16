@@ -145,7 +145,7 @@ effect: {
 
 weapons: [
 {
-name: 15u-81-electric-rifle
+name: 15u-82-electric-rifle
 
     rotateSpeed: 2.25
     mirror: false
