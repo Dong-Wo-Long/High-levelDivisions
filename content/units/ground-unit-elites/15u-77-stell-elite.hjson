@@ -7,7 +7,7 @@ omniMovement: false
 targetAir: false
 flying: false
 
-deathSound: tank-destroyed1
+deathSound: tank-explosion1
 treadPullOffset: 3
 fogRadius: 52.5
 hitSize: 12.25
