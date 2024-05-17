@@ -6,6 +6,7 @@ outlineColor: 3c4448
 omniMovement: false
 targetable: false
 targetAir: false
+isEnemy: false
 flying: false
 
 deathSound: tank-explosion1
