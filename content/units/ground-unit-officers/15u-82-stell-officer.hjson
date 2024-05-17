@@ -1,5 +1,5 @@
 type: tank
-description: "[#d1efff]Assault and support.[] The Assault Tank, equipped with a Discharger, is used to quickly intercept enemy bases and forts."
+description: "[#d1efff]Assault and support.[] The Assault Tank, equipped with a discharger, is used to quickly intercept enemy bases and forts."
 name: Stell «Tesla»
 outlineColor: 2d2f39
 omniMovement: false
