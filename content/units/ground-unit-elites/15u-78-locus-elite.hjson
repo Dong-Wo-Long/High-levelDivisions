@@ -7,6 +7,7 @@ omniMovement: false
 targetAir: false
 flying: false
 
+deathSound: tank-explosion1
 treadPullOffset: 5
 fogRadius: 67.5
 hitSize: 18.25
@@ -33,6 +34,11 @@ treadRects: [
 ]
 
 abilities: [
+{
+    type: SpawnDeathAbility
+    unit: 15u-78-locus-elite-wreck
+    }
+
 {
     type: ShieldRegenFieldAbility 
     reload: 192
@@ -186,3 +192,4 @@ bullet: {
 }
     }
 ]
+
