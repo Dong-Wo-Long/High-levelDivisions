@@ -1,0 +1,4 @@
+name: Electromagnetic pulse
+reloadMultiplier: 0.1
+healthMultiplier: 0.65
+speedMultiplier: 0.25
