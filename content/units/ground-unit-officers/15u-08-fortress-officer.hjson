@@ -23,7 +23,7 @@ lightRadius: 74.5
 immunities: [ freezing ]
 
 abilities: [
-{
+    {
     type: ShieldRegenFieldAbility 
     reload: 300
     amount: 250
@@ -31,9 +31,9 @@ abilities: [
     max: 1500
 
     activeEffect: none
-    }
+}
 
-{
+    {
     type: MoveEffectAbility
     effect: artilleryTrail
     minVelocity: 0.01
@@ -42,8 +42,8 @@ abilities: [
     teamColor: true
     x: 2
     y: 4
-    }
-{
+}
+    {
     type: MoveEffectAbility
     effect: artilleryTrail
     minVelocity: 0.01
@@ -52,8 +52,8 @@ abilities: [
     teamColor: true
     x: -2
     y: 4
-    }
-{
+}
+    {
     type: MoveEffectAbility
     effect: artilleryTrail
     minVelocity: 0.01
@@ -62,8 +62,8 @@ abilities: [
     teamColor: true
     x: 4
     y: 0
-    }
-{
+}
+    {
     type: MoveEffectAbility
     effect: artilleryTrail
     minVelocity: 0.01
@@ -72,14 +72,16 @@ abilities: [
     teamColor: true
     x: -4
     y: 0
-    }
-]
+}
+    ]
 
 weapons: [
 {
-name: 15u-08-molecular-accelerator
-
+    name: 15u-08-molecular-accelerator
+    rotationLimit: 24
+    rotateSpeed: 2
     shootCone: 30
+    rotate: true
     top: false
     recoil: 2
     shake: 5
@@ -98,7 +100,7 @@ shoot: {
     firstShotDelay: 60
     shotDelay: 6
     shots: 90
-}
+    }
 
 bullet: {
     type: BasicBulletType
@@ -136,8 +138,7 @@ bullet: {
     }
 
 {
-name: 15u-08-grenade-launcher
-
+    name: 15u-08-grenade-launcher
     controllable: false
     rotationLimit: 60
     autoTarget: true
@@ -156,7 +157,7 @@ name: 15u-08-grenade-launcher
 shoot: {
     shotDelay: 24
     shots: 3
-}
+    }
 
 bullet: {
     type: BasicBulletType
@@ -216,7 +217,7 @@ despawnEffect: {
     sparkRad: 7.5
     sparkLen: 2.5
     sparks: 15
-}
+    }
 
 hitEffect: {
     type: ExplosionEffect
@@ -237,7 +238,7 @@ hitEffect: {
     sparkRad: 7.5
     sparkLen: 2.5
     sparks: 15
-}
+    }
 
 fragBullet: {
     type: BasicBulletType
@@ -317,6 +318,6 @@ bullet: {
     smokeEffect: none
     shootEffect: none
     hitEffect: none
-}
     }
-]
+}
+    ]
