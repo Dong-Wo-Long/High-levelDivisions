@@ -19,7 +19,7 @@ fogRadius: 50
 hitSize: 14
 
 itemCapacity: 180
-rotateSpeed: 4
+rotateSpeed: 2
 health: 5000
 speed: 0.45
 armor: 24
