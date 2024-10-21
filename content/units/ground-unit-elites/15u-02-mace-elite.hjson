@@ -73,16 +73,16 @@ bullet: {
     despawnShake: 2
     recoil: 0.025
     hitShake: 2
-    height: 11
-    width: 4.5
+    height: 12
+    width: 6
 
     statusDuration: 180
     knockback: 0.125
     status: burning
+    lifetime: 16.5
     pierceCap: 3
-    lifetime: 30
     damage: 42.5
-    speed: 5
+    speed: 9
 
     lightColor: feb380
     lightOpacity: 0.7
