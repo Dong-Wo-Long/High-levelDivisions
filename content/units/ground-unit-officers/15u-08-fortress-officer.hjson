@@ -7,7 +7,7 @@ targetAir: false
 hitSize: 13.5
 flying: false
 
-rotateSpeed: 2.5
+rotateSpeed: 1.8
 fogRadius: 67.5
 stepShake: 4
 
