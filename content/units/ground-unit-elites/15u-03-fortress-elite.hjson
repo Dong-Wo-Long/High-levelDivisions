@@ -210,8 +210,7 @@ bullet: {
 }
     }
 {
-name: 15u-03-ray-gun
-
+    name: 15u-03-ray-gun
     controllable: false
     rotationLimit: 60
     autoTarget: true
