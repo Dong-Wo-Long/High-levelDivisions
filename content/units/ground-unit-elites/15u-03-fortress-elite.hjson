@@ -141,9 +141,11 @@ effect: {
 
 weapons: [
 {
-name: 15u-03-rocket-launcher
-
+    name: 15u-03-rocket-launcher
+    rotationLimit: 24
+    rotateSpeed: 1.8
     shootCone: 30
+    rotate: true
     recoil: 4.5
     shake: 12.5
     top: false
@@ -156,14 +158,13 @@ name: 15u-03-rocket-launcher
     shootSound: rocket-launch
     shootEffect: shootSmall
     ejectEffect: casing3
-
 shoot: {
     type: ShootAlternate
     shotDelay: 9
     barrels: 2
     spread: 4
     shots: 4
-}
+    }
 
 bullet: {
     type: BasicBulletType
