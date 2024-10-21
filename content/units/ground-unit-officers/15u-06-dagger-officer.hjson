@@ -101,7 +101,11 @@ effect: {
 weapons: [
     {
     name: 15u-06-commander-rifle
+    rotationLimit: 18
     alternate: false
+    rotateSpeed: 3
+    shootCone: 45
+    rotate: true
     top: false
     shootY: 6
     x: 5
