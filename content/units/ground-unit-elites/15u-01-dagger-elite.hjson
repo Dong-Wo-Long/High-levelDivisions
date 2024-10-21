@@ -24,23 +24,23 @@ lightOpacity: 0.7
 lightRadius: 48
 
 engines: [
-{
+    {
     engineColor: feb380
     engineLayer: 100
     rotation: -45
     radius: 1.5
     x: 3.5
     y: -5.5
-    }
-{
+}
+    {
     engineColor: feb380
     engineLayer: 100
     rotation: -135
     radius: 1.5
     x: -3.5
     y: -5.5
-    }
-]
+}
+    ]
 
 abilities: [
 {
@@ -86,13 +86,17 @@ effect: {
     strokeFrom: 1.6
     colorTo: ea8878
     strokeTo: 1
-}
     }
-]
+}
+    ]
 
 weapons: [
     {
     name: 15u-01-hunters-rifle
+    rotationLimit: 18
+    rotateSpeed: 3
+    shootCone: 45
+    rotate: true
     top: false
     x: 4
     y: 0.5
@@ -101,11 +105,10 @@ weapons: [
 
     ejectEffect: casing1
     shootSound: bang1
-
 shoot: {
     shotDelay: 6
     shots: 3
-}
+    }
 
 bullet: {
     type: BasicBulletType
@@ -148,7 +151,7 @@ bullet: {
 shoot: {
     shotDelay: 9
     shots: 3
-}
+    }
 
 bullet: {
     pierceBuilding: true
@@ -165,6 +168,6 @@ bullet: {
 
     despawnEffect: none
     hitEffect: none
-}
     }
-]
+}
+    ]
