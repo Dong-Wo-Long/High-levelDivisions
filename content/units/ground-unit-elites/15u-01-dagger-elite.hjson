@@ -110,14 +110,15 @@ shoot: {
 bullet: {
     type: BasicBulletType
     collideTerrain: true
+    keepVelocity: false
     height: 14
     width: 6
 
     homingPower: 0.75
     homingRange: 32
-    lifetime: 92.5
+    lifetime: 52.5
     damage: 24.5
-    speed: 2.8
+    speed: 5
 
     frontColor: feb380
     backColor: ea8878
@@ -127,7 +128,7 @@ bullet: {
     lightRadius: 21.5
 
     trailColor: ea8878
-    trailLength: 21.5
+    trailLength: 8.5
     trailWidth: 0.5
 }
     }
