@@ -18,7 +18,7 @@ lightOpacity: 0.7
 lightRadius: 64.5
 
 abilities: [
-{
+    {
     type: ShieldRegenFieldAbility 
     reload: 180
     amount: 75
@@ -26,9 +26,9 @@ abilities: [
     max: 250
 
 activeEffect: none
-    }
+}
 
-{
+    {
     type: MoveEffectAbility
     effect: artilleryTrail
     minVelocity: 0.01
@@ -37,18 +37,19 @@ activeEffect: none
     interval: 0.05
     x: 0
     y: -1
-    }
-]
+}
+    ]
 
 weapons: [
 {
     name: 15u-02-shotgun
     rotationLimit: 18
+    rotateSpeed: 2
     shootCone: 90
     rotate: true
     top: false
-    recoil: 2
     shootY: 2
+    recoil: 2
     shake: 1
 
     velocityRnd: 0.24
@@ -89,6 +90,6 @@ bullet: {
 
     frontColor: feb380
     backColor: ea8878
-}
     }
-]
+}
+    ]
