@@ -29,8 +29,8 @@ plans: [
 
 requirements: [
     dagger/1
-    basic-enhancement-module-officer/2
-    advanced-enhancement-module-officer/1
+    hld-basic-enhancement-module-officer/2
+    hld-advanced-enhancement-module-officer/1
 ]
     }
 
@@ -41,7 +41,7 @@ requirements: [
 
 requirements: [
     stell/1
-    basic-enhancement-module-officer/3
+    hld-basic-enhancement-module-officer/3
     ]
 }
     ]
