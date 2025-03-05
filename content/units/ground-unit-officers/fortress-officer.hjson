@@ -118,11 +118,11 @@ bullet: {
 
     statusDuration: 180
     status: freezing
+    lifetime: 38.85
     knockback: 1.8
     pierceCap: 5
-    lifetime: 98
     damage: 27.5
-    speed: 5
+    speed: 12.5
 
     trailColor: 8ca9e8
     trailLength: 7.5
