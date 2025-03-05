@@ -12,25 +12,25 @@ armor: 9
 
 consumes: {
   power: 4.8
-}
+    }
 
 requirements: [
     lead/210
     metaglass/120
     titanium/180
     silicon/150
-]
+    ]
 
 plans: [
     {
     type: AssemblerUnitPlan
-    unit: hld-15u-08-fortress-officer
+    unit: fortress-officer
     time: 2880
 
 requirements: [
     mace/1
-    hld-14e-06-basic-enhancement-module-officer/3
-    hld-14e-07-advanced-enhancement-module-officer/2
+    basic-enhancement-module-officer/3
+    advanced-enhancement-module-officer/2
     ]
 }
     ]
