@@ -25,21 +25,21 @@ lightRadius: 62.5
 immunities: [ burning, shocked ]
 
 treadRects: [
-{
+    {
     x: -20
     y: -25
     width: 14
     height: 51
-    }
-]
+}
+    ]
 
 abilities: [
-{
+    {
     type: SpawnDeathAbility
     unit: stell-officer-wreck
-    }
+}
 
-{
+    {
     type: ShieldRegenFieldAbility 
     reload: 300
     amount: 60
@@ -47,9 +47,9 @@ abilities: [
     max: 320
 
     activeEffect: none
-    }
+}
 
-{
+    {
     type: StatusFieldAbility
     effect: hld-20s-13-status-tier-1-motor-acceleration
     duration: 320
@@ -75,10 +75,10 @@ activeEffect: {
     sparkRad: 0
     sparkLen: 0
     sparks: 0
+    }
 }
-    }
 
-{
+    {
     type: MoveEffectAbility
     minVelocity: 0.1
     x: 4.75
@@ -88,8 +88,8 @@ activeEffect: {
     teamColor: true
     interval: 0.05
     layerOffset: 1
-    }
-{
+}
+    {
     type: MoveEffectAbility
     minVelocity: 0.1
     x: -4.75
@@ -99,8 +99,8 @@ activeEffect: {
     teamColor: true
     interval: 0.05
     layerOffset: 1
-    }
-{
+}
+    {
     type: MoveEffectAbility
     minVelocity: 0.1
     x: 4.75
@@ -110,8 +110,8 @@ activeEffect: {
     teamColor: true
     interval: 0.05
     layerOffset: 1
-    }
-{
+}
+    {
     type: MoveEffectAbility
     minVelocity: 0.1
     x: -4.75
@@ -121,9 +121,9 @@ activeEffect: {
     teamColor: true
     interval: 0.05
     layerOffset: 1
-    }
+}
 
-{
+    {
 type: MoveEffectAbility
 rotateEffect: true
 minVelocity: 1.1
@@ -145,9 +145,9 @@ effect: {
     strokeFrom: 1.6
     colorTo: 8ca9e8
     strokeTo: 1
-}
     }
-]
+}
+    ]
 
 weapons: [
 {
@@ -223,7 +223,7 @@ shoot: {
     firstShotDelay: 60
     shotDelay: 12
     shots: 3
-}
+    }
 
 bullet: {
     pierceBuilding: true
@@ -241,6 +241,6 @@ bullet: {
 
     despawnEffect: none
     hitEffect: none
-}
     }
-]
+}
+    ]
