@@ -51,7 +51,7 @@ abilities: [
 
     {
     type: StatusFieldAbility
-    effect: hld-20s-13-status-tier-1-motor-acceleration
+    effect: motor-acceleration-tier-1
     duration: 320
     reload: 300
     range: 60
@@ -151,7 +151,7 @@ effect: {
 
 weapons: [
 {
-name: 15u-82-electric-rifle
+name: electric-rifle
 
     rotateSpeed: 2.25
     mirror: false
