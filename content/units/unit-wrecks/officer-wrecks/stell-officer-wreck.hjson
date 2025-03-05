@@ -29,17 +29,17 @@ lightRadius: 0
 immunities: [ burning ]
 
 treadRects: [
-{
+    {
     x: -20
     y: -25
     width: 14
     height: 51
-    }
-]
+}
+    ]
 
 weapons: [
 {
-name: 15u-82-electric-rifle-wreck
+name: electric-rifle-wreck
 
     aiControllable: false
     controllable: false
@@ -86,6 +86,6 @@ bullet: {
     lightColor: feb380
     lightOpacity: 0
     lightRadius: 0
-}
     }
-]
+}
+    ]
