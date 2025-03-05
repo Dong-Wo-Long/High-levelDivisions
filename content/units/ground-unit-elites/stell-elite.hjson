@@ -26,21 +26,21 @@ lightRadius: 62.5
 immunities: [ burning ]
 
 treadRects: [
-{
+    {
     x: -20
     y: -25
     width: 14
     height: 51
-    }
-]
+}
+    ]
 
 abilities: [
-{
+    {
     type: SpawnDeathAbility
     unit: stell-elite-wreck
-    }
+}
 
-{
+    {
     type: ShieldRegenFieldAbility 
     reload: 180
     amount: 45
@@ -48,9 +48,9 @@ abilities: [
     max: 210
 
     activeEffect: none
-    }
+}
 
-{
+    {
     type: MoveEffectAbility
     minVelocity: 0.1
     x: 4.75
@@ -60,8 +60,8 @@ abilities: [
     teamColor: true
     interval: 0.05
     layerOffset: 1
-    }
-{
+}
+    {
     type: MoveEffectAbility
     minVelocity: 0.1
     x: -4.75
@@ -71,8 +71,8 @@ abilities: [
     teamColor: true
     interval: 0.05
     layerOffset: 1
-    }
-{
+}
+    {
     type: MoveEffectAbility
     minVelocity: 0.1
     x: 4.75
@@ -82,8 +82,8 @@ abilities: [
     teamColor: true
     interval: 0.05
     layerOffset: 1
-    }
-{
+}
+    {
     type: MoveEffectAbility
     minVelocity: 0.1
     x: -4.75
@@ -93,12 +93,12 @@ abilities: [
     teamColor: true
     interval: 0.05
     layerOffset: 1
-    }
-]
+}
+    ]
 
 weapons: [
 {
-name: 15u-77-small-artillery-cannon
+name: small-artillery-cannon
 
     controllable: false
     rotateSpeed: 0.7
@@ -124,15 +124,15 @@ name: 15u-77-small-artillery-cannon
     ejectEffect: casing2
 
 parts: [
-{
+    {
     type: FlarePart
     color2: ffffff
     color1: feb380
     radius: 5.5
     stroke: 1
-    }
+}
 
-{
+    {
     type: RegionPart
     suffix: -barrel
     under: true
@@ -190,6 +190,6 @@ bullet: {
     lightColor: feb380
     lightOpacity: 0.7
     lightRadius: 67.5
-}
     }
-]
+}
+    ]
