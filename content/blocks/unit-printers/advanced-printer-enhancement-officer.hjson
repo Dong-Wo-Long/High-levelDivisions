@@ -29,8 +29,8 @@ plans: [
 
 requirements: [
     mace/1
-    basic-enhancement-module-officer/3
-    advanced-enhancement-module-officer/2
+    hld-basic-enhancement-module-officer/3
+    hld-advanced-enhancement-module-officer/2
     ]
 }
     ]
