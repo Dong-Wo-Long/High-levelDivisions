@@ -28,17 +28,17 @@ lightRadius: 0
 immunities: [ burning ]
 
 treadRects: [
-{
+    {
     x: -20
     y: -25
     width: 14
     height: 51
-    }
-]
+}
+    ]
 
 weapons: [
 {
-name: 15u-77-small-artillery-cannon-wreck
+name: small-artillery-cannon-wreck
 
     aiControllable: false
     controllable: false
@@ -107,6 +107,6 @@ bullet: {
     lightColor: feb380
     lightOpacity: 0
     lightRadius: 0
-}
     }
-]
+}
+    ]
