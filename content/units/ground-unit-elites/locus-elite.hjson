@@ -73,7 +73,7 @@ abilities: [
 
 weapons: [
 {
-    name: 15u-78-missile-launcher
+    name: missile-launcher
 
     controllable: false
     layerOffset: 0.0001
