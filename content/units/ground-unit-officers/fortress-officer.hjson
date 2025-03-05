@@ -77,7 +77,7 @@ abilities: [
 
 weapons: [
 {
-    name: 15u-08-molecular-accelerator
+    name: molecular-accelerator
     rotationLimit: 24
     rotateSpeed: 2
     shootCone: 30
@@ -138,7 +138,7 @@ bullet: {
     }
 
 {
-    name: 15u-08-grenade-launcher
+    name: grenade-launcher
     controllable: false
     rotationLimit: 60
     autoTarget: true
