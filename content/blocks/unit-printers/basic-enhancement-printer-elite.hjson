@@ -12,24 +12,24 @@ armor: 4
 
 consumes: {
   power: 2.4
-}
+    }
 
 requirements: [
     copper/240
     lead/180
     metaglass/90
     silicon/120
-]
+    ]
 
 plans: [
     {
     type: AssemblerUnitPlan
-    unit: hld-15u-01-dagger-elite
+    unit: dagger-elite
     time: 1080
 
 requirements: [
     dagger/1
-    hld-14e-01-basic-enhancement-module-elite/3
+    basic-enhancement-module-elite/3
     ]
 }
     ]
