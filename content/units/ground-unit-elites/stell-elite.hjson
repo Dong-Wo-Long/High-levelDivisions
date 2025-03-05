@@ -163,7 +163,7 @@ bullet: {
 
     buildingDamageMultiplier: 2.25
 
-    status: hld-20s-06-tier-1-strength-reduction
+    status: armor-piercing-tier-1
     splashDamageRadius: 26
     statusDuration: 300
     splashDamage: 81
