@@ -42,7 +42,7 @@ activeEffect: none
 
 weapons: [
 {
-    name: 15u-02-shotgun
+    name: shotgun
     rotationLimit: 18
     rotateSpeed: 2
     shootCone: 90
