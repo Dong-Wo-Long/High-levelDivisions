@@ -92,7 +92,7 @@ effect: {
 
 weapons: [
     {
-    name: 15u-01-hunters-rifle
+    name: hunters-rifle
     rotationLimit: 18
     rotateSpeed: 3
     shootCone: 45
