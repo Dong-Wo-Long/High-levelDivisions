@@ -36,7 +36,7 @@ treadRects: [
 abilities: [
 {
     type: SpawnDeathAbility
-    unit: 15u-82-stell-officer-wreck
+    unit: stell-officer-wreck
     }
 
 {
