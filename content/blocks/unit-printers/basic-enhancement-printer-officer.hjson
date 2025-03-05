@@ -12,36 +12,36 @@ armor: 4
 
 consumes: {
   power: 3.2
-}
+    }
 
 requirements: [
     lead/180
     graphite/150
     metaglass/90
     silicon/120
-]
+    ]
 
 plans: [
     {
     type: AssemblerUnitPlan
-    unit: hld-15u-06-dagger-officer
+    unit: dagger-officer
     time: 1920
 
 requirements: [
     dagger/1
-    hld-14e-06-basic-enhancement-module-officer/2
-    hld-14e-07-advanced-enhancement-module-officer/1
-    ]
-}
+    basic-enhancement-module-officer/2
+    advanced-enhancement-module-officer/1
+]
+    }
 
     {
     type: AssemblerUnitPlan
-    unit: hld-15u-82-stell-officer
+    unit: stell-officer
     time: 1440
 
 requirements: [
     stell/1
-    hld-14e-06-basic-enhancement-module-officer/3
+    basic-enhancement-module-officer/3
     ]
 }
     ]
