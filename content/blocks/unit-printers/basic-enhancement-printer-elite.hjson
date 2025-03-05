@@ -29,7 +29,7 @@ plans: [
 
 requirements: [
     dagger/1
-    basic-enhancement-module-elite/3
+    hld-basic-enhancement-module-elite/3
     ]
 }
     ]
