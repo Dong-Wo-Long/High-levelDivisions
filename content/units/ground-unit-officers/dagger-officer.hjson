@@ -33,7 +33,7 @@ abilities: [
 
 {
     type: StatusFieldAbility
-    effect: hld-20s-19-status-tier-1-damage-increase
+    effect: damage-increase-tier-1
     duration: 600
     reload: 580
     range: 60
@@ -94,13 +94,13 @@ effect: {
     strokeFrom: 1.6
     colorTo: 8ca9e8
     strokeTo: 1
-}
     }
-]
+}
+    ]
 
 weapons: [
     {
-    name: 15u-06-commander-rifle
+    name: commander-rifle
     rotationLimit: 18
     alternate: false
     rotateSpeed: 3
@@ -165,7 +165,7 @@ bullet: {
 shoot: {
     shotDelay: 15
     shots: 2
-}
+    }
 
 bullet: {
     pierceBuilding: true
@@ -185,6 +185,7 @@ bullet: {
     hitEffect: none
 }
     }
+
 {
     baseRotation: -90
     display: false
@@ -201,7 +202,7 @@ bullet: {
 shoot: {
     shotDelay: 15
     shots: 2
-}
+    }
 
 bullet: {
     pierceBuilding: true
@@ -330,8 +331,8 @@ despawnEffect: {
     sparkRad: 0
     sparkLen: 0
     sparks: 0
-}
     }
 }
     }
-]
+}
+    ]
