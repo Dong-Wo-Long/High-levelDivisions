@@ -22,17 +22,17 @@ requirements: [
     ]
 
 plans: [
-    {
+{
     type: AssemblerUnitPlan
     unit: mace-elite
     time: 1920
 
 requirements: [
     mace/1
-    basic-enhancement-module-elite/3
-    advanced-enhancement-module-elite/2
-]
-    }
+    hld-basic-enhancement-module-elite/3
+    hld-advanced-enhancement-module-elite/2
+    ]
+}
 
     {
     type: AssemblerUnitPlan
@@ -41,10 +41,10 @@ requirements: [
 
 requirements: [
     locus/1
-    basic-enhancement-module-elite/7
-    advanced-enhancement-module-elite/5
-    dagger-elite/2
-    mace-elite/1
+    hld-basic-enhancement-module-elite/7
+    hld-advanced-enhancement-module-elite/5
+    hld-dagger-elite/2
+    hld-mace-elite/1
     ]
 }
     ]
