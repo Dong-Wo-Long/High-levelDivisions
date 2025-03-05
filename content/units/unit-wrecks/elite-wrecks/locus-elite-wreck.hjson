@@ -28,17 +28,17 @@ lightRadius: 0
 immunities: [ burning ]
 
 treadRects: [
-{
+    {
     x: -31
     y: -38
     width: 19
     height: 76
-    }
-]
+}
+    ]
 
 weapons: [
 {
-name: 15u-78-missile-launcher-wreck
+name: missile-launcher-wreck
 
     aiControllable: false
     controllable: false
@@ -88,6 +88,6 @@ bullet: {
     lightColor: feb380
     lightOpacity: 0
     lightRadius: 0
-}
     }
-]
+}
+    ]
