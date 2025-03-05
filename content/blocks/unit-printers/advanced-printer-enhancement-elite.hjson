@@ -12,40 +12,39 @@ armor: 9
 
 consumes: {
   power: 4.2
-}
+    }
 
 requirements: [
     copper/320
     metaglass/120
     graphite/210
     silicon/150
-]
+    ]
 
 plans: [
     {
     type: AssemblerUnitPlan
-    unit: hld-15u-02-mace-elite
+    unit: mace-elite
     time: 1920
 
 requirements: [
     mace/1
-    hld-14e-01-basic-enhancement-module-elite/3
-    hld-14e-02-advanced-enhancement-module-elite/2
-    ]
-}
+    basic-enhancement-module-elite/3
+    advanced-enhancement-module-elite/2
+]
+    }
 
     {
     type: AssemblerUnitPlan
-    unit: hld-15u-78-locus-elite
+    unit: locus-elite
     time: 3840
 
 requirements: [
     locus/1
-    hld-14e-01-basic-enhancement-module-elite/4
-    hld-14e-02-advanced-enhancement-module-elite/2
-    hld-14e-03-improved-enhancement-module-elite/1
-    hld-15u-01-dagger-elite/3
-    hld-15u-02-mace-elite/1
+    basic-enhancement-module-elite/7
+    advanced-enhancement-module-elite/5
+    dagger-elite/2
+    mace-elite/1
     ]
 }
     ]
