@@ -141,7 +141,7 @@ effect: {
 
 weapons: [
 {
-    name: 15u-03-rocket-launcher
+    name: rocket-launcher
     rotationLimit: 24
     rotateSpeed: 1.8
     shootCone: 30
@@ -210,7 +210,7 @@ bullet: {
 }
     }
 {
-    name: 15u-03-ray-gun
+    name: ray-gun
     controllable: false
     rotationLimit: 60
     autoTarget: true
