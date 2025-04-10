@@ -50,6 +50,26 @@ shoot: {
     shots: 1
     }
 
+parts: [
+    {
+    type: ShapePart
+    circle: true
+    hollow: true
+
+    color: feb380
+    layer: 100
+    
+    rotateSpeed: 1
+    rotation: 0
+
+    radiusTo: 24
+    radius: 0
+
+    strokeTo: 1.5
+    stroke: 0
+}
+    ]
+
 bullet: {
     instantDisappear: true
     collidesTiles: false
