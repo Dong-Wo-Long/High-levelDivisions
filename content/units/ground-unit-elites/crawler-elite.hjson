@@ -61,11 +61,15 @@ bullet: {
 
     buildingDamageMultiplier: 5
 
-    splashDamageRadius: 60
+    splashDamageRadius: 120
     statusDuration: 90
-    splashDamage: 360
+    splashDamage: 500
     status: blasted
     speed: 0
+
+    incendAmount: 24
+    incendSpread: 15
+    incendChance: 1
 
     hitEffect: pulverize
     hitSound: explosion
