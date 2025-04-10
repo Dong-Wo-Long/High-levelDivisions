@@ -62,10 +62,10 @@ parts: [
     rotateSpeed: 1
     rotation: 0
 
-    radiusTo: 24
+    radiusTo: 120
     radius: 0
 
-    strokeTo: 1.5
+    strokeTo: 2.4
     stroke: 0
 }
     ]
