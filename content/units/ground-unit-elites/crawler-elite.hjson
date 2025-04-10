@@ -87,6 +87,10 @@ bullet: {
     status: blasted
     speed: 0
 
+    fragRandomSpread: 360
+    fragBullets: 7
+    fragLifeMin: 3
+
     incendAmount: 32
     incendSpread: 81
     incendChance: 1
@@ -114,8 +118,55 @@ hitEffect: [
 
     colorFrom: ffffff
     colorTo: feb380
-}
-    ]
+    }
+]
+    }
+
+fragBullet: {
+    type: BasicBulletType
+    collidesGround: false
+    shrinkY: 1
+    height: 12
+    width: 5
+
+    buildingDamageMultiplier: 0.25
+
+    splashDamageRadius: 26
+    splashDamage: 15
+    lifetime: 12
+    damage: 9
+
+    lightColor: ffaa5f
+    lightOpacity: 0.7
+    lightRadius: 16.5
+
+    trailColor: d37f47
+    trailLength: 17.5
+    trailWidth: 1.25
+
+    frontColor: ffaa5f
+    backColor: d37f47
+
+hitEffect: {
+    type: MultiEffect
+
+effects: [
+{
+    effect: hitBulletSmall
+    colorTo: ffaa5f
+    lifetime: 20
+    sizeFrom: 3
+    sizeTo: 0
+    }
+{
+    effect: fireHit
+    colorTo: ffaa5f
+    lifetime: 20
+    sizeFrom: 1
+    sizeTo: 0
+    }
+]
+    }
 }
     }
 
