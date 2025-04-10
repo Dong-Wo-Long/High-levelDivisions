@@ -1,25 +1,34 @@
+type: mech
+description: "[#feb380]Assault, scouting and support.[] Designed to pursue and destroy fast and maneuverable targets, but can also be used when capturing an enemy fort."
+name: Dagger «Hunter»
+outlineColor: 2d2f39
+lowAltitude: true
 targetAir: false
-stepShake: 0.048
-fogRadius: 5
+canBoost: true
+flying: false
+hitSize: 7.5
 
-itemCapacity: 18
-rotateSpeed: 7.5
-speed: 1.2
+boostMultiplier: 0.5
+stepShake: 0.05
+fallSpeed: 0.8
+engineSize: 0
+fogRadius: 15
+
+itemCapacity: 24
+rotateSpeed: 5
+health: 210
 range: 40
+speed: 1
+armor: 4
 
-lightColor: 665c9f
+lightColor: feb380
 lightOpacity: 0.7
-lightRadius: 47.5
-healColor: bf92f9
+lightRadius: 48
 
 abilities: [
     {
     type: ArmorPlateAbility
     healthMultiplier: 12
-}
-    {
-    type: RegenAbility
-    amount: 0.04
 }
     ]
 
@@ -31,7 +40,7 @@ weapons: [
     x: 0
     y: 0
 
-    reload: 45
+    reload: 90
 
     chargeSound: boom-crawler
     ejectEffect: none
@@ -50,7 +59,7 @@ bullet: {
     hittable: false
     collides: false
 
-    buildingDamageMultiplier: 2.5
+    buildingDamageMultiplier: 5
 
     splashDamageRadius: 60
     statusDuration: 90
@@ -78,7 +87,7 @@ bullet: {
     shootSound: none
 bullet: {
     type: BasicBulletType
-    rangeOverride: 100
+    rangeOverride: 144
     height: 0
     width: 0
 
