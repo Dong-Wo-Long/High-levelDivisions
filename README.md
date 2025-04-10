@@ -10,7 +10,7 @@ The release version should contain the following:
   - Mace «Stormtrooper» - done
   - Fortress «Destroyer» - done
   - Nova «Saboteur»
-  - Crawler «Detonator» - in the process
+  - Crawler «Detonator» - [in the process](https://github.com/Bloody-Ocean/bloodyVisual/blob/main/sprites-override/crawler.png)
   - Stell «Dawn» - done
   - Locus «Vepr» - done
 - Offirecs
