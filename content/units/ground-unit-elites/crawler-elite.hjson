@@ -91,6 +91,10 @@ bullet: {
     incendSpread: 81
     incendChance: 1
 
+    frontColor: ffffff
+    backColor: feb380
+    hitColor: feb380
+
     hitSound: crawler-boom
 hitEffect: [
     titanExplosion, 
