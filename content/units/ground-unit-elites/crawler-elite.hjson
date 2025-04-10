@@ -91,7 +91,7 @@ bullet: {
     incendSpread: 81
     incendChance: 1
 
-    hitSound: explosion
+    hitSound: crawler-boom
 hitEffect: [
     titanExplosion, 
     titanSmoke,
