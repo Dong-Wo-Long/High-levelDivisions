@@ -43,7 +43,7 @@ weapons: [
 
     chargeSound: none
     ejectEffect: none
-    shootSound: crawler-boom
+    shootSound: large-boom
 shoot: {
     firstShotDelay: 90
     shots: 1
