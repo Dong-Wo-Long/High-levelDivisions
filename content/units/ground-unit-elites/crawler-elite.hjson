@@ -40,13 +40,13 @@ weapons: [
     x: 0
     y: 0
 
-    reload: 90
+    reload: 120
 
     chargeSound: boom-crawler
     ejectEffect: none
     shootSound: none
 shoot: {
-    firstShotDelay: 15
+    firstShotDelay: 80
     shots: 1
     }
 
