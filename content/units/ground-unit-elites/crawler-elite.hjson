@@ -132,9 +132,9 @@ fragBullet: {
     buildingDamageMultiplier: 0.25
 
     splashDamageRadius: 26
-    splashDamage: 15
-    lifetime: 12
-    damage: 9
+    splashDamage: 24
+    lifetime: 18
+    damage: 21
 
     lightColor: ffaa5f
     lightOpacity: 0.7
