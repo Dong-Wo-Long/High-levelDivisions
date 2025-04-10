@@ -28,7 +28,7 @@ lightRadius: 48
 abilities: [
     {
     type: ArmorPlateAbility
-    healthMultiplier: 12
+    healthMultiplier: 15
 }
     ]
 
@@ -40,13 +40,13 @@ weapons: [
     x: 0
     y: 0
 
-    reload: 120
+    reload: 180
 
     chargeSound: boom-crawler
     ejectEffect: none
     shootSound: none
 shoot: {
-    firstShotDelay: 80
+    firstShotDelay: 90
     shots: 1
     }
 
