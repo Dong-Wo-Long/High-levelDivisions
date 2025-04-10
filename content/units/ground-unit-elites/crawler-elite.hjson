@@ -42,7 +42,7 @@ weapons: [
 
     reload: 180
 
-    chargeSound: boom-crawler
+    chargeSound: none
     ejectEffect: none
     shootSound: none
 shoot: {
