@@ -87,7 +87,7 @@ bullet: {
     status: blasted
     speed: 0
 
-    incendAmount: 24
+    incendAmount: 32
     incendSpread: 81
     incendChance: 1
 
