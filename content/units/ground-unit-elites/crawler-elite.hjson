@@ -88,7 +88,7 @@ bullet: {
     speed: 0
 
     incendAmount: 24
-    incendSpread: 48
+    incendSpread: 81
     incendChance: 1
 
     hitEffect: pulverize
