@@ -4,7 +4,6 @@ name: Crawler «Detonator»
 outlineColor: 2d2f39
 lowAltitude: true
 targetAir: false
-canBoost: true
 flying: false
 hitSize: 7.5
 
@@ -44,7 +43,7 @@ weapons: [
 
     chargeSound: none
     ejectEffect: none
-    shootSound: none
+    shootSound: crawler-boom
 shoot: {
     firstShotDelay: 90
     shots: 1
@@ -99,7 +98,7 @@ bullet: {
     backColor: feb380
     hitColor: feb380
 
-    hitSound: crawler-boom
+    hitSound: none
 hitEffect: [
     titanExplosion, 
     titanSmoke,
@@ -133,7 +132,7 @@ fragBullet: {
 
     splashDamageRadius: 26
     splashDamage: 24
-    lifetime: 18
+    lifetime: 50
     damage: 21
 
     lightColor: ffaa5f
