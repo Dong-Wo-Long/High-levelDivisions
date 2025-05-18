@@ -83,7 +83,7 @@ bullet: {
     splashDamageRadius: 120
     statusDuration: 90
     splashDamage: 500
-    status: blasted
+    status: melting
     speed: 0
 
     fragRandomSpread: 360
