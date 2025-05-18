@@ -2,22 +2,18 @@ type: mech
 description: "[#feb380]Assault.[] ..."
 name: Crawler «Detonator»
 outlineColor: 2d2f39
-lowAltitude: true
 targetAir: false
-flying: false
 hitSize: 7.5
 
 boostMultiplier: 0.5
 stepShake: 0.05
-fallSpeed: 0.8
-engineSize: 0
 fogRadius: 15
 
 itemCapacity: 24
 rotateSpeed: 5
 health: 240
-range: 40
-speed: 1
+speed: 0.6
+range: 45
 armor: 8
 
 lightColor: feb380
