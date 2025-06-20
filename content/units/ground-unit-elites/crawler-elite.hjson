@@ -1,5 +1,5 @@
 type: mech
-description: "[#feb380]Assault.[] ..."
+description: "[#feb380]Assault.[] Designed to breach heavily fortified enemy positions and eliminate high-value/large-scale targets."
 name: Crawler «Detonator»
 outlineColor: 2d2f39
 targetAir: false
