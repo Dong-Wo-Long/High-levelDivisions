@@ -19,7 +19,7 @@ lightColor: d1efff
 lightOpacity: 0.7
 lightRadius: 64.5
 
-immunities: [ freezing ]
+immunities: [ freezing, shocked ]
 
 abilities: [
     {
