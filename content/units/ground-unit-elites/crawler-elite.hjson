@@ -82,6 +82,11 @@ bullet: {
     status: melting
     speed: 0
 
+    puddleLiquid: slag
+    puddleAmount: 15
+    puddleRange: 15
+    puddles: 1
+
     fragRandomSpread: 360
     fragBullets: 7
     fragLifeMin: 3
