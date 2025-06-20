@@ -37,8 +37,8 @@ weapons: [
 
     reload: 180
 
+    shootStatus: hld-motor-acceleration-tier-1
     chargeSound: charging-weapon
-    shootStatus: speed
     ejectEffect: none
     shootSound: large-boom
 shoot: {
