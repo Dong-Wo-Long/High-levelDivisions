@@ -6,6 +6,7 @@ outlineColor: 2d2f39
 targetAir: false
 hitSize: 13.5
 flying: false
+range: 600
 
 rotateSpeed: 1.8
 fogRadius: 67.5
