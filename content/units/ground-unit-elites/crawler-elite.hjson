@@ -38,6 +38,7 @@ weapons: [
     reload: 180
 
     chargeSound: charging-weapon
+    shootStatus: speed
     ejectEffect: none
     shootSound: large-boom
 shoot: {
