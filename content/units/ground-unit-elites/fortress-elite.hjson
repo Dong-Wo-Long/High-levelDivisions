@@ -243,6 +243,8 @@ bullet: {
     }
 
 {
+    controllable: false
+    autoTarget: true
     display: false
     rotate: false
     mirror: false
