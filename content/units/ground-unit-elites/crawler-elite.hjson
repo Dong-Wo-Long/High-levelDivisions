@@ -34,7 +34,7 @@ abilities: [
     effectParam: 1
     interval: 0.05
     x: 0
-    y: 2
+    y: 1.5
 }
     ]
 
