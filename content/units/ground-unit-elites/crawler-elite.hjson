@@ -83,9 +83,9 @@ bullet: {
     speed: 0
 
     puddleLiquid: slag
-    puddleAmount: 18
-    puddleRange: 15
-    puddles: 1
+    puddleAmount: 24
+    puddleRange: 34
+    puddles: 5
 
     fragRandomSpread: 360
     fragBullets: 7
