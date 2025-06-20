@@ -83,7 +83,7 @@ bullet: {
     speed: 0
 
     puddleLiquid: slag
-    puddleAmount: 15
+    puddleAmount: 18
     puddleRange: 15
     puddles: 1
 
@@ -91,7 +91,7 @@ bullet: {
     fragBullets: 7
     fragLifeMin: 3
 
-    incendAmount: 32
+    incendAmount: 48
     incendSpread: 81
     incendChance: 1
 
