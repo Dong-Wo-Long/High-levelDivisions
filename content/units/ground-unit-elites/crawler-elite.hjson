@@ -194,6 +194,38 @@ bullet: {
     smokeEffect: none
     shootEffect: none
     hitEffect: none
+}
+    }
+
+{
+    display: false
+    shootCone: 48
+    mirror: false
+    rotate: true
+    shootX: 0
+    shootY: 0
+    x: 0
+    y: 0
+
+    shootStatusDuration: 750
+    shootStatus: unmoving
+    reload: 24
+
+    shootSound: none
+bullet: {
+    type: BasicBulletType
+    rangeOverride: 100
+    height: 0
+    width: 0
+
+    lifetime: 1
+    damage: 0
+    speed: 0
+
+    despawnEffect: none
+    smokeEffect: none
+    shootEffect: none
+    hitEffect: none
     }
 }
     ]
