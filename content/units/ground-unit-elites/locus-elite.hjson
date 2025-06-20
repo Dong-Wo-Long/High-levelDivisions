@@ -24,7 +24,7 @@ lightColor: feb380
 lightOpacity: 0.7
 lightRadius: 72.5
 
-immunities: [ burning ]
+immunities: [ burning, blasted ]
 
 treadRects: [
     {
