@@ -4,6 +4,7 @@ name: Dagger «Commander»
 outlineColor: 2d2f39
 flying: false
 hitSize: 9.5
+range: 240
 
 rotateSpeed: 7.5
 fogRadius: 29.5
