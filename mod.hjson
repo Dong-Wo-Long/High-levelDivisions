@@ -2,7 +2,7 @@ name: hld
 displayName: High-level Divisions
 author: D&X
 description: "This mod adds new modified units, such as Elites and Officers, as well as several new items to the gameplay."
-version: v0.1.5
+version: v0.2.0
 subtitle: "Elite and Officer units | v0.2.0 (alpha)"
 	
 minGameVersion: 146
