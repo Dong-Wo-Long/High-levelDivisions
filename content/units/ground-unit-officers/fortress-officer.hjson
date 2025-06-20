@@ -21,7 +21,7 @@ lightColor: d1efff
 lightOpacity: 0.7
 lightRadius: 74.5
 
-immunities: [ freezing ]
+immunities: [ freezing, blasted ]
 
 abilities: [
     {
