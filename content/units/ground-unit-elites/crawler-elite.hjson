@@ -199,7 +199,7 @@ bullet: {
 
 {
     display: false
-    shootCone: 48
+    shootCone: 360
     mirror: false
     rotate: true
     shootX: 0
@@ -214,7 +214,7 @@ bullet: {
     shootSound: none
 bullet: {
     type: BasicBulletType
-    rangeOverride: 100
+    rangeOverride: 24
     height: 0
     width: 0
 
