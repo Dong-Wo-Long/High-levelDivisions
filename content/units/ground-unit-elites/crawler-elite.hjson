@@ -37,11 +37,11 @@ weapons: [
 
     reload: 180
 
-    chargeSound: none
+    chargeSound: charging-weapon
     ejectEffect: none
     shootSound: large-boom
 shoot: {
-    firstShotDelay: 90
+    firstShotDelay: 135
     shots: 1
     }
 
