@@ -19,6 +19,8 @@ lightColor: feb380
 lightOpacity: 0.7
 lightRadius: 64.5
 
+immunities: [ hld-armor-piercing-tier-1 ]
+
 abilities: [
     {
     type: ShieldRegenFieldAbility 
