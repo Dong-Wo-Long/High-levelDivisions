@@ -6,7 +6,7 @@ lowAltitude: true
 canBoost: true
 flying: false
 hitSize: 7.5
-range: 240
+range: 210
 
 boostMultiplier: 0.5
 rotateSpeed: 14.5
