@@ -91,11 +91,10 @@ weapons: [
     inaccuracy: 7.5
     reload: 660
 
+    shootSound: molecular-cannon
     shootEffect: shootSmall
     ejectEffect: casing2
-    shootSound: minigun
     chargeSound: rotor
-
 shoot: {
     firstShotDelay: 60
     shotDelay: 6
