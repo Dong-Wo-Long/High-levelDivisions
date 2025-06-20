@@ -21,7 +21,7 @@ lightColor: d1efff
 lightOpacity: 0.7
 lightRadius: 74.5
 
-immunities: [ freezing, blasted ]
+immunities: [ freezing, blasted, hld-armor-piercing-tier-1 ]
 
 abilities: [
     {
