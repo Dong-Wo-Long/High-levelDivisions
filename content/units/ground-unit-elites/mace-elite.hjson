@@ -4,6 +4,7 @@ name: Mace «Stormtrooper»
 outlineColor: 2d2f39
 hitSize: 10.5
 flying: false
+range: 120
 
 stepShake: 0.95
 fogRadius: 17.5
