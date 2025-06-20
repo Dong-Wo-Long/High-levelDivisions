@@ -1,5 +1,5 @@
 type: tank
-description: "[#feb380]Assault and support.[] A siege tank armed with an artillery cannon is designed to assault small to medium sized outposts."
+description: "[#feb380]Assault and support.[] A siege tank equipped with an artillery cannon is designed to attack small and medium-sized fortified outposts."
 name: Stell «Dawn»
 alwaysShootWhenMoving: true
 rotateMoveFirst: true
