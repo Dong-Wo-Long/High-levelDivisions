@@ -101,9 +101,7 @@ weapons: [
 {
 name: small-artillery-cannon
 
-    controllable: false
     rotateSpeed: 0.7
-    autoTarget: true
     layerOffset: 1
     mirror: false
     rotate: true
