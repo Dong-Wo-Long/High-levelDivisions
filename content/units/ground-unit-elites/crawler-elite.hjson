@@ -23,7 +23,7 @@ lightRadius: 48
 abilities: [
     {
     type: ArmorPlateAbility
-    healthMultiplier: 15
+    healthMultiplier: 8
 }
 
     {
