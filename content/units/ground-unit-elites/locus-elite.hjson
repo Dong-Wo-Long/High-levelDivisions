@@ -1,6 +1,7 @@
 type: tank
 description: "[#feb380]Assault and support.[] A fast and mobile heavy transport designed for the surprise assault of heavily-armed fortifications (or its bypass), as well as for sieges from a long range, taking into account the use of a rocket-launcher."
 name: Locus «Vepr»
+alwaysShootWhenMoving: true
 forceMultiTarget: true
 outlineColor: 2d2f39
 omniMovement: false
@@ -75,10 +76,8 @@ weapons: [
 {
     name: missile-launcher
 
-    controllable: false
     layerOffset: 0.0001
     rotateSpeed: 1.8
-    autoTarget: true
     shootCone: 32
     mirror: false
     rotate: true
