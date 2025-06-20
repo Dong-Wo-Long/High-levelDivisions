@@ -1,0 +1,276 @@
+type: mech
+description: "[#d1efff]Assault and support.[] Used by assault teams to blockade enemy fortifications and support attacking forces."
+name: Mace «Grenadier»
+outlineColor: 2d2f39
+targetAir: false
+hitSize: 10.5
+flying: false
+range: 400
+
+stepShake: 0.95
+fogRadius: 32
+
+itemCapacity: 24
+health: 810
+speed: 0.48
+armor: 5
+
+lightColor: d1efff
+lightOpacity: 0.7
+lightRadius: 64.5
+
+abilities: [
+    {
+    type: ShieldArcAbility
+    angle: 24
+    y: -48
+
+    cooldown: 480
+    regen: 6
+    max: 500
+}
+
+    {
+    type: ShieldRegenFieldAbility 
+    reload: 90
+    amount: 40
+    range: 64
+    max: 80
+}
+
+    {
+    type: ShieldRegenFieldAbility 
+    reload: 150
+    amount: 60
+    range: 0
+    max: 240
+
+activeEffect: none
+}
+
+    {
+    type: MoveEffectAbility
+    effect: artilleryTrail
+    minVelocity: 0.01
+    effectParam: 1.5
+    teamColor: true
+    interval: 0.05
+    x: 0
+    y: -1
+}
+
+    {
+type: MoveEffectAbility
+rotateEffect: true
+minVelocity: 1.1
+interval: 1.5
+x: 0
+y: -2.5
+
+effect: {
+    type: ParticleEffect
+    particles: 8
+    line: true
+    cone: 45
+
+    baseRotation: 180
+    baseLength: 4
+    length: 3.2
+
+    colorFrom: d1efff
+    strokeFrom: 1.6
+    colorTo: 8ca9e8
+    strokeTo: 1
+    }
+}
+    ]
+
+weapons: [
+{
+    name: mace-gl
+    rotationLimit: 18
+    rotateSpeed: 2
+    shootCone: 90
+    rotate: true
+    top: false
+    shootY: 2
+    recoil: 2
+    shake: 2
+    y: -1
+
+    shootStatus: motor-deceleration-tier-3
+    shootStatusDuration: 105
+    velocityRnd: 0.15
+    inaccuracy: 8
+    reload: 250
+
+    chargeSound: gl-reload
+    ejectEffect: casing2
+    shootSound: gl-shot
+shoot: {
+    firstShotDelay: 100
+    shotDelay: 7
+    shots: 5
+    }
+
+bullet: {
+    type: ArtilleryBulletType
+    sprite: large-orb
+    collidesTiles: true
+    keepVelocity: false
+    collidesAir: false
+    fragOnHit: false
+    despawnShake: 2
+    recoil: 0.032
+    shrinkX: 0.5
+    shrinkY: 0.5
+    hitShake: 2
+    height: 9
+    width: 9
+
+    buildingDamageMultiplier: 1.4
+
+    splashDamageRadius: 32
+    statusDuration: 90
+    status: emp-tier-1
+    splashDamage: 72
+    knockback: 0.25
+    lifetime: 48
+    speed: 5
+
+    lightningLength: 10
+    lightningDamage: 9
+    lightning: 4
+
+    hitSound: grenade-hit
+
+    lightColor: d1efff
+    lightOpacity: 0.7
+    lightRadius: 21.5
+
+    lightningColor: d1efff
+    frontColor: d1efff
+    backColor: 8ca9e8
+
+    fragRandomSpread: 5
+    fragBullets: 5
+    fragSpread: 72
+
+fragBullet: {
+    type: ShrapnelBulletType
+    pierceArmor: true
+    serrations: 2
+    length: 2
+    width: 3
+
+    knockback: 3
+    lifetime: 60
+    damage: 15
+
+    fromColor: d1efff
+    toColor: 8ca9e8
+    }
+}
+    }
+
+{
+    controllable: false
+    baseRotation: 90
+    autoTarget: true
+    display: false
+    rotate: false
+    mirror: false
+    x: 0
+    y: 0
+
+    shootCone: 45
+    reload: 500
+
+    shootSound: hyperjump
+
+bullet: {
+    pierceBuilding: true
+    collides: false
+    pierce: true
+    impact: true
+    height: 0
+    width: 0
+
+    lifetime: 10
+    maxRange: 80
+    recoil: 8
+    damage: 0
+    speed: 2
+
+    despawnEffect: none
+    hitEffect: none
+}
+    }
+
+{
+    controllable: false
+    baseRotation: -90
+    autoTarget: true
+    display: false
+    rotate: false
+    mirror: false
+    x: 0
+    y: 0
+
+    shootCone: 45
+    reload: 500
+
+    shootSound: hyperjump
+
+bullet: {
+    pierceBuilding: true
+    collides: false
+    pierce: true
+    impact: true
+    height: 0
+    width: 0
+
+    lifetime: 10
+    maxRange: 80
+    recoil: 8
+    damage: 0
+    speed: 2
+
+    despawnEffect: none
+    hitEffect: none
+}
+    }
+
+{
+    controllable: false
+    autoTarget: true
+    display: false
+    rotate: false
+    mirror: false
+    x: 0
+    y: 0
+
+    shootCone: 24
+    reload: 800
+
+    shootSound: hyperjump
+
+bullet: {
+    pierceBuilding: true
+    collides: false
+    pierce: true
+    impact: true
+    height: 0
+    width: 0
+
+    lifetime: 10
+    maxRange: 80
+    recoil: 5
+    damage: 0
+    speed: 2
+
+    despawnEffect: none
+    hitEffect: none
+    }
+}
+    ]
