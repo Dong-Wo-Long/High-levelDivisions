@@ -232,7 +232,7 @@ bullet: {
     buildingDamageMultiplier: 0.25
 
     maxRange: 240
-    damage: 24
+    damage: 5
 
     lightColor: feb380
     lightOpacity: 0.7
