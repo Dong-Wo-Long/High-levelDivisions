@@ -20,6 +20,8 @@ lightColor: feb380
 lightOpacity: 0.7
 lightRadius: 48
 
+immunities: [ burning ]
+
 abilities: [
     {
     type: ArmorPlateAbility
