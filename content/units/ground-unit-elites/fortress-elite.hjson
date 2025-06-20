@@ -29,7 +29,7 @@ lightColor: feb380
 lightOpacity: 0.7
 lightRadius: 90
 
-immunities: [ blasted, burning, wet ]
+immunities: [ blasted, burning, wet, hld-armor-piercing-tier-1 ]
 
 abilities: [
 {
