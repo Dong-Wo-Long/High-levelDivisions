@@ -7,6 +7,7 @@ lowAltitude: true
 targetAir: true
 canBoost: true
 flying: false
+range: 420
 
 boostMultiplier: 0.8
 engineOffset: 6.5
