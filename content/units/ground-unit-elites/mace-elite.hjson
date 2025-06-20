@@ -2,6 +2,7 @@ type: mech
 description: "[#feb380]Assault and support.[] Designed for rapid suppression of the enemy under heavy fire."
 name: Mace «Stormtrooper»
 outlineColor: 2d2f39
+targetAir: false
 hitSize: 10.5
 flying: false
 range: 120
