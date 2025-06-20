@@ -230,6 +230,7 @@ bullet: {
     shootSound: none
 bullet: {
     type: BasicBulletType
+    collidesAir: false
     rangeOverride: 24
     height: 0
     width: 0
