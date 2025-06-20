@@ -39,8 +39,9 @@ weapons: [
 
     shootStatus: hld-motor-acceleration-tier-1
     chargeSound: charging-weapon
-    ejectEffect: none
+    shootStatusDuration: 300
     shootSound: large-boom
+    ejectEffect: none
 shoot: {
     firstShotDelay: 135
     shots: 1
