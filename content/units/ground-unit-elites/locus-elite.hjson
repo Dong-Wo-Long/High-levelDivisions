@@ -156,6 +156,7 @@ bullet: {
 {
     controllable: false
     shootOnDeath: true
+    shootCone: 180
     display: false
     mirror: false
     shootY: 0
