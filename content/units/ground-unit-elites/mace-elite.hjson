@@ -97,6 +97,7 @@ bullet: {
     lightOpacity: 0.7
     lightRadius: 21.5
 
+    trailEffect: disperseTrail
     trailInterp: slope
     trailColor: ea8878
     trailLength: 8.5
