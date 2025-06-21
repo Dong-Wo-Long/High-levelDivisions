@@ -163,6 +163,73 @@ bullet: {
     x: 0
     y: 0
 
+    velocityRnd: 0.81
+    inaccuracy: 360
+    reload: 1
+
+    shootSound: missile-launch
+shoot: { 
+    shotDelay: 12
+    shots: 15
+    }
+
+bullet: {
+    type: ArtilleryBulletType
+    sprite: missile
+    collidesAir: false
+    despawnShake: 4.5
+    hitShake: 4.5
+    shrinkX: 0.05
+    shrinkY: 0.75
+    hitSize: 4
+    height: 14
+    width: 7
+
+    buildingDamageMultiplier: 1.8
+
+    splashDamageRadius: 40
+    statusDuration: 300
+    splashDamage: 52.5
+    status: burning
+    homingPower: 0
+    lifetime: 180
+    speed: 2.1
+
+    incendSpread: 45
+    incendAmount: 12
+    incendChance: 1
+
+    lightColor: feb380
+    lightOpacity: 0.7
+    lightRadius: 42.5
+
+    trailEffect: vapor
+    trailInterp: slope
+    trailColor: 808080
+
+    hitSound: missile-boom
+
+    frontColor: ffffff
+    backColor: feb380
+    hitColor: feb380
+
+    shootEffect: [ smokeCloud, shootSmallColor ]
+    despawnEffect: hitBulletColor
+    smokeEffect: flakExplosionBig
+    hitEffect: massiveExplosion
+}
+    }
+
+{
+    controllable: false
+    shootOnDeath: true
+    shootCone: 180
+    display: false
+    mirror: false
+    shootY: 0
+    x: 0
+    y: 0
+
     reload: 1
 
     ejectEffect: none
