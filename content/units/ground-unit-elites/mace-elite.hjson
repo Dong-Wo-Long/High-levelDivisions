@@ -99,7 +99,6 @@ bullet: {
 
     trailEffect: disperseTrail
     trailRotation: true
-    rotationOffset: 90
     trailColor: ea8878
     trailChance: 0.44
     trailLength: 8.5
