@@ -174,7 +174,7 @@ shoot: {
     firstShotDelay: 60
 source: {
     firstShotDelay: 60
-    shotDelay: 5
+    shotDelay: 10
     barrels: 1
     spread: 0
     shots: 6
