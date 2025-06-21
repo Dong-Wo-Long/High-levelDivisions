@@ -107,7 +107,8 @@ shoot: {
     }
 
 bullet: {
-    type: MissileBulletType
+    type: ArtilleryBulletType
+    sprite: missile
     collidesAir: false
     despawnShake: 4.5
     hitShake: 4.5
