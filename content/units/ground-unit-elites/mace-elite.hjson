@@ -12,7 +12,7 @@ fogRadius: 17.5
 
 itemCapacity: 45
 health: 720
-speed: 0.65
+speed: 0.6
 armor: 12
 
 lightColor: feb380
@@ -56,7 +56,7 @@ weapons: [
     recoil: 2
     shake: 1
 
-    velocityRnd: 0.24
+    velocityRnd: 0.5
     inaccuracy: 18
     reload: 24
 
@@ -86,7 +86,7 @@ bullet: {
     status: burning
     lifetime: 16.5
     pierceCap: 3
-    damage: 42.5
+    damage: 21.5
     speed: 9
 
     incendChance: 0.7
