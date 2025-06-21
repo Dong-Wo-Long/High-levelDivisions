@@ -42,55 +42,6 @@ abilities: [
 
 weapons: [
 {
-    shootCone: 180
-    mirror: false
-    shootY: 0
-    x: 0
-    y: 0
-
-    reload: 600
-
-    ejectEffect: none
-    shootSound: none
-
-    chargeSound: charging-weapon
-    ejectEffect: none
-
-shoot: {
-    firstShotDelay: 135
-    shots: 1
-    }
-
-parts: [
-    {
-    type: ShapePart
-    circle: true
-    hollow: true
-
-    color: fc8e6c
-    layer: 100
-    
-    rotateSpeed: 1
-    rotation: 0
-
-    radiusTo: 120
-    radius: 0
-
-    strokeTo: 2.4
-    stroke: 0
-}
-    ]
-
-bullet: {
-    instantDisappear: true
-    collidesTiles: false
-    collidesAir: false
-    rangeOverride: 24
-    killShooter: true
-}
-    }
-
-{
     controllable: false
     shootOnDeath: true
     shootCone: 180
@@ -178,6 +129,57 @@ fragBullet: {
     }
 
 {
+    shootCone: 180
+    display: false
+    mirror: false
+    shootY: 0
+    x: 0
+    y: 0
+
+    reload: 600
+
+    ejectEffect: none
+    shootSound: none
+
+    chargeSound: charging-weapon
+    ejectEffect: none
+
+shoot: {
+    firstShotDelay: 135
+    shots: 1
+    }
+
+parts: [
+    {
+    type: ShapePart
+    circle: true
+    hollow: true
+
+    color: fc8e6c
+    layer: 100
+    
+    rotateSpeed: 1
+    rotation: 0
+
+    radiusTo: 120
+    radius: 0
+
+    strokeTo: 2.4
+    stroke: 0
+}
+    ]
+
+bullet: {
+    instantDisappear: true
+    collidesTiles: false
+    collidesAir: false
+    rangeOverride: 24
+    killShooter: true
+    damage: 0
+}
+    }
+
+{
     shootCone: 360
     display: false
     mirror: false
@@ -210,8 +212,8 @@ bullet: {
     }
 
 {
-    display: false
     shootCone: 360
+    display: false
     mirror: false
     rotate: true
     shootX: 0
