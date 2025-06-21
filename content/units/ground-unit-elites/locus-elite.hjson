@@ -185,7 +185,7 @@ bullet: {
     speed: 0
 
     incendSpread: 52
-    incendAmount: 18
+    incendAmount: 24
     incendChance: 1
 
     frontColor: ffffff
