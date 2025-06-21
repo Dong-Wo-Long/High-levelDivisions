@@ -120,7 +120,7 @@ bullet: {
 
     buildingDamageMultiplier: 1.8
 
-    splashDamageRadius: 26
+    splashDamageRadius: 40
     statusDuration: 300
     splashDamage: 52.5
     status: burning
