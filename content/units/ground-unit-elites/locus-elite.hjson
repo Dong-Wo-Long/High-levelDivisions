@@ -150,6 +150,48 @@ bullet: {
     despawnEffect: hitBulletColor
     smokeEffect: flakExplosionBig
     hitEffect: massiveExplosion
+}
+    }
+
+{
+    controllable: false
+    shootOnDeath: true
+    display: false
+    mirror: false
+    shootY: 0
+    x: 0
+    y: 0
+
+    reload: 1
+
+    ejectEffect: none
+    shootSound: none
+
+bullet: {
+    instantDisappear: true
+    collidesTiles: false
+    collidesAir: false
+    killShooter: true
+    hittable: false
+    collides: false
+
+    buildingDamageMultiplier: 1.2
+
+    splashDamageRadius: 40
+    statusDuration: 90
+    splashDamage: 70
+    status: burning
+    speed: 0
+
+    incendSpread: 52
+    incendAmount: 18
+    incendChance: 1
+
+    frontColor: ffffff
+    backColor: feb380
+    hitColor: feb380
+
+    hitSound: none
     }
 }
     ]
