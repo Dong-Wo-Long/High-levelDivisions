@@ -180,8 +180,8 @@ bullet: {
     type: LightningBulletType
     collidesAir: false
 
-    lightningLengthRand: 24.5
-    lightningLength: 21.5
+    lightningLengthRand: 17.5
+    lightningLength: 15
     damage: 32
 
     shootEffect: shootSmallColor
