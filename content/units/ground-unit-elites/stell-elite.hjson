@@ -201,6 +201,7 @@ bullet: {
     controllable: false
     shootOnDeath: true
     shootCone: 180
+    display: false
     mirror: false
     shootY: 0
     x: 0
@@ -219,7 +220,7 @@ bullet: {
     hittable: false
     collides: false
 
-    buildingDamageMultiplier: 5
+    buildingDamageMultiplier: 1.2
 
     splashDamageRadius: 40
     statusDuration: 90
