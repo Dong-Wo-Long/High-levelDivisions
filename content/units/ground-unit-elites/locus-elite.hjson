@@ -78,7 +78,7 @@ weapons: [
     name: missile-launcher
 
     layerOffset: 0.0001
-    rotateSpeed: 1.8
+    rotateSpeed: 0.8
     shootCone: 32
     mirror: false
     rotate: true
