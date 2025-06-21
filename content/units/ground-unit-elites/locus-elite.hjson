@@ -133,7 +133,7 @@ bullet: {
     lightOpacity: 0.7
     lightRadius: 42.5
 
-    trailColor: 9b9b9bff
+    trailColor: 808080
     trailInterp: slope
     trailLength: 48
     trailWidth: 1.5
