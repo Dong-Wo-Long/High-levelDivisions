@@ -126,9 +126,9 @@ bullet: {
     puddleRange: 34
     puddles: 5
 
-    fragRandomSpread: 360
-    fragBullets: 7
-    fragLifeMin: 3
+    fragRandomSpread: 5
+    fragBullets: 4
+    fragSpread: 90
 
     incendAmount: 48
     incendSpread: 81
@@ -162,49 +162,18 @@ hitEffect: [
     }
 
 fragBullet: {
-    type: BasicBulletType
-    collidesGround: false
-    shrinkY: 1
-    height: 12
-    width: 5
+    type: ShrapnelBulletType
+    pierceArmor: true
+    serrations: 3
+    length: 120
+    width: 8
 
-    buildingDamageMultiplier: 0.25
+    knockback: 3
+    lifetime: 90
+    damage: 78
 
-    splashDamageRadius: 26
-    splashDamage: 24
-    lifetime: 50
-    damage: 21
-
-    lightColor: ffaa5f
-    lightOpacity: 0.7
-    lightRadius: 16.5
-
-    trailColor: d37f47
-    trailLength: 17.5
-    trailWidth: 1.25
-
-    frontColor: ffaa5f
-    backColor: d37f47
-
-hitEffect: {
-    type: MultiEffect
-
-effects: [
-{
-    effect: hitBulletSmall
-    colorTo: ffaa5f
-    lifetime: 20
-    sizeFrom: 3
-    sizeTo: 0
-    }
-{
-    effect: fireHit
-    colorTo: ffaa5f
-    lifetime: 20
-    sizeFrom: 1
-    sizeTo: 0
-    }
-]
+    fromColor: ffffff
+    toColor: feb380
     }
 }
     }
