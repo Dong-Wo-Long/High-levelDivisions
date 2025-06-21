@@ -170,13 +170,14 @@ bullet: {
     shootSound: missile-launch
 
 bullet: {
-    instantDisappear: true
     collidesTiles: false
     collidesAir: false
     rangeOverride: 46
     killShooter: true
     hittable: false
     collides: false
+
+    lifetime: 1
 
     intervalBullets: 15
     intervalSpread: 18
