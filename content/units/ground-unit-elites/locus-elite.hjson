@@ -107,6 +107,8 @@ shoot: {
     }
 
 bullet: {
+
+fragBullet: {
     type: ArtilleryBulletType
     sprite: missile
     collidesAir: false
