@@ -95,9 +95,9 @@ weapons: [
 
     heatColor: feb380
 
-    shootStatus: motor-deceleration-tier-3
     shootSound: missile-launch
     shootStatusDuration: 360
+    shootStatus: unmoving
 shoot: { 
     type: ShootAlternate
     shotDelay: 15
