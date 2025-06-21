@@ -171,9 +171,9 @@ name: electric-rifle
     shootSound: electro-bang
 shoot: { 
     type: ShootMulti
-    firstShotDelay: 460
+    firstShotDelay: 60
 source: {
-    firstShotDelay: 460
+    firstShotDelay: 60
     shotDelay: 5
     barrels: 1
     spread: 0
