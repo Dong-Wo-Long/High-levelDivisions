@@ -99,6 +99,8 @@ bullet: {
 
     frontColor: feb380
     backColor: ea8878
+
+    shootEffect: shootSmallFlame
     }
 }
     ]
