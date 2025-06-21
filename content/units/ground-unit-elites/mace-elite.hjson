@@ -57,7 +57,7 @@ weapons: [
     shake: 1
 
     velocityRnd: 0.24
-    inaccuracy: 12.5
+    inaccuracy: 18
     reload: 24
 
     shootSound: automatic-shotgun
