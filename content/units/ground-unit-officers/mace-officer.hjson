@@ -1,6 +1,7 @@
 type: mech
 description: "[#d1efff]Assault and support.[] Used by assault teams to blockade enemy fortifications and support attacking forces."
 name: Mace «Grenadier»
+alwaysShootWhenMoving: true
 outlineColor: 2d2f39
 targetAir: false
 hitSize: 10.5
