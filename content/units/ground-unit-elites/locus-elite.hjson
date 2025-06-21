@@ -148,7 +148,7 @@ bullet: {
 
     shootEffect: [ smokeCloud, shootSmallColor ]
     despawnEffect: hitBulletColor
-    smokeEffect: shootSmallSmoke
+    smokeEffect: flakExplosionBig
     hitEffect: blastExplosion
     }
 }
