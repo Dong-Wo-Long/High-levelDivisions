@@ -17,7 +17,7 @@ The release version should contain the following:
   - Locus «Vepr» - done
 - Offirecs
   - Dagger «Commander» - done
-  - Mace «Grenadier» - done
+  - Mace «Grenadier» - done (for those who pay closer attention, to my great regret, the grenade launcher sprites are not mine but belong to a person with the YouTube username Thomas's Things)
   - Fortress «Cryostator» - done
   - Nova «Stalker» - in the process
   - Crawler «Defender» - in the process
