@@ -172,6 +172,10 @@ bullet: {
     pierceCap: 3
     speed: 2.5
 
+    incendChance: 0.7
+    incendSpread: 40
+    incendAmount: 5
+
     hitSound: small-artillery-hit
 
     shootEffect: shootSmallColor
