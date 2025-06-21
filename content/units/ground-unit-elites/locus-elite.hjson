@@ -179,11 +179,12 @@ bullet: {
 
     lifetime: 1
 
+    fragSpread: 0
+
     intervalBullets: 15
     intervalSpread: 18
     intervalDelay: 12
     intervalAngle: 30
-    fragSpread: 0
 
 intervalBullet: {
     type: ArtilleryBulletType
