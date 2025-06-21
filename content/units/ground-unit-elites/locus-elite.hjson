@@ -231,7 +231,7 @@ bullet: {
     splashDamage: 52.5
     status: burning
     homingPower: 0
-    lifetime: 180
+    lifetime: 120
     speed: 2.1
 
     incendSpread: 45
@@ -420,7 +420,7 @@ bullet: {
     splashDamage: 52.5
     status: burning
     homingPower: 0
-    lifetime: 180
+    lifetime: 90
     speed: 2.1
 
     incendSpread: 45
@@ -483,7 +483,7 @@ bullet: {
     splashDamage: 52.5
     status: burning
     homingPower: 0
-    lifetime: 180
+    lifetime: 120
     speed: 2.1
 
     incendSpread: 45
@@ -546,7 +546,7 @@ bullet: {
     splashDamage: 52.5
     status: burning
     homingPower: 0
-    lifetime: 180
+    lifetime: 120
     speed: 2.1
 
     incendSpread: 45
@@ -609,7 +609,7 @@ bullet: {
     splashDamage: 52.5
     status: burning
     homingPower: 0
-    lifetime: 180
+    lifetime: 90
     speed: 2.1
 
     incendSpread: 45
