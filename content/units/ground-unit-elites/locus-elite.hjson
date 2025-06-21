@@ -138,8 +138,8 @@ bullet: {
 
     hitSound: missile-boom
 
-    frontColor: feb380
-    backColor: 808080
+    frontColor: ffffff
+    backColor: feb380
     hitColor: feb380
 
     shootEffect: [ smokeCloud, shootSmallColor ]
