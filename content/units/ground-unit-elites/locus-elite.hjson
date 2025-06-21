@@ -185,9 +185,9 @@ bullet: {
 
 fragBullet: {
 
-    intervalBullets: 15
+    intervalBullets: 9
     intervalSpread: 18
-    intervalDelay: 12
+    intervalDelay: 50
     intervalAngle: 30
 
 intervalBullet: {
@@ -202,14 +202,14 @@ intervalBullet: {
     height: 14
     width: 7
 
-    buildingDamageMultiplier: 1.8
+    buildingDamageMultiplier: 1.5
 
     splashDamageRadius: 40
     statusDuration: 300
     splashDamage: 52.5
     status: burning
     homingPower: 0
-    lifetime: 180
+    lifetime: 50
     speed: 2.1
 
     incendSpread: 45
