@@ -135,8 +135,6 @@ bullet: {
 
     trailColor: 808080
     trailInterp: slope
-    trailLength: 48
-    trailWidth: 1.5
 
     hitSound: missile-boom
 
