@@ -196,4 +196,46 @@ bullet: {
     lightRadius: 67.5
     }
 }
+
+    {
+    controllable: false
+    shootOnDeath: true
+    shootCone: 180
+    mirror: false
+    shootY: 0
+    x: 0
+    y: 0
+
+    reload: 1
+
+    ejectEffect: none
+    shootSound: none
+
+bullet: {
+    instantDisappear: true
+    collidesTiles: false
+    collidesAir: false
+    killShooter: true
+    hittable: false
+    collides: false
+
+    buildingDamageMultiplier: 5
+
+    splashDamageRadius: 40
+    statusDuration: 90
+    splashDamage: 70
+    status: burning
+    speed: 0
+
+    incendSpread: 25
+    incendAmount: 7
+    incendChance: 1
+
+    frontColor: ffffff
+    backColor: feb380
+    hitColor: feb380
+
+    hitSound: none
+    }
+}
     ]
