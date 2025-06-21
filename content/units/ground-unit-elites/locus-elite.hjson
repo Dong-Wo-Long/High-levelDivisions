@@ -89,6 +89,8 @@ weapons: [
     y: -1.5
 
     cooldownTime: 320
+    velocityRnd: 0.18
+    inaccuracy: 7
     reload: 300
 
     heatColor: feb380
@@ -115,22 +117,21 @@ bullet: {
     height: 14
     width: 7
 
-    buildingDamageMultiplier: 1.25
+    buildingDamageMultiplier: 1.8
 
     splashDamageRadius: 26
     statusDuration: 300
-    homingPower: 0.05
-    splashDamage: 48
+    splashDamage: 34
     status: burning
     lifetime: 246
-    damage: 64
+    damage: 52
     speed: 2.1
 
     lightColor: feb380
     lightOpacity: 0.7
     lightRadius: 42.5
 
-    trailColor: feb380
+    trailColor: 9b9b9bff
     trailWidth: 1.5
     trailLength: 18
 
@@ -141,9 +142,9 @@ bullet: {
     hitColor: feb380
 
     despawnEffect: hitBulletColor
-    hitEffect: blastExplosion
     smokeEffect: shootSmallSmoke
-    shootEffect: shootSmallColor
+    shootEffect: [ smokeCloud, shootSmallColor ]
+    hitEffect: blastExplosion
     }
 }
     ]
