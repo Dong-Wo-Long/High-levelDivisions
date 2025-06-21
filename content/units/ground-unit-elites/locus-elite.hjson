@@ -95,7 +95,7 @@ weapons: [
 
     heatColor: feb380
 
-    shootStatus: motor-deceleration-tier-1
+    shootStatus: motor-deceleration-tier-3
     shootSound: missile-launch
     shootStatusDuration: 360
 shoot: { 
