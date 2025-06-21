@@ -75,6 +75,7 @@ bullet: {
     keepVelocity: false
     collidesAir: false
     despawnShake: 2
+    makeFire: true
     recoil: 0.025
     hitShake: 2
     height: 12
