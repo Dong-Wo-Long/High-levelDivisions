@@ -38,6 +38,7 @@ abilities: [
     {
     type: SpawnDeathAbility
     unit: stell-officer-wreck
+    display: false
 }
 
     {
