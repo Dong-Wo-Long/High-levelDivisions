@@ -169,11 +169,25 @@ name: electric-rifle
 
     chargeSound: charging-electro-gun
     shootSound: electro-bang
+shoot: { 
+    type: ShootMulti
+    firstShotDelay: 460
+source: {
+    firstShotDelay: 460
+    shotDelay: 5
+    barrels: 1
+    spread: 0
+    shots: 5
+    }
 
-shoot: {
-    firstShotDelay: 60
-    shotDelay: 9
-    shots: 6
+dest: [ 
+{
+    type: ShootAlternate
+    barrels: 1
+    spread: 3
+    shots: 2
+    }
+]
     }
 
 bullet: {
