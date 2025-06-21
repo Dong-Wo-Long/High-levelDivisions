@@ -88,6 +88,10 @@ bullet: {
     damage: 42.5
     speed: 9
 
+    incendChance: 0.9
+    incendSpread: 15
+    incendAmount: 8
+
     lightColor: feb380
     lightOpacity: 0.7
     lightRadius: 21.5
