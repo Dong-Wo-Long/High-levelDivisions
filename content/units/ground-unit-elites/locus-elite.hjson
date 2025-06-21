@@ -128,6 +128,10 @@ bullet: {
     lifetime: 300
     speed: 2.1
 
+    incendChance: 0.94
+    incendSpread: 58
+    incendAmount: 25
+
     lightColor: feb380
     lightOpacity: 0.7
     lightRadius: 42.5
