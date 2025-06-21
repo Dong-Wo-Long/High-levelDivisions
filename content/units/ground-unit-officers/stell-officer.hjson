@@ -301,7 +301,7 @@ bullet: {
     reload: 1
 
     ejectEffect: none
-    shootSound: none
+    shootSound: spark
 
 bullet: {
     type: BasicBulletType
@@ -360,7 +360,7 @@ fragBullet: {
     splashDamage: 25
     pierceCap: 18
     knockback: 1
-    lifetime: 20
+    lifetime: 50
     damage: 21
     speed: 0
 
@@ -371,8 +371,7 @@ fragBullet: {
     lightningLength: 9
     lightning: 5
 
-    despawnSound: weather-thunderstorm
-    despawnSoundVolume: 0.25
+    despawnSound: spark
     hitEffect: none
 
     lightColor: d1efff
@@ -403,7 +402,7 @@ fragBullet: {
     splashDamage: 25
     pierceCap: 18
     knockback: 1
-    lifetime: 20
+    lifetime: 50
     damage: 21
     speed: 0
 
@@ -414,8 +413,7 @@ fragBullet: {
     lightningLength: 9
     lightning: 5
 
-    despawnSound: weather-thunderstorm
-    despawnSoundVolume: 0.25
+    despawnSound: spark
     hitEffect: none
 
     lightColor: d1efff
@@ -446,7 +444,7 @@ fragBullet: {
     splashDamage: 25
     pierceCap: 18
     knockback: 1
-    lifetime: 20
+    lifetime: 50
     damage: 21
     speed: 0
 
@@ -455,8 +453,7 @@ fragBullet: {
     lightningLength: 9
     lightning: 5
 
-    despawnSound: weather-thunderstorm
-    despawnSoundVolume: 0.25
+    despawnSound: spark
     hitEffect: none
 
     lightColor: d1efff
