@@ -90,7 +90,7 @@ bullet: {
 
     incendChance: 0.8
     incendSpread: 15
-    incendAmount: 8
+    incendAmount: 3
 
     lightColor: feb380
     lightOpacity: 0.7
