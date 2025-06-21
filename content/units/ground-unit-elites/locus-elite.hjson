@@ -129,8 +129,8 @@ bullet: {
     speed: 2.1
 
     incendChance: 0.94
-    incendSpread: 58
-    incendAmount: 25
+    incendSpread: 48
+    incendAmount: 15
 
     lightColor: feb380
     lightOpacity: 0.7
