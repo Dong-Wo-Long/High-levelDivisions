@@ -173,7 +173,7 @@ name: electric-rifle
 shoot: {
     firstShotDelay: 60
     shotDelay: 9
-    shots: 12
+    shots: 6
     }
 
 bullet: {
