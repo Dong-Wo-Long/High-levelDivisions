@@ -177,7 +177,7 @@ source: {
     shotDelay: 5
     barrels: 1
     spread: 0
-    shots: 5
+    shots: 6
     }
 
 dest: [ 
@@ -314,8 +314,8 @@ bullet: {
 
     reload: 1
 
+    shootSound: electro-bang
     ejectEffect: none
-    shootSound: spark
 
 bullet: {
     type: BasicBulletType
@@ -385,7 +385,7 @@ fragBullet: {
     lightningLength: 9
     lightning: 5
 
-    despawnSound: spark
+    despawnSound: electro-bang
     hitEffect: none
 
     lightColor: d1efff
@@ -427,7 +427,7 @@ fragBullet: {
     lightningLength: 9
     lightning: 5
 
-    despawnSound: spark
+    despawnSound: electro-bang
     hitEffect: none
 
     lightColor: d1efff
@@ -467,7 +467,7 @@ fragBullet: {
     lightningLength: 9
     lightning: 5
 
-    despawnSound: spark
+    despawnSound: electro-bang
     hitEffect: none
 
     lightColor: d1efff
