@@ -19,7 +19,7 @@ The release version should contain the following:
   - Dagger «Commander» - done
   - Mace «Grenadier» - done (for those who pay closer attention, to my great regret, the grenade launcher sprites are not mine but belong to a person with the YouTube username Thomas's Things)
   - Fortress «Cryostator» - done
-  - Nova «Stalker» - in the process
+  - Nova «Stalker» - done
   - Crawler «Defender» - in the process
   - Stell «Tesla» - done
   - Locus «Tortuga»
