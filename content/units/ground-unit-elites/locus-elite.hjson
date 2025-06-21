@@ -107,21 +107,6 @@ shoot: {
     }
 
 bullet: {
-    instantDisappear: true
-    collidesTiles: false
-    collidesAir: false
-    rangeOverride: 46
-    killShooter: true
-    hittable: false
-    collides: false
-
-    intervalBullets: 15
-    intervalSpread: 18
-    intervalDelay: 12
-    intervalAngle: 30
-    fragSpread: 0
-
-intervalBullet: {
     type: ArtilleryBulletType
     sprite: missile
     collidesAir: false
@@ -183,14 +168,23 @@ intervalBullet: {
     reload: 1
 
     shootSound: missile-launch
-shoot: { 
-    shotDelay: 12
-    shots: 15
-    }
 
 bullet: {
+    instantDisappear: true
+    collidesTiles: false
+    collidesAir: false
+    rangeOverride: 46
+    killShooter: true
+    hittable: false
+    collides: false
 
+    intervalBullets: 15
+    intervalSpread: 18
+    intervalDelay: 12
+    intervalAngle: 30
+    fragSpread: 0
 
+intervalBullet: {
     type: ArtilleryBulletType
     sprite: missile
     collidesAir: false
