@@ -175,11 +175,11 @@ bullet: {
     hittable: false
     collides: false
 
-    buildingDamageMultiplier: 1.2
+    buildingDamageMultiplier: 1.5
 
-    splashDamageRadius: 40
-    statusDuration: 90
-    splashDamage: 70
+    splashDamageRadius: 64
+    statusDuration: 180
+    splashDamage: 120
     status: burning
     speed: 0
 
