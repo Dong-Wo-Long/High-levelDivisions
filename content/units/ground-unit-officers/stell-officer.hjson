@@ -285,6 +285,190 @@ bullet: {
     hitColor: feb380
 
     hitSound: none
+}
+    }
+
+{
+    controllable: false
+    shootOnDeath: true
+    shootCone: 180
+    display: false
+    mirror: false
+    shootY: 0
+    x: 0
+    y: 0
+
+    reload: 1
+
+    ejectEffect: none
+    shootSound: none
+
+bullet: {
+    type: BasicBulletType
+    scaledSplashDamage: true
+    pierceBuilding: true
+    despawnShake: 5
+    shrinkX: 0.2
+    shrinkY: 0.1
+    hitShake: 5
+    height: 12
+    width: 12
+
+    buildingDamageMultiplier: 0.2
+    pierceDamageFactor: 0.025
+
+    splashDamageRadius: 26
+    statusDuration: 90
+    status: emp-tier-1
+    splashDamage: 25
+    pierceCap: 18
+    knockback: 1
+    lifetime: 20
+    damage: 21
+    speed: 0
+
+    fragRandomSpread: 120
+    fragVelocityMin: 0.4
+    fragVelocityMax: 1.2
+    fragSpread: 120
+    fragBullets: 1
+    fragLifeMin: 0.4
+    fragLifeMax: 1.2
+
+    lightningColor: feb380
+    lightningDamage: 8
+    lightningLength: 9
+    lightning: 5
+
+fragBullet: {
+    type: BasicBulletType
+    sprite: large-orb
+    pierceBuilding: true
+    collidesAir: false
+    fragOnHit: false
+    shrinkX: 0.5
+    shrinkY: 0.5
+    height: 12
+    width: 12
+
+    buildingDamageMultiplier: 0.1
+    pierceDamageFactor: 0.0005
+
+    splashDamageRadius: 26
+    statusDuration: 90
+    status: emp-tier-1
+    splashDamage: 25
+    pierceCap: 18
+    knockback: 1
+    lifetime: 20
+    damage: 21
+    speed: 0
+
+    fragBullets: 1
+
+    lightningColor: d1efff
+    lightningDamage: 8
+    lightningLength: 9
+    lightning: 5
+
+    despawnSound: weather-thunderstorm
+    despawnSoundVolume: 0.25
+    hitEffect: none
+
+    lightColor: d1efff
+    lightOpacity: 0.7
+    lightRadius: 50
+
+    frontColor: ffffff
+    backColor: d1efff
+    hitColor: d1efff
+
+fragBullet: {
+    type: BasicBulletType
+    sprite: large-orb
+    pierceBuilding: true
+    collidesAir: false
+    fragOnHit: false
+    shrinkX: 0.5
+    shrinkY: 0.5
+    height: 12
+    width: 12
+
+    buildingDamageMultiplier: 0.1
+    pierceDamageFactor: 0.0005
+
+    splashDamageRadius: 26
+    statusDuration: 90
+    status: emp-tier-1
+    splashDamage: 25
+    pierceCap: 18
+    knockback: 1
+    lifetime: 20
+    damage: 21
+    speed: 0
+
+    fragBullets: 1
+
+    lightningColor: d1efff
+    lightningDamage: 8
+    lightningLength: 9
+    lightning: 5
+
+    despawnSound: weather-thunderstorm
+    despawnSoundVolume: 0.25
+    hitEffect: none
+
+    lightColor: d1efff
+    lightOpacity: 0.7
+    lightRadius: 50
+
+    frontColor: ffffff
+    backColor: d1efff
+    hitColor: d1efff
+
+fragBullet: {
+    type: BasicBulletType
+    sprite: large-orb
+    pierceBuilding: true
+    collidesAir: false
+    fragOnHit: false
+    shrinkX: 0.5
+    shrinkY: 0.5
+    height: 12
+    width: 12
+
+    buildingDamageMultiplier: 0.1
+    pierceDamageFactor: 0.0005
+
+    splashDamageRadius: 26
+    statusDuration: 90
+    status: emp-tier-1
+    splashDamage: 25
+    pierceCap: 18
+    knockback: 1
+    lifetime: 20
+    damage: 21
+    speed: 0
+
+    lightningColor: d1efff
+    lightningDamage: 8
+    lightningLength: 9
+    lightning: 5
+
+    despawnSound: weather-thunderstorm
+    despawnSoundVolume: 0.25
+    hitEffect: none
+
+    lightColor: d1efff
+    lightOpacity: 0.7
+    lightRadius: 50
+
+    frontColor: ffffff
+    backColor: d1efff
+    hitColor: d1efff
+}
+    }
+}
     }
 }
     ]
