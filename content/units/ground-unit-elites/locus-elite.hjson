@@ -133,8 +133,9 @@ bullet: {
     lightOpacity: 0.7
     lightRadius: 42.5
 
-    trailColor: 808080
+    trailEffect: vapor
     trailInterp: slope
+    trailColor: 808080
 
     hitSound: missile-boom
 
