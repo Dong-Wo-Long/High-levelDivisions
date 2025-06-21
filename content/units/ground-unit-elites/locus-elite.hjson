@@ -39,6 +39,7 @@ abilities: [
     {
     type: SpawnDeathAbility
     unit: locus-elite-wreck
+    display: false
 }
 
     {
