@@ -108,6 +108,10 @@ shoot: {
 
 bullet: {
 
+    fragRandomSpread: 5
+    fragBullets: 4
+    fragSpread: 90
+
 fragBullet: {
     type: ArtilleryBulletType
     sprite: missile
