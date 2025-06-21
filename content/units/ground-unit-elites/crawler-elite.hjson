@@ -42,19 +42,20 @@ abilities: [
 
 weapons: [
 {
-    controllable: false
-    shootOnDeath: true
     shootCone: 180
     mirror: false
     shootY: 0
     x: 0
     y: 0
 
-    reload: 180
+    reload: 600
+
+    ejectEffect: none
+    shootSound: none
 
     chargeSound: charging-weapon
-    shootSound: large-boom
     ejectEffect: none
+
 shoot: {
     firstShotDelay: 135
     shots: 1
@@ -79,6 +80,29 @@ parts: [
     stroke: 0
 }
     ]
+
+bullet: {
+    instantDisappear: true
+    collidesTiles: false
+    collidesAir: false
+    rangeOverride: 24
+    killShooter: true
+}
+    }
+
+{
+    controllable: false
+    shootOnDeath: true
+    shootCone: 180
+    mirror: false
+    shootY: 0
+    x: 0
+    y: 0
+
+    reload: 1
+
+    shootSound: large-boom
+    ejectEffect: none
 
 bullet: {
     instantDisappear: true
