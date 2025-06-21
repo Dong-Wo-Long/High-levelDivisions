@@ -97,6 +97,9 @@ bullet: {
     lightOpacity: 0.7
     lightRadius: 21.5
 
+    trailEffect: drill
+    trailColor: ea8878
+
     frontColor: feb380
     backColor: ea8878
 
