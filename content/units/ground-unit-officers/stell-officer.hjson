@@ -314,7 +314,7 @@ bullet: {
 
     reload: 1
 
-    shootSound: electro-bang
+    shootSound: electrical-fault-1
     ejectEffect: none
 
 bullet: {
@@ -337,7 +337,7 @@ bullet: {
     splashDamage: 25
     pierceCap: 18
     knockback: 1
-    lifetime: 20
+    lifetime: 30
     damage: 21
     speed: 0
 
@@ -385,12 +385,12 @@ fragBullet: {
     lightningLength: 9
     lightning: 5
 
-    despawnSound: electro-bang
+    despawnSound: electrical-fault-1
     hitEffect: none
 
     lightColor: d1efff
     lightOpacity: 0.7
-    lightRadius: 50
+    lightRadius: 70
 
     frontColor: ffffff
     backColor: d1efff
@@ -416,7 +416,7 @@ fragBullet: {
     splashDamage: 25
     pierceCap: 18
     knockback: 1
-    lifetime: 50
+    lifetime: 40
     damage: 21
     speed: 0
 
@@ -427,7 +427,7 @@ fragBullet: {
     lightningLength: 9
     lightning: 5
 
-    despawnSound: electro-bang
+    despawnSound: electrical-fault-1
     hitEffect: none
 
     lightColor: d1efff
@@ -458,7 +458,7 @@ fragBullet: {
     splashDamage: 25
     pierceCap: 18
     knockback: 1
-    lifetime: 50
+    lifetime: 20
     damage: 21
     speed: 0
 
@@ -467,7 +467,7 @@ fragBullet: {
     lightningLength: 9
     lightning: 5
 
-    despawnSound: electro-bang
+    despawnSound: electrical-fault-1
     hitEffect: none
 
     lightColor: d1efff
