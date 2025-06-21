@@ -98,8 +98,10 @@ bullet: {
     lightRadius: 21.5
 
     trailEffect: disperseTrail
-    trailInterp: slope
+    trailRotation: true
+    rotationOffset: 90
     trailColor: ea8878
+    trailChance: 0.44
     trailLength: 8.5
     trailWidth: 0.5
 
