@@ -140,13 +140,13 @@ bullet: {
 
     hitSound: missile-boom
 
-    frontColor: ffffff
-    backColor: feb380
+    frontColor: feb380
+    backColor: 808080
     hitColor: feb380
 
+    shootEffect: [ smokeCloud, shootSmallColor ]
     despawnEffect: hitBulletColor
     smokeEffect: shootSmallSmoke
-    shootEffect: [ smokeCloud, shootSmallColor ]
     hitEffect: blastExplosion
     }
 }
