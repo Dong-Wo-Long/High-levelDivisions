@@ -125,7 +125,7 @@ bullet: {
     splashDamage: 52.5
     status: burning
     homingPower: 0
-    lifetime: 297
+    lifetime: 300
     speed: 2.1
 
     lightColor: feb380
