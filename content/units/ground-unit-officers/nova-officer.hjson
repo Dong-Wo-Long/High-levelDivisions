@@ -1,6 +1,7 @@
 type: mech
 description: "[#d1efff]Assault, scouting and support.[] The perfect weapon for ambushes. A single [#d1efff]Stalker[] can silently eliminate an entire squad, leaving only silence behind."
 name: Dagger «Stalker»
+alwaysShootWhenMoving: true
 outlineColor: 2d2f39
 lowAltitude: true
 targetAir: false
