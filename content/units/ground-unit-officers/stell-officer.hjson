@@ -243,6 +243,7 @@ shoot: {
 
 bullet: {
     pierceBuilding: true
+    collidesAir: false
     collides: false
     pierce: true
     impact: true
