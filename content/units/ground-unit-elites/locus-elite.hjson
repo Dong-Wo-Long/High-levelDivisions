@@ -229,6 +229,7 @@ intervalBullet: {
     despawnEffect: hitBulletColor
     smokeEffect: flakExplosionBig
     hitEffect: massiveExplosion
+    }
 }
     }
 
