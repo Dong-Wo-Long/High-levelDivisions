@@ -132,8 +132,9 @@ bullet: {
     lightRadius: 42.5
 
     trailColor: 9b9b9bff
+    trailInterp: slope
+    trailLength: 48
     trailWidth: 1.5
-    trailLength: 18
 
     hitSound: missile-boom
 
