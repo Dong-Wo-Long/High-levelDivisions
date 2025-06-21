@@ -42,6 +42,7 @@ abilities: [
 
 weapons: [
 {
+    controllable: false
     shootOnDeath: true
     shootCone: 180
     mirror: false
