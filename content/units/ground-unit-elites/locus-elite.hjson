@@ -210,7 +210,7 @@ bullet: {
     inaccuracy: 360
     reload: 1
 
-    shootSound: missile-launch
+    shootSound: le-death
 
 bullet: {
     type: ArtilleryBulletType
@@ -273,7 +273,7 @@ bullet: {
     inaccuracy: 360
     reload: 5
 
-    shootSound: missile-launch
+    shootSound: none
 
 bullet: {
     type: ArtilleryBulletType
@@ -336,7 +336,7 @@ bullet: {
     inaccuracy: 360
     reload: 8
 
-    shootSound: missile-launch
+    shootSound: none
 
 bullet: {
     type: ArtilleryBulletType
@@ -399,7 +399,7 @@ bullet: {
     inaccuracy: 360
     reload: 3
 
-    shootSound: missile-launch
+    shootSound: none
 
 bullet: {
     type: ArtilleryBulletType
@@ -462,7 +462,7 @@ bullet: {
     inaccuracy: 360
     reload: 7
 
-    shootSound: missile-launch
+    shootSound: none
 
 bullet: {
     type: ArtilleryBulletType
@@ -525,7 +525,7 @@ bullet: {
     inaccuracy: 360
     reload: 12
 
-    shootSound: missile-launch
+    shootSound: none
 
 bullet: {
     type: ArtilleryBulletType
@@ -588,7 +588,7 @@ bullet: {
     inaccuracy: 360
     reload: 15
 
-    shootSound: missile-launch
+    shootSound: none
 
 bullet: {
     type: ArtilleryBulletType
