@@ -23,6 +23,7 @@ armor: 12
 lightColor: feb380
 lightOpacity: 0.7
 lightRadius: 72.5
+healColor: feb380
 
 immunities: [ burning, blasted ]
 
