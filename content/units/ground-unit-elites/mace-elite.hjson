@@ -24,6 +24,11 @@ immunities: [ hld-armor-piercing-tier-1 ]
 
 abilities: [
     {
+    type: RegenAbility
+    amount: 0.04
+}
+
+    {
     type: ShieldRegenFieldAbility 
     reload: 180
     amount: 75
