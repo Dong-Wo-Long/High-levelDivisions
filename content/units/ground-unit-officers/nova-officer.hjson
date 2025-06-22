@@ -115,7 +115,7 @@ bullet: {
     collidesAir: false
     rangeOverride: 20
     pierceArmor: true
-    length: 3
+    length: 5
     height: 0
     width: 0
 
