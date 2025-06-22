@@ -25,6 +25,11 @@ immunities: [ freezing, shocked ]
 
 abilities: [
     {
+    type: RegenAbility
+    amount: 0.02
+}
+
+    {
     type: ShieldArcAbility
     angle: 24
     y: -48
