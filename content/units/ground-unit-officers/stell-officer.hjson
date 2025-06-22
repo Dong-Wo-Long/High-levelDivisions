@@ -23,6 +23,7 @@ armor: 12
 lightColor: d1efff
 lightOpacity: 0.7
 lightRadius: 62.5
+healColor: d1efff
 
 immunities: [ burning, shocked ]
 
