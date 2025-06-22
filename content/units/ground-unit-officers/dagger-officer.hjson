@@ -24,6 +24,11 @@ immunities: [ freezing ]
 
 abilities: [
 {
+    type: RegenAbility
+    amount: 0.02
+    }
+
+{
     type: ShieldRegenFieldAbility 
     reload: 64
     amount: 32
