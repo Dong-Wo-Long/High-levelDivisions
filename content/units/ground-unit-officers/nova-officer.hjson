@@ -117,6 +117,7 @@ bullet: {
     splashDamageRadius: 16
     statusDuration: 90
     splashDamage: 15
+    sapStrength: 0.5
     status: freezing
     lifetime: 2.5
     damage: 27.4
