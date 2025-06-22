@@ -1,4 +1,6 @@
 type: UnitAssembler
+buildVisibility: debugOnly
+inEditor: false
 
 name: Simple printer «Officers»
 description: Upgrades some simple units into officer units. Once the printer performs an operation, the unit change is not reversible.
