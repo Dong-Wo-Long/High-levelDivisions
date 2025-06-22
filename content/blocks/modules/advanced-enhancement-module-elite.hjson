@@ -1,4 +1,5 @@
 type: StorageBlock
+display: false
 
 name: Advanced Enhancement Module «Elite»
 description: A more advanced module, also needed for most unit upgrades in printers. Can store slightly more items than basic modules.
