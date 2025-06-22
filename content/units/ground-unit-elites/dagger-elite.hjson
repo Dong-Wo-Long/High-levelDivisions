@@ -46,6 +46,11 @@ engines: [
 
 abilities: [
 {
+    type: RegenAbility
+    amount: 0.025
+    }
+
+{
     type: ShieldRegenFieldAbility 
     reload: 90
     amount: 45
