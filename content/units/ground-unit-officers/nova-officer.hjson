@@ -35,11 +35,6 @@ abilities: [
     }
 
 {
-    type: RegenAbility
-    amount: 0.015
-    }
-
-{
     type: ShieldRegenFieldAbility 
     reload: 180
     amount: 120
@@ -109,12 +104,13 @@ weapons: [
     heatColor: d1efff
 
 bullet: {
-    type: BasicBulletType
+    type: SapBulletType
     instantDisappear: true
     keepVelocity: false
     collidesAir: false
     rangeOverride: 20
     pierceArmor: true
+    length: 3
     height: 0
     width: 0
 
@@ -122,8 +118,8 @@ bullet: {
 
     splashDamageRadius: 16
     statusDuration: 90
+    sapStrength: 0.08
     splashDamage: 15
-    sapStrength: 0.5
     status: freezing
     lifetime: 2.5
     damage: 27.4
@@ -373,3 +369,4 @@ bullet: {
     }
 }
     ]
+
