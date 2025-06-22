@@ -30,6 +30,11 @@ abilities: [
 }
 
     {
+    type: RegenAbility
+    amount: 0.01
+}
+
+    {
     type: MoveEffectAbility
     effect: artilleryTrail
     minVelocity: 0.025
