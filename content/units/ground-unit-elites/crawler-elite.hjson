@@ -18,6 +18,7 @@ armor: 8
 
 lightColor: feb380
 lightOpacity: 0.7
+healColor: feb380
 lightRadius: 48
 
 immunities: [ burning ]
