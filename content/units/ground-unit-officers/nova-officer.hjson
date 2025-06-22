@@ -10,7 +10,7 @@ flying: false
 hitSize: 8
 range: 24
 
-boostMultiplier: 0.5
+boostMultiplier: 0.54
 stepShake: 0.27
 fallSpeed: 0.8
 fogRadius: 15
