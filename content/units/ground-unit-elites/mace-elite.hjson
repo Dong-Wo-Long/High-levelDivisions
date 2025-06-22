@@ -12,7 +12,7 @@ fogRadius: 17.5
 
 itemCapacity: 45
 health: 720
-speed: 0.6
+speed: 0.55
 armor: 12
 
 lightColor: feb380
