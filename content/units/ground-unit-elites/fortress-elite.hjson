@@ -35,6 +35,11 @@ immunities: [ blasted, burning, wet, hld-armor-piercing-tier-1 ]
 
 abilities: [
 {
+    type: RegenAbility
+    amount: 0.4
+    }
+
+{
     type: ShieldRegenFieldAbility 
     reload: 450
     amount: 500
