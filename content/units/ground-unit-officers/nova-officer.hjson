@@ -134,10 +134,6 @@ bullet: {
     lightOpacity: 0.7
     lightRadius: 21.5
 
-    trailColor: 8ca9e8
-    trailLength: 8.5
-    trailWidth: 0.5
-
     hitEffect: hitBulletColor
     despawnEffect: none
     smokeEffect: none
