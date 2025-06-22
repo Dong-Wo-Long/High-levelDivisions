@@ -150,7 +150,7 @@ bullet: {
     x: 0
     y: 0
 
-    shootStatus: hld-high-emp
+    shootStatus: AbilityCastRestriction
     shootStatusDuration: 180
     reload: 1440
 
