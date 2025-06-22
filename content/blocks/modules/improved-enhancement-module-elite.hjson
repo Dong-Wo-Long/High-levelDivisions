@@ -1,4 +1,6 @@
 type: StorageBlock
+buildVisibility: debugOnly
+inEditor: false
 
 name: Enhanced improvement module «Elite»
 description: "Усовершенствованный модуль, необходимый для более продвинутых улучшений юнитов в принтерах. Может хранить чуть больше предметов, чем продвинутые модули."
