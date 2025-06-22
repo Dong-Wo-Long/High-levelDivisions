@@ -1,4 +1,6 @@
 type: UnitAssembler
+buildVisibility: debugOnly
+inEditor: false
 
 name: Advanced printer «Elites»
 description: Modifies some units to elite units. Once the printer performs the operation, the unit modification is not reversible.
