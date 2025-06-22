@@ -21,6 +21,7 @@ armor: 21
 lightColor: d1efff
 lightOpacity: 0.7
 lightRadius: 74.5
+healColor: d1efff
 
 immunities: [ freezing, blasted, hld-armor-piercing-tier-1 ]
 
