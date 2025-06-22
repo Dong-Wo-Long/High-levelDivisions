@@ -47,7 +47,7 @@ engines: [
 abilities: [
 {
     type: RegenAbility
-    amount: 0.025
+    amount: 0.05
     }
 
 {
