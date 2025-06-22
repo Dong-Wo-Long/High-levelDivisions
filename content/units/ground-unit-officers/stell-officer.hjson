@@ -6,7 +6,7 @@ outlineColor: 2d2f39
 omniMovement: false
 targetAir: false
 flying: false
-range: 224
+range: 150
 
 deathSound: tank-explosion1
 treadPullOffset: 3
