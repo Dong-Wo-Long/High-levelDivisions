@@ -27,6 +27,11 @@ immunities: [ freezing, blasted, hld-armor-piercing-tier-1 ]
 
 abilities: [
     {
+    type: RegenAbility
+    amount: 0.24
+}
+
+    {
     type: ShieldRegenFieldAbility 
     reload: 300
     amount: 250
