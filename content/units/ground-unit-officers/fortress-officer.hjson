@@ -28,7 +28,7 @@ immunities: [ freezing, blasted, hld-armor-piercing-tier-1 ]
 abilities: [
     {
     type: RegenAbility
-    amount: 0.24
+    amount: 0.34
 }
 
     {
