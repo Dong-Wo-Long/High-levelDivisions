@@ -35,6 +35,11 @@ abilities: [
     }
 
 {
+    type: RegenAbility
+    amount: 0.015
+    }
+
+{
     type: ShieldRegenFieldAbility 
     reload: 180
     amount: 120
