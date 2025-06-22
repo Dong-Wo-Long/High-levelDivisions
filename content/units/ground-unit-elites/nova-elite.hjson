@@ -356,7 +356,7 @@ bullet: {
     splashDamage: 3
     status: shocked
     lifetime: 2.5
-    recoil: -0.1
+    recoil: -0.04
     damage: 4
 
     frontColor: feb380
