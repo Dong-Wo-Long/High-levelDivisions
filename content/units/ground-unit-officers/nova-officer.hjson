@@ -108,6 +108,7 @@ bullet: {
     keepVelocity: false
     collidesAir: false
     rangeOverride: 20
+    pierceArmor: true
     height: 0
     width: 0
 
@@ -115,7 +116,7 @@ bullet: {
 
     splashDamageRadius: 16
     statusDuration: 90
-    splashDamage: 12.5
+    splashDamage: 15
     status: freezing
     lifetime: 2.5
     damage: 27.4
