@@ -11,7 +11,7 @@ The release version should contain the following:
   - Dagger «Hunter» - done
   - Mace «Stormtrooper» - done
   - Fortress «Destroyer» - done
-  - Nova «Shadow» - in the process
+  - Nova «Shadow» - done
   - Crawler «Detonator» - [done](https://github.com/Bloody-Ocean/bloodyVisual/blob/main/sprites-override/crawler.png)
   - Stell «Dawn» - done
   - Locus «Vepr» - done
@@ -22,7 +22,7 @@ The release version should contain the following:
   - Nova «Stalker» - done
   - Crawler «Defender» - in the process
   - Stell «Tesla» - done
-  - Locus «Tortuga»
+  - Locus «Tortuga» - in the process
 2. New blocks
 - Printers - blocks for modifying units (at least to T3)
 - Module - blocks for improving units (at least to T3)
