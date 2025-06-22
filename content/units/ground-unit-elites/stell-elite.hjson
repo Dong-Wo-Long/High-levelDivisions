@@ -19,7 +19,7 @@ rotateSpeed: 2.8
 itemCapacity: 0
 speed: 0.425
 health: 750
-armor: 6
+armor: 2
 
 lightColor: feb380
 lightOpacity: 0.7
