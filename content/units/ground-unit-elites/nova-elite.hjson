@@ -8,7 +8,7 @@ targetAir: false
 canBoost: true
 flying: false
 hitSize: 9
-range: 900
+range: 700
 
 boostMultiplier: 0.48
 fogRadius: 180
@@ -269,7 +269,7 @@ bullet: {
     status: ionicized
     splashDamage: 50
     pierceCap: 18
-    lifetime: 150
+    lifetime: 120
     damage: 174
     recoil: 0.5
     speed: 8
