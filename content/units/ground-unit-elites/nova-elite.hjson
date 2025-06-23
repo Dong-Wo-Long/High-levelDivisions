@@ -104,7 +104,7 @@ weapons: [
     name: energy-rifle
     rotationLimit: 30
     rotateSpeed: 3
-    shootCone: 45
+    shootCone: 10
     mirror: false
     rotate: true
     top: false
