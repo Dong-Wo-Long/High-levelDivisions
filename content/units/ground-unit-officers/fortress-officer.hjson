@@ -96,6 +96,7 @@ weapons: [
     x: 9.5
     y: -1
 
+    velocityRnd: 0.4
     inaccuracy: 7.5
     reload: 660
 
