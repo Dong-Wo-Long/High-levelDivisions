@@ -1,6 +1,6 @@
 type: mech
-description: "[#d1efff]Assault and support.[] «[#d1efff]Cryostators[]» are rarely seen in action, but are usually used when capturing and besieging well-fortified outposts, and when eliminating a large group consisting mostly of assault units."
-name: Fortress «Cryostator»
+description: "[#d1efff]Assault and support.[] «[#d1efff]Devastator[]» are rarely seen in action, but are usually used when capturing and besieging well-fortified outposts, and when eliminating a large group consisting mostly of assault units."
+name: Fortress «Devastator»
 alwaysShootWhenMoving: true
 forceMultiTarget: true
 outlineColor: 2d2f39
@@ -23,7 +23,7 @@ lightOpacity: 0.7
 lightRadius: 74.5
 healColor: d1efff
 
-immunities: [ freezing, blasted, hld-armor-piercing-tier-1 ]
+immunities: [ freezing, blasted, shocked, hld-armor-piercing-tier-1, hld-armor-piercing-tier-2 ]
 
 abilities: [
     {
