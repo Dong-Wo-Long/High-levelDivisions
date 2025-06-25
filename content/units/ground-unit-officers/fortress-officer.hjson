@@ -116,9 +116,9 @@ bullet: {
     collidesAir: false
     despawnShake: 2.5
     hitShake: 2.5
+    recoil: 0.005
     shrinkX: 0.3
     shrinkY: 0.5
-    recoil: 0.05
     height: 18
     width: 9
 
