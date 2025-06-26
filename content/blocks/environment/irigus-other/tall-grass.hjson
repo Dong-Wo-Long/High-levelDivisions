@@ -1,0 +1,12 @@
+type: SeaBush
+name: Tall grass
+
+buildVisibility: sandboxOnly
+timeRange: 54
+lobesMin: 2
+lobesMax: 4
+sclMin: 10
+sclMax: 30
+spread: 45
+magMin: 2
+magMax: 5

@@ -1,0 +1,14 @@
+type: Floor
+name: Submerged red floor
+supportsOverlay: true
+cacheLayer: tar
+isLiquid: true
+shallow: true
+variants: 0
+
+liquidMultiplier: 0.2
+speedMultiplier: 0.7
+statusDuration: 150
+liquidDrop: water
+status: wet
+albedo: 0.9

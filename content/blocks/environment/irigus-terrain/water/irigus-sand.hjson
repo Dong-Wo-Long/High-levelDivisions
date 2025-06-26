@@ -1,0 +1,6 @@
+type: Floor
+name: Irigus sand
+playerUnmineable: true
+variants: 4
+
+itemDrop: sand

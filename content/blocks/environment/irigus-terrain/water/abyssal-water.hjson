@@ -1,0 +1,15 @@
+type: Floor
+name: Abyssal water
+supportsOverlay: true
+cacheLayer: tar
+isLiquid: true
+shallow: true
+variants: 0
+
+liquidMultiplier: 0.7
+speedMultiplier: 0.3
+statusDuration: 500
+liquidDrop: water
+drownTime: 180
+status: wet
+albedo: 0.9

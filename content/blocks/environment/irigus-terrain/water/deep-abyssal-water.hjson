@@ -1,0 +1,15 @@
+type: Floor
+name: Deep abyssal water
+supportsOverlay: true
+cacheLayer: tar
+isLiquid: true
+shallow: true
+variants: 0
+
+speedMultiplier: 0.175
+liquidMultiplier: 1
+statusDuration: 800
+liquidDrop: water
+drownTime: 120
+status: wet
+albedo: 0.9

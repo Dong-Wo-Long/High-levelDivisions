@@ -1,0 +1,14 @@
+type: Floor
+name: Irigus water
+supportsOverlay: true
+cacheLayer: tar
+isLiquid: true
+shallow: true
+variants: 0
+
+liquidMultiplier: 0.5
+speedMultiplier: 0.5
+statusDuration: 300
+liquidDrop: water
+status: wet
+albedo: 0.9
