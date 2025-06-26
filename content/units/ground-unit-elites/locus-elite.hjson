@@ -14,6 +14,7 @@ treadPullOffset: 5
 fogRadius: 67.5
 hitSize: 18.25
 
+crushDamage: 1.8
 rotateSpeed: 1.5
 itemCapacity: 0
 health: 1725
