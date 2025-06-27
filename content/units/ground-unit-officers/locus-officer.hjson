@@ -613,7 +613,7 @@ bullet: {
     splashDamageRadius: 120
     statusDuration: 300
     status: emp-tier-1
-    splashDamage: 180
+    splashDamage: 240
     speed: 0
 
     frontColor: d1efff
