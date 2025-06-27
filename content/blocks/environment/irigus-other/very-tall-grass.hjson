@@ -1,7 +1,6 @@
 type: SeaBush
 name: Very tall grass
 
-buildVisibility: sandboxOnly
 timeRange: 50
 lobesMin: 5
 lobesMax: 8
