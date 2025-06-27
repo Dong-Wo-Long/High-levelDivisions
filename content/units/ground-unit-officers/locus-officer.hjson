@@ -1,0 +1,865 @@
+type: tank
+description: "[#d1efff]Assault and support.[] A fast and mobile heavy transport designed for the surprise assault of heavily-armed fortifications (or its bypass), as well as for sieges from a long range, taking into account the use of a rocket-launcher."
+name: Locus «Hammer»
+alwaysShootWhenMoving: true
+forceMultiTarget: true
+rotateMoveFirst: true
+outlineColor: 2d2f39
+omniMovement: false
+faceTarget: true
+targetAir: false
+flying: false
+range: 600
+
+deathSound: tank-explosion1
+treadPullOffset: 5
+fogRadius: 67.5
+hitSize: 18.25
+
+crushDamage: 2.4
+rotateSpeed: 0.7
+itemCapacity: 0
+health: 5100
+speed: 0.4
+armor: 18
+
+lightColor: d1efff
+lightOpacity: 0.7
+lightRadius: 72.5
+healColor: d1efff
+
+immunities: [ burning, blasted, shocked, hld-armor-piercing-tier-1, hld-motor-acceleration-tier-1, hld-fast-reloading-tier-1, hld-damage-increase-tier-1 ]
+
+treadRects: [
+    {
+    x: -31
+    y: -38
+    width: 19
+    height: 76
+}
+    ]
+
+abilities: [
+    {
+    type: SpawnDeathAbility
+    unit: locus-officer-wreck
+    display: false
+}
+
+    {
+    type: ShieldArcAbility
+    angle: 50
+    y: -12
+
+    cooldown: 300
+    regen: 2.5
+    max: 1200
+}
+
+    {
+    type: ShieldRegenFieldAbility 
+    reload: 480
+    amount: 240
+    range: 0
+    max: 2400
+
+    activeEffect: none
+}
+
+    {
+    type: StatusFieldAbility
+    effect: motor-acceleration-tier-1
+    duration: 750
+    reload: 1440
+    range: 100
+
+activeEffect: {
+    type: ExplosionEffect
+
+    lifetime: 300
+
+    waveColor: d1efff
+    waveStroke: 3.25
+    waveRad: 72.5
+
+    smokeColor: d1efff
+    smokeSizeBase: 0
+    smokeSize: 0
+    smokes: 0
+
+    sparkColor: d1efff
+    sparkStroke: 0
+    sparkRad: 0
+    sparkLen: 0
+    sparks: 0
+    }
+}
+
+    {
+    type: StatusFieldAbility
+    effect: fast-reloading-tier-1
+    duration: 450
+    reload: 1440
+    range: 64
+
+activeEffect: {
+    type: ExplosionEffect
+
+    lifetime: 300
+
+    waveColor: d1efff
+    waveStroke: 3.25
+    waveRad: 52.5
+
+    smokeColor: d1efff
+    smokeSizeBase: 0
+    smokeSize: 0
+    smokes: 0
+
+    sparkColor: d1efff
+    sparkStroke: 0
+    sparkRad: 0
+    sparkLen: 0
+    sparks: 0
+    }
+}
+
+    {
+    type: MoveEffectAbility
+    effect: artilleryTrail
+    minVelocity: 0.01
+    effectParam: 1.5
+    teamColor: true
+    interval: 0.05
+    x: 7
+    y: -1.25
+}
+    {
+    type: MoveEffectAbility
+    effect: artilleryTrail
+    minVelocity: 0.01
+    effectParam: 1.5
+    teamColor: true
+    interval: 0.05
+    x: -7
+    y: -1.25
+}
+    ]
+
+weapons: [
+{
+    name: plasma-hammer
+
+    rotationLimit: 60
+    rotateSpeed: 0.2
+    layerOffset: 1
+    shootCone: 2.5
+    mirror: false
+    rotate: true
+    shootY: 4
+    recoil: 4
+    shake: 11
+    top: true
+    x: 0
+    y: -1.5
+
+    shootStatusDuration: 1500
+    shootStatus: unmoving
+    cooldownTime: 1200
+    velocityRnd: 0.05
+    inaccuracy: 5
+    reload: 2400
+
+    heatColor: d1efff
+
+    chargeSound: bfg-charging
+    ejectEffect: casing3
+    shootSound: bfg-shot
+shoot: {
+    firstShotDelay: 830
+    shots: 1
+    }
+
+parts: [
+    {
+    type: HaloPart
+    color: ffffff
+    layer: 100
+    shapes: 4
+    moveY: 46
+    x: 0
+    y: 0
+
+    haloRotateSpeed: 0.25
+    haloRotation: 0
+
+    triLengthTo: 3
+    haloRadius: 5
+    triLength: 0
+    radius: 3
+    tri: true
+}
+
+    {
+    type: ShapePart
+    circle: false
+    hollow: true
+
+    color: ffffff
+    layer: 100
+    moveY: -1
+    x: 0
+    y: 0
+    
+    rotateSpeed: 0.75
+    rotation: 0
+
+    radiusTo: 1.6
+    radius: 0
+
+    strokeTo: 0.8
+    stroke: 0
+}
+
+    {
+    type: ShapePart
+    circle: false
+    hollow: true
+
+    color: d1efff
+    layer: 100
+    moveY: 1
+    x: 0
+    y: 0
+    
+    rotateSpeed: 0.75
+    rotation: 0
+
+    radiusTo: 1.5
+    radius: 0
+
+    strokeTo: 0.75
+    stroke: 0
+}
+
+    {
+    type: ShapePart
+    circle: false
+    hollow: true
+
+    color: 8ca9e8
+    layer: 100
+    moveY: 3
+    x: 0
+    y: 0
+    
+    rotateSpeed: 0.75
+    rotation: 0
+
+    radiusTo: 1.5
+    radius: 0
+
+    strokeTo: 0.75
+    stroke: 0
+}
+
+    {
+    type: ShapePart
+    circle: false
+    hollow: true
+
+    color: 6569c9
+    layer: 100
+    moveY: 5
+    x: 0
+    y: 0
+    
+    rotateSpeed: 0.75
+    rotation: 0
+
+    radiusTo: 1.25
+    radius: 0
+
+    strokeTo: 0.6
+    stroke: 0
+}
+
+    {
+    type: ShapePart
+    circle: false
+    hollow: true
+
+    color: 505393
+    layer: 100
+    moveY: 7
+    x: 0
+    y: 0
+
+    rotateSpeed: 0.75
+    rotation: 0
+
+    radiusTo: 1
+    radius: 0
+
+    strokeTo: 0.5
+    stroke: 0
+}
+
+    {
+    type: FlarePart
+    color2: ffffff
+    color1: d1efff
+    rotation: 45
+    radius: 5
+    stroke: 1
+    x: 0
+    y: -3
+}
+
+    {
+    type: RegionPart
+    heatColor: 8ca9e8
+    suffix: -barrel
+    under: true
+    x: 0
+    y: 0
+moves: [
+    {
+    type: PartMove
+    progress: recoil
+    x: 0
+    y: -4
+}
+    ]
+}
+    ]
+
+bullet: {
+    type: ArtilleryBulletType
+    sprite: large-orb
+    collidesTiles: true
+    keepVelocity: false
+    collidesAir: false
+    pierceArmor: true
+    fragOnHit: false
+    despawnShake: 2
+    shrinkX: 0.5
+    shrinkY: 0.5
+    hitShake: 2
+    recoil: 2.5
+    height: 18
+    width: 18
+
+    buildingDamageMultiplier: 1.24
+
+    splashDamageRadius: 60
+    statusDuration: 300
+    status: emp-tier-2
+    splashDamage: 500
+    knockback: 0.25
+    lifetime: 72
+    speed: 8
+
+    bulletInterval: 4
+
+    puddleLiquid: cryofluid
+    puddleAmount: 48
+    puddleRange: 20
+    puddles: 15
+
+    lightningLength: 18
+    lightningDamage: 81
+    lightning: 4
+
+    hitSound: grenade-hit
+
+    trailEffect: [ vapor, disperseTrail ]
+    trailRotation: true
+    trailInterp: slope
+    trailColor: 8ca9e8
+    trailInterval: 1
+    trailLength: 64
+    trailWidth: 0.5
+
+    lightColor: d1efff
+    lightOpacity: 0.7
+    lightRadius: 21.5
+
+    lightningColor: d1efff
+    frontColor: d1efff
+    backColor: 8ca9e8
+
+    fragRandomSpread: 5
+    fragBullets: 8
+    fragSpread: 45
+
+    hitEffect: [ titanExplosion, titanSmoke ]
+    smokeEffect: smokeCloud
+shootEffect: [
+    shootBigColor,
+    {
+    type: WaveEffect
+    lifetime: 24
+    sizeFrom: 0
+    sizeTo: 180
+
+    colorFrom: d1efff
+    colorTo: ffffff
+}
+    ]
+
+chargeEffect: {
+    type: MultiEffect
+
+effects: [
+    {
+    type: ParticleEffect
+    lifetime: 815
+    particles: 1
+    offsetX: 7.5
+    offsetY: 0
+    cone: 360
+
+    baseLength: 0
+    length: 0
+
+    sizeFrom: 0
+    sizeTo: 2.5
+
+    strokeFrom: 0.8
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: d1efff
+}
+
+    {
+    type: ParticleEffect
+    lifetime: 800
+    particles: 9
+    offsetX: 7.5
+    offsetY: 0
+    cone: 360
+
+    baseLength: 30
+    length: -30
+
+    sizeFrom: 1.25
+    sizeTo: 0
+
+    strokeFrom: 0.8
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: 8ca9e8
+}
+
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    startDelay: 0
+    lifetime: 815
+    offsetX: 7.5
+    offsetY: 0
+
+    strokeFrom: 0
+    strokeTo: 1.5
+
+    sizeFrom: 0
+    sizeTo: 5
+
+    colorFrom: 8ca9e8
+    colorTo: ffffff
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    startDelay: 0
+    lifetime: 815
+    offsetX: 7.5
+    offsetY: 0
+
+    strokeFrom: 0
+    strokeTo: 2.5
+
+    sizeFrom: 48
+    sizeTo: 5
+
+    colorFrom: d1efff
+    colorTo: ffffff
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    startDelay: 730
+    lifetime: 90
+    offsetX: 7.5
+    offsetY: 0
+
+    strokeFrom: 0
+    strokeTo: 1
+
+    sizeFrom: 80
+    sizeTo: 0
+
+    colorFrom: d1efff
+    colorTo: ffffff
+}
+    ]
+
+fragBullet: {
+    type: ShrapnelBulletType
+    pierceArmor: true
+    serrations: 0
+    length: 5
+    width: 4
+
+    knockback: 4
+    lifetime: 60
+    damage: 270
+
+    fromColor: d1efff
+    toColor: 8ca9e8
+    }
+
+intervalBullet: {
+    type: LightningBulletType
+    collidesAir: false
+
+    buildingDamageMultiplier: 0.3
+
+    damage: 18
+
+    lightningLengthRand: 7.5
+    lightningColor: d1efff
+    lightningLength: 4
+
+lightningType: {
+    type: BulletType
+    hittable: false
+
+    buildingDamageMultiplier: 0.2
+
+    status: hld-emp-tier-1
+    statusDuration: 180
+    lifetime: 10
+
+    lightColor: ffffff
+
+    hitEffect: hitLancer
+    despawnEffect: none
+}
+    }
+}
+    }
+}
+
+    {
+    controllable: false
+    autoTarget: true
+    shootCone: 360
+    mirror: false
+    shootY: 0
+    x: 0
+    y: 0
+
+    shootStatus: AbilityCastRestriction
+    shootStatusDuration: 500
+    reload: 4000
+
+    chargeSound: emp-armageddon-charge
+    ejectEffect: none
+    shootSound: none
+shoot: {
+    firstShotDelay: 450
+    shots: 1
+    }
+
+parts: [
+    {
+    type: ShapePart
+    progress: charge
+    circle: true
+    hollow: true
+
+    color: 8ca9e8
+    layer: 100
+    
+    rotateSpeed: 1
+    rotation: 0
+
+    radiusTo: 0
+    radius: 120
+
+    strokeTo: 2.4
+    stroke: 0
+}
+    ]
+
+bullet: {
+    instantDisappear: true
+    collidesTiles: false
+    collidesAir: false
+    rangeOverride: 64
+    pierceArmor: true
+    hittable: false
+    collides: false
+
+    buildingDamageMultiplier: 2.2
+
+    splashDamageRadius: 120
+    statusDuration: 300
+    status: emp-tier-1
+    splashDamage: 180
+    speed: 0
+
+    frontColor: d1efff
+    backColor: 8ca9e8
+    hitColor: 8ca9e8
+
+    despawnSound: emp-discharge-overload
+    hitSound: none
+
+despawnEffect: {
+    type: ExplosionEffect
+
+    lifetime: 48
+
+    waveColor: d1efff
+    waveStroke: 3.2
+    waveRad: 120
+
+    smokeSizeBase: 0
+    smokeSize: 0
+    smokes: 0
+
+    sparkColor: d1efff
+    sparkStroke: 1.5
+    sparkRad: 28
+    sparkLen: 4
+    sparks: 18
+    }
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 48
+
+    waveColor: d1efff
+    waveStroke: 3.2
+    waveRad: 120
+
+    smokeSizeBase: 0
+    smokeSize: 0
+    smokes: 0
+
+    sparkColor: d1efff
+    sparkStroke: 1.5
+    sparkRad: 28
+    sparkLen: 4
+    sparks: 18
+    }
+}
+    }
+///--------------OTHER--------------
+{
+    controllable: false
+    autoTarget: true
+    display: false
+    shootCone: 15
+    rotate: false
+    mirror: false
+    x: 0
+    y: 0
+
+    shootStatus: hld-motor-deceleration-tier-1
+    shootStatusDuration: 300
+    reload: 2400
+
+    shootSound: hyperjump-heavy-charge
+shoot: {
+    shotDelay: 14
+    shots: 3
+    }
+
+bullet: {
+    pierceBuilding: true
+    collidesAir: false
+    rangeOverride: 80
+    collides: false
+    pierce: true
+    impact: true
+    height: 0
+    width: 0
+
+    buildingDamageMultiplier: 3
+
+    splashDamageRadius: 40
+    splashDamage: 80
+    lifetime: 10
+    recoil: -6
+    damage: 0
+    speed: 8
+    drag: 1
+
+    despawnEffect: none
+    hitEffect: none
+}
+    }
+
+{
+    controllable: false
+    shootOnDeath: true
+    shootCone: 180
+    display: false
+    mirror: false
+    shootY: 0
+    x: 0
+    y: 0
+
+    reload: 1
+
+    ejectEffect: none
+    shootSound: none
+
+bullet: {
+    instantDisappear: true
+    collidesTiles: false
+    collidesAir: false
+    killShooter: true
+    hittable: false
+    collides: false
+
+    buildingDamageMultiplier: 1.8
+
+    splashDamageRadius: 100
+    status: hld-emp-tier-1
+    statusDuration: 1080
+    splashDamage: 340
+    speed: 0
+
+    fragRandomSpread: 120
+    fragVelocityMin: 0.4
+    fragVelocityMax: 1.2
+    fragSpread: 120
+    fragBullets: 1
+    fragLifeMin: 0.4
+    fragLifeMax: 1.2
+
+    puddleLiquid: cryofluid
+    puddleAmount: 150
+    puddleRange: 120
+    puddles: 100
+
+    incendSpread: 61
+    incendAmount: 21
+    incendChance: 1
+
+    frontColor: d1efff
+    backColor: 8ca9e8
+    hitColor: d1efff
+
+    despawnSound: electro-boom
+    hitSound: none
+
+hitEffect: [
+    titanExplosion, 
+    titanSmoke,
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    particles: 1
+    lifetime: 60
+
+    sizeFrom: 0
+    sizeTo: 120
+
+    strokeFrom: 3
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: d1efff
+}
+    ]
+
+fragBullet: {
+    type: BasicBulletType
+    sprite: large-orb
+    pierceBuilding: true
+    collidesAir: false
+    fragOnHit: false
+    shrinkX: 0.5
+    shrinkY: 0.5
+    height: 24
+    width: 24
+
+    buildingDamageMultiplier: 0.1
+    pierceDamageFactor: 0.0005
+
+    splashDamageRadius: 26
+    statusDuration: 180
+    status: emp-tier-2
+    splashDamage: 16
+    lifetime: 850
+    pierceCap: 5
+    knockback: 1
+    damage: 48
+    speed: 0
+    drag: 1
+
+    bulletInterval: 4
+
+    lightningColor: d1efff
+    lightningLength: 12
+    lightningDamage: 27
+    lightning: 5
+
+    despawnSound: none
+    hitEffect: none
+
+    lightColor: d1efff
+    lightOpacity: 0.7
+    lightRadius: 70
+
+    frontColor: ffffff
+    backColor: d1efff
+    hitColor: d1efff
+
+intervalBullet: {
+    type: LightningBulletType
+    collidesAir: false
+
+    buildingDamageMultiplier: 0.4
+
+    damage: 30
+
+    lightningLengthRand: 18
+    lightningColor: d1efff
+    lightningLength: 4
+
+lightningType: {
+    type: BulletType
+    hittable: false
+
+    buildingDamageMultiplier: 0.3
+
+    status: hld-emp-tier-1
+    statusDuration: 180
+    lifetime: 10
+
+    lightColor: ffffff
+
+    hitEffect: hitLancer
+    despawnEffect: none
+}
+    }
+
+}
+    } 
+}
+    ]
+
