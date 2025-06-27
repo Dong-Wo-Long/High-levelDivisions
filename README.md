@@ -24,13 +24,13 @@ The release version should contain the following:
   - Stell «Tesla» - done
   - Locus «Hammer» - done
 2. New blocks
-- Printers - blocks for modifying units (at least to T3)
-- Module - blocks for improving units (at least to T3)
-- Payload conveyor/router - Small/Standard/Large/Huge Conveyors with Routers (Serpulo/Erekir)
+- Printers - blocks for modifying units (at least to T3) - 20%
+- Module - blocks for improving units (at least to T3) - 50%
+- Payload conveyor/router - Small/Standard/Large/Huge Conveyors with Routers (Serpulo/Erekir) - 30%
 3. New status (each has negative and positive effects and is divided into 3 levels)
-- Ranks
-- Armored
-- Speed
-- Damage
-- Regeneration
-- Reloading
+- Ranks - in the process
+- Armored - done
+- Speed - done
+- Damage - done
+- Regeneration - done
+- Reloading - done
