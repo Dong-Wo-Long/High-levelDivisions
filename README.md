@@ -34,3 +34,13 @@ The release version should contain the following:
 - Damage - done
 - Regeneration - done
 - Reloading - done
+
+### In future versions, the following additions are planned:
+- Elites
+  - Flare «Raptor»
+  - Horizon «Orion»
+  - Quasar «Leaper»
+- Offirecs
+  - Flare «Photon»
+  - Precept «Blacksmith»
+  - Conquer «Titan»
