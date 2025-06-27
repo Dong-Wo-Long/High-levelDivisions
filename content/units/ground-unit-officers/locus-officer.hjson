@@ -1,5 +1,5 @@
 type: tank
-description: "[#d1efff]Assault and support.[] A fast and mobile heavy transport designed for the surprise assault of heavily-armed fortifications (or its bypass), as well as for sieges from a long range, taking into account the use of a rocket-launcher."
+description: "[#d1efff]Assault and support.[] Designated siege breaker for neutralizing fortified positions and defensive emplacements. Optimized for sustained bombardment of static targets at medium-to-long range"
 name: Locus «Hammer»
 alwaysShootWhenMoving: true
 forceMultiTarget: true
@@ -9,7 +9,7 @@ omniMovement: false
 faceTarget: true
 targetAir: false
 flying: false
-range: 600
+range: 500
 
 deathSound: tank-explosion1
 treadPullOffset: 5
