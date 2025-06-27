@@ -17,9 +17,9 @@ hitSize: 18.25
 crushDamage: 1.5
 itemCapacity: 0
 rotateSpeed: 0
-health: 1210
+health: 2780
+armor: 15
 speed: 0
-armor: 7
 
 lightColor: feb380
 lightOpacity: 0
