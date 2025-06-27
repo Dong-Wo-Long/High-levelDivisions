@@ -22,7 +22,7 @@ The release version should contain the following:
   - Nova «Stalker» - done
   - Crawler «Defender» - in the process
   - Stell «Tesla» - done
-  - Locus «Tortuga» - in the process
+  - Locus «Hammer» - done
 2. New blocks
 - Printers - blocks for modifying units (at least to T3)
 - Module - blocks for improving units (at least to T3)
