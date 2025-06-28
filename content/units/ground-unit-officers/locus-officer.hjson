@@ -362,11 +362,6 @@ bullet: {
 
     bulletInterval: 4
 
-    puddleLiquid: cryofluid
-    puddleAmount: 48
-    puddleRange: 20
-    puddles: 15
-
     lightningLength: 18
     lightningDamage: 81
     lightning: 4
@@ -748,11 +743,6 @@ bullet: {
     fragBullets: 1
     fragLifeMin: 0.4
     fragLifeMax: 1.2
-
-    puddleLiquid: cryofluid
-    puddleAmount: 100
-    puddleRange: 48
-    puddles: 70
 
     incendSpread: 61
     incendAmount: 21
