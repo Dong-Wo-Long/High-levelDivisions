@@ -1,7 +1,7 @@
 name: Tier 1 Auto Repair
 damage: -1
 
-effectChance: 0.05
+effectChance: 0.01
 effect: [
     {
     type: WaveEffect
