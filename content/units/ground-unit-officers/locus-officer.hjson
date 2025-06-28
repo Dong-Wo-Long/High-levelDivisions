@@ -750,9 +750,9 @@ bullet: {
     fragLifeMax: 1.2
 
     puddleLiquid: cryofluid
-    puddleAmount: 150
-    puddleRange: 120
-    puddles: 100
+    puddleAmount: 120
+    puddleRange: 60
+    puddles: 80
 
     incendSpread: 61
     incendAmount: 21
