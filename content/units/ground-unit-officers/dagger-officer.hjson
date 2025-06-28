@@ -132,13 +132,11 @@ bullet: {
     height: 16
     width: 6
 
-    buildingDamageMultiplier: 0.5
+    buildingDamageMultiplier: 0.7
 
-    statusDuration: 192
-    status: freezing
     lifetime: 47.5
     pierceCap: 2
-    damage: 17.5
+    damage: 18
     speed: 4.5
 
     shootEffect: shootSmallColor
