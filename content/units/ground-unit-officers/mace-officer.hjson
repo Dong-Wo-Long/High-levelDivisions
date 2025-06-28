@@ -6,7 +6,7 @@ outlineColor: 2d2f39
 targetAir: false
 hitSize: 10.5
 flying: false
-range: 400
+range: 240
 
 stepShake: 0.95
 fogRadius: 32
