@@ -1,5 +1,4 @@
 name: Tier 1 Auto Repair
-show: false
 damage: -1
 
 effectChance: 0.05
