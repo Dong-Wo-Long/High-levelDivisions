@@ -1,5 +1,4 @@
 name: Tier 2 Auto Repair
-show: false
 damage: -2
 
 effectChance: 0.075
