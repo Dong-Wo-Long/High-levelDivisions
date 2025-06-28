@@ -42,7 +42,7 @@ weapons: [
     aiControllable: false
     controllable: false
     ayerOffset: 0.0001
-    baseRotation: -21
+    baseRotation: 8
     rotateSpeed: 0
     layerOffset: 1
     display: false
