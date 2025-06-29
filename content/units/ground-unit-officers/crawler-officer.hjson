@@ -181,7 +181,7 @@ parts: [
     rotation: 0
 
     radiusTo: 0
-    radius: 48
+    radius: 24
 
     strokeTo: 2.4
     stroke: 0
