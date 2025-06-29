@@ -20,7 +20,7 @@ The release version should contain the following:
   - Mace «Grenadier» - done (for those who pay closer attention, to my great regret, the grenade launcher sprites are not mine but belong to a person with the YouTube username Thomas's Things)
   - Fortress «Devastator» - done
   - Nova «Stalker» - done
-  - Crawler «Defender» - in the process
+  - Crawler «Tortuga» - done
   - Stell «Tesla» - done
   - Locus «Hammer» - done
 2. New blocks
