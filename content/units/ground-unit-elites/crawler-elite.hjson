@@ -1,13 +1,33 @@
-type: mech
+type: legs
 description: "[#feb380]Assault.[] Designed to breach heavily fortified enemy positions and eliminate high-value/large-scale targets."
 name: Crawler «Detonator»
+legContinuousMove: true
+legPhysicsLayer: true
 outlineColor: 2d2f39
+allowLegStep: true
+lockLegBase: true
 targetAir: false
+groundLayer: 74
 hitSize: 7.5
 
 boostMultiplier: 0.5
+shadowElevation: 0.1
 stepShake: 0.05
 fogRadius: 15
+
+legStraightness: -4
+legForwardScl: 1.4
+legLengthScl: 1.25
+legMaxLength: 1.1
+legMinLength: 0.2
+legBaseOffset: 2
+legExtension: -2
+rippleScale: 0.2
+legGroupSize: 3
+legMoveSpace: 1
+legSpeed: 0.4
+legLength: 10
+legCount: 4
 
 itemCapacity: 24
 rotateSpeed: 5
