@@ -134,12 +134,12 @@ weapons: [
     x: 0
     y: 0
 
-    shootStatusDuration: 81
+    shootStatusDuration: 190
     shootStatus: unmoving
-    cooldownTime: 210
+    cooldownTime: 320
     velocityRnd: 0.2
     inaccuracy: 360
-    reload: 240
+    reload: 360
 
     chargeSound: plasma-gun-charge
     shootSound: plasma-gun-shot
@@ -147,10 +147,10 @@ weapons: [
 
 shoot: { 
     type: ShootMulti
-    firstShotDelay: 75
+    firstShotDelay: 185
 source: {
     type: ShootHelix
-    firstShotDelay: 75
+    firstShotDelay: 185
     shotDelay: 12
     barrels: 1
     spread: 0
