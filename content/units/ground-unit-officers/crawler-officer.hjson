@@ -1,0 +1,256 @@
+type: legs
+description: "[#d1efff]Support.[] Heavy shock shield-bearer, designed to breach fortified enemy positions. Sacrifices allied mobility for tactical advantage, drawing all defensive fire onto itself. Equipped with a plasma coil for precision threat elimination."
+name: Crawler «Tortuga»
+legContinuousMove: true
+legPhysicsLayer: true
+outlineColor: 2d2f39
+allowLegStep: true
+lockLegBase: true
+groundLayer: 74
+hitSize: 7.5
+
+boostMultiplier: 0.5
+shadowElevation: 0.1
+stepShake: 0.05
+fogRadius: 15
+
+legStraightness: -4
+legForwardScl: 1.4
+legLengthScl: 1.25
+legMaxLength: 1.1
+legMinLength: 0.2
+legBaseOffset: 2
+legExtension: -2
+rippleScale: 0.2
+legGroupSize: 3
+legMoveSpace: 1
+legLength: 14
+legCount: 4
+
+itemCapacity: 24
+rotateSpeed: 2
+health: 180
+speed: 0.5
+armor: 5
+
+lightColor: d1efff
+lightOpacity: 0.7
+healColor: d1efff
+lightRadius: 48
+
+immunities: [ shocked, hld-motor-deceleration-tier-2 ]
+
+abilities: [
+    {
+    type: RegenAbility
+    amount: 0.04
+}
+
+    {
+    type: StatusFieldAbility
+    effect: motor-deceleration-tier-2
+    duration: 960
+    reload: 900
+    range: 100
+
+activeEffect: {
+    type: ExplosionEffect
+
+    lifetime: 300
+
+    waveColor: d1efff
+    waveStroke: 3.25
+    waveRad: 72.5
+
+    smokeColor: d1efff
+    smokeSizeBase: 0
+    smokeSize: 0
+    smokes: 0
+
+    sparkColor: d1efff
+    sparkStroke: 0
+    sparkRad: 0
+    sparkLen: 0
+    sparks: 0
+    }
+}
+
+    {
+    type: ForceFieldAbility 
+    cooldown: 300
+    radius: 7.5
+    regen: 2.4
+    sides: 4
+    max: 240
+}
+
+    {
+    type: ShieldArcAbility
+    whenShooting: false
+    angleOffset: -90
+    angle: 90
+    y: 0
+
+    cooldown: 300
+    regen: 2
+    max: 120
+}
+
+    {
+    type: ShieldArcAbility
+    whenShooting: false
+    angleOffset: 90
+    angle: 90
+    x: 0
+
+    cooldown: 300
+    regen: 2
+    max: 120
+}
+
+    {
+    type: MoveEffectAbility
+    effect: artilleryTrail
+    minVelocity: 0.025
+    teamColor: true
+    effectParam: 1
+    interval: 0.05
+    x: 0
+    y: 0
+}
+    ]
+
+weapons: [
+{
+    name: crawler-officer-aa
+    rotateSpeed: 2.4
+    autoTarget: true
+    alternate: false
+    shootCone: 48
+    mirror: false
+    rotate: false
+    recoil: 0
+    shootY: 0
+    x: 0
+    y: 0
+
+    shootStatusDuration: 81
+    shootStatus: unmoving
+    cooldownTime: 210
+    velocityRnd: 0.2
+    inaccuracy: 360
+    reload: 240
+
+    chargeSound: plasma-gun-charge
+    shootSound: plasma-gun-shot
+    heatColor: d1efff
+
+shoot: { 
+    type: ShootMulti
+    firstShotDelay: 75
+source: {
+    type: ShootHelix
+    firstShotDelay: 75
+    shotDelay: 12
+    barrels: 1
+    spread: 0
+    shots: 4
+    }
+
+dest: [ 
+{
+    type: ShootAlternate
+    barrels: 1
+    spread: 0
+    shots: 1
+    }
+]
+    }
+
+parts: [
+    {
+    type: ShapePart
+    progress: charge
+    circle: true
+    hollow: true
+
+    color: 8ca9e8
+    layer: 100
+    
+    rotateSpeed: 1
+    rotation: 0
+
+    radiusTo: 0
+    radius: 48
+
+    strokeTo: 2.4
+    stroke: 0
+}
+
+    {
+    type: HaloPart
+    progress: recoil
+    color: ffffff
+    layer: 100
+    shapes: 4
+    moveY: 0
+    x: 0
+    y: 0
+
+    haloRotateSpeed: 0.25
+    haloRotation: 0
+
+    triLengthTo: 3
+    haloRadius: 6
+    triLength: 0
+    radius: 2
+    tri: true
+}
+    ]
+
+bullet: {
+    type: BasicBulletType
+    sprite: large-orb
+    despawnShake: 4.5
+    hitShake: 4.5
+    shrinkX: 0.5
+    shrinkY: 0.5
+    height: 6
+    width: 6
+
+    buildingDamageMultiplier: 0.25
+
+    splashDamageRadius: 26
+    statusDuration: 180
+    status: emp-tier-1
+    splashDamage: 25
+    homingPower: 0.1
+    homingRange: 500
+    lifetime: 90
+    damage: 32
+    speed: 3
+
+    weaveScale: 4
+    weaveMag: 4
+
+    lightColor: d1efff
+    lightOpacity: 0.7
+    lightRadius: 24.5
+
+    trailInterp: slope
+    trailColor: ffffff
+    trailLength: 24
+    trailWidth: 1.5
+
+    frontColor: ffffff
+    backColor: d1efff
+    hitColor: d1efff
+
+    despawnEffect: hitBulletColor
+    hitEffect: hitBulletColor
+    smokeEffect: none
+    shootEffect: none
+    hitSound: none
+    }
+}
+    ]
