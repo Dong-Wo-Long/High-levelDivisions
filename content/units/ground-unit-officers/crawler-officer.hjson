@@ -206,6 +206,14 @@ parts: [
     radius: 2
     tri: true
 }
+
+    {
+    type: FlarePart
+    color2: ffffff
+    color1: d1efff
+    radius: 7.5
+    stroke: 1
+}
     ]
 
 bullet: {
