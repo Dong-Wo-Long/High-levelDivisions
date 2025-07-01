@@ -149,7 +149,6 @@ parts: [
 
     {
     type: ShapePart
-    progress: charge
     circle: false
     hollow: true
 
@@ -171,7 +170,6 @@ parts: [
 
     {
     type: ShapePart
-    progress: charge
     circle: false
     hollow: true
 
@@ -193,7 +191,6 @@ parts: [
 
     {
     type: ShapePart
-    progress: charge
     circle: false
     hollow: true
 
@@ -215,7 +212,6 @@ parts: [
 
     {
     type: ShapePart
-    progress: charge
     circle: false
     hollow: true
 
@@ -237,7 +233,6 @@ parts: [
 
     {
     type: ShapePart
-    progress: charge
     circle: false
     hollow: true
 
