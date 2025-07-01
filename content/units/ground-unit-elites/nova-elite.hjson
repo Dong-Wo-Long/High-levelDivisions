@@ -11,7 +11,7 @@ hitSize: 9
 range: 700
 
 boostMultiplier: 0.48
-fogRadius: 180
+fogRadius: 128
 stepShake: 0.2
 fallSpeed: 0.7
 engineSize: 0
