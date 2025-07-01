@@ -17,8 +17,8 @@ armor: 9
 
 lightColor: d1efff
 lightOpacity: 0.7
+lightRadius: 52.5
 healColor: d1efff
-lightRadius: 48
 
 immunities: [ freezing ]
 
