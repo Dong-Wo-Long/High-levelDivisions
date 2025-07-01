@@ -11,8 +11,8 @@ range: 360
 
 deathSound: tank-explosion1
 treadPullOffset: 3
-fogRadius: 52.5
 hitSize: 12.25
+fogRadius: 24
 
 crushDamage: 1.75
 rotateSpeed: 2.8
