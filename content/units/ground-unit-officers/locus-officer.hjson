@@ -25,8 +25,8 @@ armor: 24
 
 lightColor: d1efff
 lightOpacity: 0.7
-lightRadius: 72.5
 healColor: d1efff
+lightRadius: 81
 
 immunities: [ burning, blasted, shocked, hld-armor-piercing-tier-1, hld-motor-acceleration-tier-1, hld-fast-reloading-tier-1, hld-damage-increase-tier-1 ]
 
