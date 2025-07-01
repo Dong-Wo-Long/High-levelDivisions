@@ -12,7 +12,7 @@ hitSize: 7.5
 boostMultiplier: 0.5
 shadowElevation: 0.1
 stepShake: 0.05
-fogRadius: 15
+fogRadius: 18
 
 legStraightness: -4
 legForwardScl: 1.4
@@ -36,7 +36,7 @@ armor: 5
 lightColor: d1efff
 lightOpacity: 0.7
 healColor: d1efff
-lightRadius: 48
+lightRadius: 64
 
 immunities: [ shocked, hld-motor-deceleration-tier-2 ]
 
