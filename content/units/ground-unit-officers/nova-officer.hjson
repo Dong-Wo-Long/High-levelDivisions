@@ -24,7 +24,7 @@ armor: 5
 lightColor: d1efff
 lightOpacity: 0.7
 healColor: d1efff
-lightRadius: 24
+lightRadius: 21
 
 immunities: [ freezing, shocked, hld-emp-tier-1 ]
 
