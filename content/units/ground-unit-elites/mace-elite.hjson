@@ -17,7 +17,7 @@ armor: 12
 
 lightColor: feb380
 lightOpacity: 0.7
-lightRadius: 64.5
+lightRadius: 42.5
 healColor: feb380
 
 immunities: [ hld-armor-piercing-tier-1 ]
