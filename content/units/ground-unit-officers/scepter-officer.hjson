@@ -1,0 +1,802 @@
+type: mech
+description: "[#d1efff]Assault and support.[] «[#d1efff]Mastermind[]» - class units (or Field Commanders) are rare, elite combatants deployed only in critical engagements where the battle's tide must be turned. These towering war machines don't just crush enemies - they rewrite the rules of combat, demoralizing foes and inspiring allies with their sheer presence."
+name: Scepter «Mastermind»
+alwaysShootWhenMoving: true
+forceMultiTarget: true
+outlineColor: 2d2f39
+targetAir: false
+flying: false
+hitSize: 20
+range: 340
+
+deathSound: mech-T4-explosion
+fogRadius: 67.5
+stepShake: 8
+
+itemCapacity: 1280
+rotateSpeed: 1.2
+health: 32000
+speed: 0.24
+armor: 50
+
+lightColor: d1efff
+lightOpacity: 0.7
+lightRadius: 96.5
+healColor: d1efff
+
+immunities: [ freezing, blasted, shocked, hld-emp-tier-1, hld-emp-tier-2, hld-rank-T1-commander, hld-rank-T2-vice-officer, hld-rank-T3-officer, hld-armor-piercing-tier-1, hld-armor-piercing-tier-2 ]
+
+abilities: [
+    {
+    type: ArmorPlateAbility
+    healthMultiplier: 0.7
+}
+
+    {
+    type: RegenAbility
+    amount: 0.8
+}
+
+    {
+    type: ShieldRegenFieldAbility 
+    amount: 1000
+    reload: 900
+    range: 0
+    max: 8000
+
+    activeEffect: none
+}
+
+    {
+    type: ShieldArcAbility
+    angle: 24
+    y: -50
+
+    cooldown: 1440
+    regen: 7.5
+    max: 5000
+}
+
+    {
+    type: StatusFieldAbility
+    effect: rank-T2-vice-officer
+    reload: 3840
+    duration: 0
+    range: 196
+
+activeEffect: {
+    type: ExplosionEffect
+    lifetime: 60
+
+    waveColor: d1efff
+    waveStroke: 3.25
+    waveRad: 72.5
+
+    smokeColor: d1efff
+    smokeSizeBase: 0
+    smokeSize: 0
+    smokes: 0
+
+    sparkColor: d1efff
+    sparkStroke: 0
+    sparkRad: 0
+    sparkLen: 0
+    sparks: 0
+    }
+}
+
+    {
+    type: MoveEffectAbility
+    effect: artilleryTrail
+    minVelocity: 0.01
+    effectParam: 0.75
+    interval: 0.01
+    teamColor: true
+    x: 4.5
+    y: 5
+}
+    {
+    type: MoveEffectAbility
+    effect: artilleryTrail
+    minVelocity: 0.01
+    effectParam: 0.75
+    interval: 0.01
+    teamColor: true
+    x: -4.5
+    y: 5
+}
+    {
+    type: MoveEffectAbility
+    effect: artilleryTrail
+    minVelocity: 0.01
+    effectParam: 1
+    interval: 0.01
+    teamColor: true
+    x: 5.5
+    y: 1
+}
+    {
+    type: MoveEffectAbility
+    effect: artilleryTrail
+    minVelocity: 0.01
+    effectParam: 1
+    interval: 0.01
+    teamColor: true
+    x: -5.5
+    y: 1
+}
+    {
+    type: MoveEffectAbility
+    effect: artilleryTrail
+    minVelocity: 0.01
+    effectParam: 1.8
+    interval: 0.01
+    teamColor: true
+    x: 0
+    y: 0.5
+}
+
+    {
+type: MoveEffectAbility
+rotateEffect: true
+minVelocity: 1.5
+interval: 1
+x: 0
+y: -2.5
+
+effect: {
+    type: ParticleEffect
+    particles: 8
+    line: true
+    cone: 45
+
+    baseRotation: 180
+    baseLength: 6
+    length: 9
+
+    colorFrom: d1efff
+    colorTo: 8ca9e8
+    strokeFrom: 1.8
+    strokeTo: 1.2
+    }
+}
+    ]
+
+parts: [
+    {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    outline: false
+    color: d1efff
+    layer: -1
+}
+    ]
+
+weapons: [
+{
+    name: plasma-turret
+    controllable: false
+    layerOffset: -0.001
+    rotationLimit: 24
+    baseRotation: 15
+    autoTarget: true
+    alternate: false
+    rotateSpeed: 3
+    shootCone: 5
+    rotate: true
+    top: true
+    x: 3
+    y: 9
+
+    inaccuracy: 4
+    reload: 5
+
+    shootSound: plasma-gun-shot
+    ejectEffect: casing1
+    heatColor: d1efff
+
+bullet: {
+    type: BasicBulletType
+    collideTerrain: true
+    keepVelocity: false
+    collidesAir: false
+    height: 16
+    width: 6
+
+    buildingDamageMultiplier: 0.2
+    pierceDamageFactor: 0.00025
+
+    pierceCap: 5
+    lifetime: 32
+    damage: 24
+    speed: 8
+
+    weaveScale: 4
+    weaveMag: 4
+
+    frontColor: d1efff
+    backColor: 8ca9e8
+
+    lightColor: d1efff
+    lightOpacity: 0.7
+    lightRadius: 21.5
+
+    trailColor: 8ca9e8
+    trailLength: 14.5
+    trailWidth: 0.5
+
+    shootEffect: shootSmallColor
+}
+    }
+///-------------------MAIN-WEAPON---------------------
+{
+    name: ion-molecular-cannon
+    layerOffset: -0.001
+    mirror: true
+    rotate: true
+    shootY: 12.5
+    recoil: 0.5
+    top: false
+    shake: 5
+    x: 13
+    y: 0
+
+    shootStatus: motor-deceleration-tier-2
+    shootStatusDuration: 1280
+    rotationLimit: 24
+    cooldownTime: 300
+    rotateSpeed: 0.7
+    velocityRnd: 0.1
+    inaccuracy: 2
+    shootCone: 30
+    reload: 1800
+
+    heatColor: d1efff
+
+    chargeSound: plasma-charge-weapon
+    shootSound: plasma-cannon-shot
+    shootEffect: shootBigColor
+    ejectEffect: casing2
+shoot: {
+    type: ShootAlternate
+    firstShotDelay: 840
+    shotDelay: 18
+    spread: 1.5
+    barrels: 3
+    shots: 24
+    }
+
+parts: [
+    {
+    type: RegionPart
+    heatColor: 8ca9e8
+    suffix: -barrel
+    under: true
+    x: 0
+    y: 0
+moves: [
+    {
+    type: PartMove
+    progress: heat
+    x: 0
+    y: -4
+}
+    ]
+}
+
+    {
+    type: HaloPart
+    progress: charge
+    color: ffffff
+    shapes: 12
+    layer: 100
+    moveY: 0
+    x: 0
+    y: 0
+
+    haloRotateSpeed: 2.5
+    haloRotation: 0
+
+    haloRadiusTo: 0
+    haloRadius: 24
+    triLengthTo: 4
+    triLength: 0
+    radius: 4
+    tri: true
+}
+
+    {
+    type: ShapePart
+    progress: charge
+    circle: true
+    hollow: true
+
+    color: 8ca9e8
+    layer: 59
+    
+    rotateSpeed: 1
+    rotation: 0
+
+    radiusTo: 8
+    radius: 48
+
+    strokeTo: 1.5
+    stroke: 0
+}
+    ]
+
+bullet: {
+    type: ArtilleryBulletType
+    sprite: large-orb
+    collidesAir: false
+    despawnShake: 2.5
+    pierceArmor: true
+    recoil: 0.0005
+    hitShake: 2.5
+    shrinkX: 0.3
+    shrinkY: 0.5
+    height: 18
+    width: 18
+
+    buildingDamageMultiplier: 1.2
+
+    splashDamageRadius: 26
+    statusDuration: 180
+    status: emp-tier-2
+    splashDamage: 150
+    lifetime: 27.85
+    knockback: 1.8
+    pierceCap: 8
+    damage: 271
+    speed: 15
+
+    bulletInterval: 4
+
+    trailEffect: disperseTrail
+    trailRotation: true
+    trailInterp: slope
+    trailColor: 8ca9e8
+    trailInterval: 1
+    trailLength: 24
+    trailWidth: 1.8
+
+    lightColor: d1efff
+    lightOpacity: 0.7
+    lightRadius: 24.5
+
+    frontColor: d1efff
+    backColor: 8ca9e8
+
+    hitSound: small-artillery-hit
+    hitSoundVolume: 0.5
+
+despawnEffect: {
+    type: ExplosionEffect
+
+    lifetime: 60
+
+    waveColor: d1efff
+    waveStroke: 2.5
+    waveRadBase: 70
+    waveRad: -70
+
+    smokeSizeBase: 0
+    smokeSize: 15
+    smokes: 9
+
+    sparkColor: d1efff
+    sparkStroke: 0
+    sparkRad: 7.5
+    sparkLen: 2.5
+    sparks: 24
+    }
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 60
+
+    waveColor: d1efff
+    waveStroke: 2.5
+    waveRadBase: 70
+    waveRad: -70
+
+    smokeSizeBase: 0
+    smokeSize: 15
+    smokes: 9
+
+    sparkColor: d1efff
+    sparkStroke: 0
+    sparkRad: 7.5
+    sparkLen: 2.5
+    sparks: 24
+    }
+
+intervalBullet: {
+    type: LightningBulletType
+    collidesAir: false
+
+    buildingDamageMultiplier: 0.7
+
+    damage: 81
+
+    lightningLengthRand: 7.5
+    lightningColor: d1efff
+    lightningLength: 3
+
+lightningType: {
+    type: BulletType
+    hittable: false
+
+    buildingDamageMultiplier: 0.5
+
+    status: hld-emp-tier-1
+    statusDuration: 180
+    lifetime: 10
+
+    lightColor: ffffff
+
+    hitEffect: hitLancer
+    despawnEffect: none
+}
+    }
+}
+    }
+
+{
+    name: plasma-launcher
+    controllable: false
+    autoTarget: true
+    rotate: true
+    top: true
+    x: 13
+    y: -1
+
+    velocityRnd: 0.025
+    cooldownTime: 90
+    rotateSpeed: 0.8
+    inaccuracy: 60
+    shootCone: 90
+    reload: 180
+
+    heatColor: d1efff
+    
+    shootSound: rocket-swarm-start
+    chargeSound: target-lock-1
+    ejectEffect: casing3
+shoot: {
+    firstShotDelay: 85
+    shotDelay: 7
+    shots: 8
+    }
+
+bullet: {
+    type: BasicBulletType
+    sprite: missile
+    collidesGround: false
+    despawnShake: 4.5
+    hitShake: 4.5
+    shrinkX: 0.5
+    shrinkY: 0.5
+    height: 9
+    width: 6
+
+    splashDamageRadius: 26
+    statusDuration: 180
+    homingPower: 0.025
+    status: emp-tier-1
+    splashDamage: 34
+    homingRange: 500
+    lifetime: 180
+    damage: 69
+    speed: 4
+
+    weaveScale: 2
+    weaveMag: 2
+
+    hitSound: rocket-swarm-detonate
+
+    trailEffect: vapor
+    trailInterp: slope
+    trailColor: 8ca9e8
+    trailLength: 27.5
+    trailChance: 0.44
+    trailWidth: 0.8
+
+    lightColor: d1efff
+    lightOpacity: 0.7
+    lightRadius: 32.5
+
+    frontColor: d1efff
+    backColor: 8ca9e8
+
+    shootEffect: [ smokeCloud, shootSmallColor ]
+    smokeEffect: flakExplosionBig
+
+despawnEffect: {
+    type: ExplosionEffect
+
+    lifetime: 45
+
+    waveColor: d1efff
+    waveStroke: 0
+    waveRad: 14.5
+
+    smokeColor: d1efff
+    smokeSizeBase: 0
+    smokeSize: 15
+    smokes: 9
+
+    sparkColor: d1efff
+    sparkStroke: 0
+    sparkRad: 7.5
+    sparkLen: 2.5
+    sparks: 15
+    }
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 45
+
+    waveColor: d1efff
+    waveStroke: 0
+    waveRad: 14.5
+
+    smokeColor: d1efff
+    smokeSizeBase: 0
+    smokeSize: 15
+    smokes: 9
+
+    sparkColor: d1efff
+    sparkStroke: 0
+    sparkRad: 7.5
+    sparkLen: 2.5
+    sparks: 15
+    }
+
+fragBullet: {
+    type: BasicBulletType
+    pierceBuilding: true
+    collidesAir: false
+    shrinkY: 1
+    height: 16
+    width: 9
+
+    statusDuration: 300
+    status: freezing
+    pierceCap: 3
+    damage: 21.5
+    lifetime: 8
+    speed: 4.5
+
+    trailColor: 8ca9e8
+    trailLength: 5.25
+    trailWidth: 0.5
+
+    lightColor: d1efff
+    lightOpacity: 0.7
+    lightRadius: 12.5
+
+    frontColor: d1efff
+    backColor: 8ca9e8
+
+despawnEffect: {
+    type: ExplosionEffect
+
+    lifetime: 25
+
+    waveColor: d1efff
+    waveStroke: 0
+    waveRad: 14.5
+
+    smokeColor: d1efff
+    smokeSizeBase: 0
+    smokeSize: 4.5
+    smokes: 5
+
+    sparkColor: d1efff
+    sparkStroke: 0
+    sparkRad: 4.5
+    sparkLen: 0.5
+    sparks: 9
+}
+    }
+}
+    }
+
+{
+    minShootVelocity: 0.1
+    controllable: false
+    autoTarget: true
+    display: false
+    shootCone: 15
+    mirror: false
+    rotate: true
+    x: 0
+    y: 0
+
+    reload: 30
+
+    chargeSound: none
+    shootSound: none
+
+bullet: {
+    pierceBuilding: true
+    collidesAir: false
+    rangeOverride: 20
+    collides: false
+    pierce: true
+    impact: true
+    height: 0
+    width: 0
+
+    buildingDamageMultiplier: 8
+
+    splashDamageRadius: 26
+    splashDamage: 240
+    recoil: -0.25
+    lifetime: 10
+    damage: 0
+    speed: 0
+    drag: 1
+
+    despawnEffect: none
+    shootEffect: none
+    smokeEffect: none
+    hitEffect: none
+}
+    }
+///----------------------OTHER----------------------
+{
+    controllable: false
+    autoTarget: true
+    display: false
+    shootCone: 15
+    rotate: false
+    mirror: false
+    x: 0
+    y: 0
+
+    shootStatus: hld-motor-deceleration-tier-1
+    shootStatusDuration: 300
+    reload: 1800
+
+    chargeSound: mech-charge-engine
+    shootSound: mech-charge-attack
+shoot: {
+    firstShotDelay: 150
+    shots: 1
+    }
+
+bullet: {
+    pierceBuilding: true
+    collidesAir: false
+    rangeOverride: 50
+    collides: false
+    pierce: true
+    impact: true
+    height: 0
+    width: 0
+
+    buildingDamageMultiplier: 0
+
+    splashDamageRadius: 0
+    splashDamage: 0
+    lifetime: 10
+    recoil: -8
+    damage: 0
+    speed: 8
+    drag: 0
+
+    despawnEffect: none
+    shootEffect: none
+    smokeEffect: none
+    hitEffect: none
+}
+    }
+
+{
+    minShootVelocity: 0.1
+    alwaysShooting: true
+    display: false
+    mirror: false
+    rotate: true
+    shootX: 0
+    shootY: 0
+    x: 0
+    y: 0
+
+    shootSound: mech-footfall-large
+
+    reload: 90
+
+bullet: {
+    type: BasicBulletType
+    height: 0
+    width: 0
+
+    lifetime: 10
+    damage: 0
+    speed: 1
+
+    despawnEffect: none
+    smokeEffect: none
+    shootEffect: none
+    hitEffect: none
+}
+    }
+
+{
+    controllable: false
+    baseRotation: -90
+    autoTarget: true
+    display: false
+    rotate: false
+    mirror: false
+    x: 0
+    y: 0
+
+    shootCone: 45
+    reload: 900
+
+    shootSound: none
+
+bullet: {
+    pierceBuilding: true
+    collides: false
+    pierce: true
+    impact: true
+    height: 0
+    width: 0
+
+    lifetime: 10
+    maxRange: 80
+    recoil: 5
+    damage: 0
+    speed: 2
+
+    despawnEffect: none
+    smokeEffect: none
+    shootEffect: none
+    hitEffect: none
+}
+    }
+
+{
+    controllable: false
+    baseRotation: 90
+    autoTarget: true
+    display: false
+    rotate: false
+    mirror: false
+    x: 0
+    y: 0
+
+    shootCone: 45
+    reload: 900
+
+    shootSound: none
+
+bullet: {
+    pierceBuilding: true
+    collides: false
+    pierce: true
+    impact: true
+    height: 0
+    width: 0
+
+    lifetime: 10
+    maxRange: 80
+    recoil: 5
+    damage: 0
+    speed: 2
+
+    despawnEffect: none
+    smokeEffect: none
+    shootEffect: none
+    hitEffect: none
+    }
+}
+    ]
