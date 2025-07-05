@@ -294,7 +294,7 @@ bullet: {
     x: 0
     y: 0
 
-    shootSound: powered-armor-walk
+    shootSound: mech-powered-armor-walk
 
     reload: 60
 
