@@ -721,7 +721,7 @@ bullet: {
     width: 0
 
     lifetime: 10
-    maxRange: 48
+    maxRange: 32
     recoil: 5
     damage: 0
     speed: 2
@@ -757,7 +757,7 @@ bullet: {
     width: 0
 
     lifetime: 10
-    maxRange: 48
+    maxRange: 32
     recoil: 5
     damage: 0
     speed: 2
