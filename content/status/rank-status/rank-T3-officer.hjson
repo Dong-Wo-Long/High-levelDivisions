@@ -1,0 +1,8 @@
+name: Rank T3 Officer
+permanent: true
+
+buildSpeedMultiplier: 1.25
+damageMultiplier: 1.15
+healthMultiplier: 1.2
+reloadMultiplier: 1.1
+speedMultiplier: 0.85

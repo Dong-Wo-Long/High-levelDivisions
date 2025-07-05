@@ -1,0 +1,7 @@
+name: Rank T2 Vice Officer
+permanent: true
+
+buildSpeedMultiplier: 1.15
+healthMultiplier: 1.15
+damageMultiplier: 1.1
+speedMultiplier: 0.9
