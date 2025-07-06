@@ -164,6 +164,7 @@ bullet: {
     width: 9
 
     buildingDamageMultiplier: 2.25
+    shieldDamageMultiplier: 0.8
 
     status: armor-piercing-tier-1
     splashDamageRadius: 26
