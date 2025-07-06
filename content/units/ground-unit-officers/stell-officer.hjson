@@ -197,6 +197,9 @@ bullet: {
     type: LightningBulletType
     collidesAir: false
 
+    buildingDamageMultiplier: 0.8
+    shieldDamageMultiplier: 1.24
+
     lightningLengthRand: 17.5
     lightningLength: 15
     damage: 32
