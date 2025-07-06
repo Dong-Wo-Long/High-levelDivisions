@@ -124,6 +124,8 @@ bullet: {
     height: 14
     width: 6
 
+    shieldDamageMultiplier: 0.7
+
     homingPower: 0.75
     homingRange: 32
     lifetime: 52.5
