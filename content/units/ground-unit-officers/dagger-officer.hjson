@@ -133,6 +133,7 @@ bullet: {
     width: 6
 
     buildingDamageMultiplier: 0.7
+    shieldDamageMultiplier: 1.24
 
     lifetime: 47.5
     pierceCap: 2
