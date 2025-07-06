@@ -351,6 +351,7 @@ bullet: {
     width: 18
 
     buildingDamageMultiplier: 1.24
+    shieldDamageMultiplier: 3
 
     splashDamageRadius: 60
     statusDuration: 300
@@ -525,6 +526,7 @@ intervalBullet: {
     collidesAir: false
 
     buildingDamageMultiplier: 0.3
+    shieldDamageMultiplier: 1.2
 
     damage: 18
 
@@ -604,6 +606,7 @@ bullet: {
     collides: false
 
     buildingDamageMultiplier: 2.2
+    shieldDamageMultiplier: 1.5
 
     splashDamageRadius: 120
     statusDuration: 300
