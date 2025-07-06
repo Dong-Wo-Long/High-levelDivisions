@@ -205,6 +205,7 @@ bullet: {
     width: 6
 
     buildingDamageMultiplier: 0.2
+    shieldDamageMultiplier: 1.1
     pierceDamageFactor: 0.00025
 
     pierceCap: 5
@@ -340,6 +341,7 @@ bullet: {
     width: 18
 
     buildingDamageMultiplier: 1.2
+    shieldDamageMultiplier: 1.8
 
     splashDamageRadius: 26
     statusDuration: 180
@@ -481,6 +483,8 @@ bullet: {
     shrinkY: 0.5
     height: 9
     width: 6
+
+    shieldDamageMultiplier: 1.5
 
     splashDamageRadius: 26
     statusDuration: 180
@@ -633,6 +637,7 @@ bullet: {
     width: 0
 
     buildingDamageMultiplier: 8
+    shieldDamageMultiplier: 0
 
     splashDamageRadius: 26
     splashDamage: 240
