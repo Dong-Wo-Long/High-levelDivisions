@@ -123,6 +123,7 @@ bullet: {
     width: 9
 
     buildingDamageMultiplier: 0.75
+    shieldDamageMultiplier: 1.5
 
     statusDuration: 180
     status: freezing
