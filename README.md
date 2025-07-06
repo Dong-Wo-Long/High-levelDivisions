@@ -36,7 +36,10 @@ The release version should contain the following:
 - Regeneration - done
 - Reloading - done
 
-### In future versions, the following additions are planned:
+### In future versions, the following additions are planned v2.0.0-3.0.0:
+New campaign and planets - Exarchon, Forgevein, and Irigus (potentially featuring a major story arc with additional missions and lore revelations).
+Plus new factories, blocks, towers, and factions (the Imperium of Man and the Radiant) - all this and more coming in future updates. The mod might even break the 10MB mark (which is kinda funny, but not exactly awesome)!
+#### New units:
 - Elites
   - Flare «Raptor»
   - Horizon «Orion»
