@@ -29,7 +29,7 @@ The release version should contain the following:
 - Module - blocks for improving units (at least to T3) - 50%
 - Payload conveyor/router - Small/Standard/Large/Huge Conveyors with Routers (Serpulo/Erekir) - 30%
 3. New status (each has negative and positive effects and is divided into 3 levels)
-- Ranks - in the process
+- Ranks - done
 - Armored - done
 - Speed - done
 - Damage - done
