@@ -145,6 +145,8 @@ fragBullet: {
     length: 120
     width: 8
 
+    shieldDamageMultiplier: 0.8
+
     knockback: 3
     lifetime: 90
     damage: 78
