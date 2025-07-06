@@ -1,6 +1,6 @@
 name: Rank T1 Commander
 permanent: true
 
-damageMultiplier: 1.05
+damageMultiplier: 1.051
 healthMultiplier: 1.1
 speedMultiplier: 0.95
