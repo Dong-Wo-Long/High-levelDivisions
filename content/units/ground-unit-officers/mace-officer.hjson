@@ -138,6 +138,7 @@ bullet: {
     width: 9
 
     buildingDamageMultiplier: 1.4
+    shieldDamageMultiplier: 1.2
 
     splashDamageRadius: 32
     statusDuration: 90
