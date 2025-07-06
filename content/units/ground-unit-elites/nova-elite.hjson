@@ -262,6 +262,7 @@ bullet: {
     width: 8
 
     buildingDamageMultiplier: 1.8
+    shieldDamageMultiplier: 0.75
     pierceDamageFactor: 0.05
 
     splashDamageRadius: 15
