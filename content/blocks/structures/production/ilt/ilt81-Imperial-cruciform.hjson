@@ -1,0 +1,10 @@
+type: Router
+name: ILT «Imperial Cruciform» Mk.I
+description: "..."
+category: distribution
+squareSprite: false
+
+speed: 0.015
+health: 250
+armor: 8
+size: 1
