@@ -11,12 +11,11 @@ size: 1
 researchCostMultiplier: 0.5
 fogRadiusMultiplier: 0.25
 
-cooldownTime: 70
-inaccuracy: 1.5
+cooldownTime: 75
 shootCone: 2
 health: 78
-reload: 48
-range: 592
+reload: 160
+range: 600
 armor: 2
 
 consumes: {
@@ -31,32 +30,28 @@ requirements: [
 shootSound: laser-shot1
 chargeSound: none
 shoot: {
-    firstShotDelay: 15
-    shots: 1
+    firstShotDelay: 20
+    shotDelay: 1
+    shots: 30
 }
 
 shootType: {
     type: BasicBulletType
-    parentizeEffects: true
-    pierceBuilding: true
     collidesAir: false
     reflectable: false
     pierceArmor: true
     height: 10
     width: 4
 
-    buildingDamageMultiplier: 1.2
-    shieldDamageMultiplier: 1.1
-    pierceDamageFactor: 0.00005
+    buildingDamageMultiplier: 0.6
+    shieldDamageMultiplier: 1.4
 
     statusDuration: 180
     status: burning
-    pierceCap: 3
-    lifetime: 74
+    lifetime: 10
     damage: 4
-    speed: 8
+    speed: 60
 
-    trailInterval: 1.5
     trailInterp: slope
     trailColor: ffa3a3
     trailLength: 27.5
@@ -115,3 +110,5 @@ parts: [
     }
 ]
     }
+
+rotateSpeed: 0.1
