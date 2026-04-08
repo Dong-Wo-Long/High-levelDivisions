@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Bulwark
-description: Charges up to deliver three consecutive laser beams that deal high damage and pierce enemies.
+description: ...
 outlineColor: 2d2f39
 squareSprite: false
 category: turret
@@ -12,7 +12,7 @@ fogRadiusMultiplier: 0.35
 
 cooldownTime: 80
 velocityRnd: 0.2
-inaccuracy: 4
+inaccuracy: 3
 shootCone: 5
 maxAmmo: 96
 health: 81
@@ -42,7 +42,7 @@ shoot: {
 }
 
 ammoTypes: {
-basic-rounds: {
+beryllium: {
     type: BasicBulletType
     parentizeEffects: true
     height: 9
@@ -82,19 +82,19 @@ tungsten: {
     reloadMultiplier: 0.7
     ammoMultiplier: 1
 
-    lifetime: 108
+    lifetime: 150
     pierceCap: 5
     damage: 12.5
-    speed: 4.5
+    speed: 3
 
     trailInterp: slope
-    trailColor: ffefa3
+    trailColor: c5cdd2
     trailLength: 12.5
     trailWidth: 0.75
 
     frontColor: ffffff
-    backColor: ffefa3
-    hitColor: ffefa3
+    backColor: c5cdd2
+    hitColor: c5cdd2
 
     shootEffect: [ shootSmallColor, shootSmallSmoke ]
     hitEffect: hitBulletColor
