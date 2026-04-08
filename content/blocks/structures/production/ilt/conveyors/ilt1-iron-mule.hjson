@@ -1,9 +1,0 @@
-type: Conveyor
-name: ILT «Iron Mule» Mk.I
-description: "..."
-category: distribution
-
-speed: 0.025
-health: 210
-armor: 5
-size: 1
